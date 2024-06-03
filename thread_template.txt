@@ -1,0 +1,27 @@
+[size=large][b][Language] language pack for MyBB[/b][/size]
+[i][b]Last revision: 30th July, 2008, for MyBB 1.4[/b][/i]
+
+This thread contains the latest available information regarding the [language] language pack for MyBB.
+
+
+[b]What?[/b]
+MyBB is, thanks to many volunteers, available in a broad selection of languages. This also includes the [language] language: this way you can display your copy of MyBB completely in the [language] language. This may aid visitors of your bulletin board, who might not always have a good knowledge of the English language, in understanding the offered content.
+
+[b]Who?[/b]
+The [language] language pack is mainly made by ...
+
+[b]Where and how?[/b]
+The [language] language pack can be downloaded at [url]http://www.mybboard.net/downloads_languages.php[/url].
+
+When you downloaded the file you will have to extract it in order to be able to view the content. The latest versions of Windows have a built-in utility for that. If this is not available to you then you could use a decompression utility such as [url=http://www.7-zip.org/]7-Zip[/url]. As soon as you have extracted the archived files a [language] and an English readme file will be present. You can find more information about installing the [language] language pack and further information in that file.
+
+[b]And then?[/b]
+In the aforementioned readme file you will find all information required to make using the [language] language as easy as possible for both you and the members of your bulletin board. As soon as the language pack has been installed and is working properly you will have nothing left to do.
+
+[b]And still...[/b]
+Although you do not have to do anything anymore, there is a chance that you would like to give your opinion, report errors or contact the translators for another reason. That is possible. You can post all that and more at ...
+Let us know what is on your mind: your help will aid us in providing an even better translation!
+
+
+     [Name of translator]
+     [language] Translator
