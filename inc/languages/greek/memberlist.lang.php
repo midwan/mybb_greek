@@ -1,54 +1,54 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_memberlist'] = "Member List";
+$l['nav_memberlist'] = "Λίστα Μελών";
 
-$l['memberlist_disabled'] = "The member list functionality has been disabled by the Administrator.";
+$l['memberlist_disabled'] = "Η λειτουργία της λίστας μελών έχει απενεργοποιηθεί από τον Διαχειριστή.";
 
-$l['member_list'] = "Member List";
-$l['avatar']  = "Avatar";
-$l['username'] = "Username";
-$l['joined'] = "Joined";
-$l['lastvisit'] = "Last Visit";
-$l['posts'] = "Post Count";
-$l['threads'] = "Thread Count";
-$l['referrals'] = "Referrals";
-$l['search_members'] = "Search Member List";
-$l['website'] = "Website";
-$l['sort_by'] = "Sort by";
-$l['contains'] = "Contains:";
-$l['exactly'] = "Exactly:";
-$l['sort_by_username'] = "Sort by: Username";
-$l['sort_by_regdate'] = "Sort by: Registration date";
-$l['sort_by_lastvisit'] = "Sort by: Last visit";
-$l['sort_by_posts'] = "Sort by: Post count";
-$l['sort_by_threads'] = "Sort by: Thread count";
-$l['sort_by_referrals'] = "Sort by: Members referred";
-$l['order_asc'] = "ascending order";
-$l['order_desc'] = "descending order";
-$l['asc'] = "asc";
-$l['desc'] = "desc";
-$l['forumteam'] = "Show Forum Team";
-$l['advanced_search'] = "Advanced Search";
-$l['nav_memberlist_search'] = "Search";
-$l['search_member_list'] = "Search Member List";
-$l['search_criteria'] = "Search Criteria";
-$l['begins_with'] = "begins with";
-$l['username_contains'] = "contains";
-$l['username_exact'] = "exactly";
-$l['search_website'] = "Website URL";
-$l['search_skype'] = "Skype Address";
-$l['search_google'] = "Google Hangouts Address";
-$l['search_icq'] = "ICQ Number";
-$l['search_options'] = "Search Options";
-$l['per_page'] = "Results Per Page";
-$l['search'] = "Search";
+$l['member_list'] = "Λίστα Μελών";
+$l['avatar']  = "Άβαταρ";
+$l['username'] = "Όνομα χρήστη";
+$l['joined'] = "Εγγραφή";
+$l['lastvisit'] = "Τελευταία επίσκεψη";
+$l['posts'] = "Αριθμός δημοσιεύσεων";
+$l['threads'] = "Αριθμός θεμάτων";
+$l['referrals'] = "Παραπομπές";
+$l['search_members'] = "Αναζήτηση στη λίστα μελών";
+$l['website'] = "Ιστοσελίδα";
+$l['sort_by'] = "Ταξινόμηση κατά";
+$l['contains'] = "Περιέχει:";
+$l['exactly'] = "Ακριβώς:";
+$l['sort_by_username'] = "Ταξινόμηση κατά: Όνομα χρήστη";
+$l['sort_by_regdate'] = "Ταξινόμηση κατά: Ημερομηνία εγγραφής";
+$l['sort_by_lastvisit'] = "Ταξινόμηση κατά: Τελευταία επίσκεψη";
+$l['sort_by_posts'] = "Ταξινόμηση κατά: Αριθμός δημοσιεύσεων";
+$l['sort_by_threads'] = "Ταξινόμηση κατά: Αριθμός θεμάτων";
+$l['sort_by_referrals'] = "Ταξινόμηση κατά: Αριθμός παραπομπών";
+$l['order_asc'] = "αύξουσα σειρά";
+$l['order_desc'] = "φθίνουσα σειρά";
+$l['asc'] = "αύξουσα";
+$l['desc'] = "φθίνουσα";
+$l['forumteam'] = "Εμφάνιση Ομάδας Διαχείρισης";
+$l['advanced_search'] = "Προηγμένη Αναζήτηση";
+$l['nav_memberlist_search'] = "Αναζήτηση";
+$l['search_member_list'] = "Αναζήτηση στη λίστα μελών";
+$l['search_criteria'] = "Κριτήρια Αναζήτησης";
+$l['begins_with'] = "ξεκινά με";
+$l['username_contains'] = "περιέχει";
+$l['username_exact'] = "ακριβώς";
+$l['search_website'] = "Ιστοσελίδα URL";
+$l['search_skype'] = "Διεύθυνση Skype";
+$l['search_google'] = "Διεύθυνση Google Hangouts";
+$l['search_icq'] = "Αριθμός ICQ";
+$l['search_options'] = "Επιλογές Αναζήτησης";
+$l['per_page'] = "Αποτελέσματα ανά σελίδα";
+$l['search'] = "Αναζήτηση";
 
-$l['error_no_members'] = "<p>There were no members found with the search criteria you entered.</p><p>Please enter a different search term and try again.</p>";
+$l['error_no_members'] = "<p>Δεν βρέθηκαν μέλη με τα κριτήρια αναζήτησης που εισάγατε.</p><p>Παρακαλώ εισάγετε μια διαφορετική αναζήτηση και προσπαθήστε ξανά.</p>";
 
 $l['a'] = 'A';
 $l['b'] = 'B';
