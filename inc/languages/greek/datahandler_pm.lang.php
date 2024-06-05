@@ -1,22 +1,22 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['pmdata_too_long_subject'] = 'The subject of your private message is too long. Please enter a shorter subject.';
-$l['pmdata_code_no_subject'] = '[no subject]';
-$l['pmdata_missing_subject'] = 'You did not enter a subject for your message. Please enter a subject.';
-$l['pmdata_missing_message'] = 'You did not enter a message to be sent. Please enter a message.';
-$l['pmdata_message_too_long'] = 'The message is too long. Please enter a message shorter than {1} characters (currently {2}).';
-$l['pmdata_invalid_recipients'] = "One or more of the recipients you specified are not registered usernames. Invalid recipients: {1}";
-$l['pmdata_no_recipients'] = "You did not enter any recipients to send this message to. You must enter at least one username in the 'to' field.";
-$l['pmdata_too_many_recipients'] = "You are only allowed to send messages to {1} users at a time.";
-$l['pmdata_recipient_is_ignoring'] = "You cannot send messages to {1} because you're on their ignore list.";
-$l['pmdata_recipient_has_buddy_only'] = "You cannot send messages to {1} because you're not on their buddy list.";
-$l['pmdata_recipient_pms_disabled'] = '{1} has private messaging disabled. You cannot send private messages to this user.';
-$l['pmdata_recipient_reached_quota'] = '{1} has reached their private message quota so your message could not be sent.';
+$l['pmdata_too_long_subject'] = 'Το θέμα του προσωπικού μηνύματος είναι πολύ μεγάλο. Παρακαλώ εισάγετε ένα μικρότερο.';
+$l['pmdata_code_no_subject'] = '[χωρίς θέμα]';
+$l['pmdata_missing_subject'] = 'Δεν εισάγατε θέμα για το μήνυμα. Παρακαλώ εισάγετε ένα θέμα.';
+$l['pmdata_missing_message'] = 'Δεν εισάγατε το μήνυμα που θα σταλεί. Παρακαλώ εισάγετε ένα μήνυμα.';
+$l['pmdata_message_too_long'] = 'Το μήνυμα είναι πολύ μεγάλο. Παρακαλώ είσαγετε ένα μήνυμα μικρότερο από {1} χαρακτήρες (προς το παρόν {2}).';
+$l['pmdata_invalid_recipients'] = "Ένας ή περισσότεροι από τους παραλήπτες που εισάγατε δεν βρέθηκαν. Μη έγκυροι παραλήπτες: {1}";
+$l['pmdata_no_recipients'] = "Δεν εισάγατε παραλήπτες για αυτό το μήνυμα. Πρέπει να εισάγετε τουλάχιστον έναν παραλήπτη στο πεδίο 'Προς'.";
+$l['pmdata_too_many_recipients'] = "Προσπαθείτε να στείλετε προσωπικό μήνυμα σε πολλούς παραλήπτες. Μπορείτε να στείλετε μήνυμα σε {1} παραλήπτες ταυτόχρονα.";
+$l['pmdata_recipient_is_ignoring'] = "Δεν μπορείτε να στείλετε προσωπικό μήνυμα στον/στην {1} γιατί σας έχει προσθέσει στη λίστα αγνόησης του/της.";
+$l['pmdata_recipient_has_buddy_only'] = "Δεν μπορείτε να στείλετε προσωπικό μήνυμα στον/στην {1} γιατί έχει επιλέξει να δέχεται μηνύματα μόνο από φίλους.";
+$l['pmdata_recipient_pms_disabled'] = 'Ο χρήστης {1} έχει απενεργοποιήσει τα προσωπικά μηνύματα. Δεν μπορείτε να στείλετε προσωπικό μήνυμα σε αυτόν τον χρήστη.';
+$l['pmdata_recipient_reached_quota'] = 'Ο χρήστης {1} έχει φτάσει το όριο των προσωπικών μηνυμάτων. Το προσωπικό μήνυμα δεν μπορεί να σταλεί.';
 
-$l['pmdata_pm_flooding'] = 'You are trying to send a message too quickly after sending a previous message. Please wait {1} more seconds.';
-$l['pmdata_pm_flooding_one_second'] = 'You are trying to send a message too quickly after sending a previous message. Please wait 1 more second.';
+$l['pmdata_pm_flooding'] = 'Προσπαθείτε να στείλετε πολλά προσωπικά μηνύματα πολύ γρήγορα. Παρακαλώ περιμένετε {1} δευτερόλεπτα.';
+$l['pmdata_pm_flooding_one_second'] = 'Προσπαθείτε να στείλετε πολλά προσωπικά μηνύματα πολύ γρήγορα. Παρακαλώ περιμένετε 1 δευτερόλεπτο.';

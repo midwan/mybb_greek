@@ -1,51 +1,51 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['userdata_missing_username'] = 'You did not enter a username. Please enter one.';
-$l['userdata_banned_username'] = 'The username you entered may not be registered. Please enter a different username.';
-$l['userdata_bad_characters_username'] = 'The username you entered contains bad characters. Please enter a different username.';
-$l['userdata_invalid_username_length'] = 'The username you entered is of invalid length. Please enter a username between {1} and {2} characters.';
-$l['userdata_invalid_usertitle_length'] = 'The custom user title you entered is of invalid length. Please enter a title no longer than {1} characters.';
-$l['userdata_username_exists'] = 'The username you entered already exists. Please enter a different username.';
+$l['userdata_missing_username'] = 'Δεν εισάγατε όνομα χρήστη. Παρακαλώ εισάγετε ένα όνομα χρήστη.';
+$l['userdata_banned_username'] = 'Το όνομα χρήστη που εισάγατε ίσως δεν είναι εγγεγραμμένο. Παρακαλώ εισάγετε ένα διαφορετικό όνομα χρήστη.';
+$l['userdata_bad_characters_username'] = 'Το όνομα χρήστη που εισάγατε περιέχει μη επιτρεπτούς χαρακτήρες. Παρακαλώ εισάγετε ένα διαφορετικό όνομα χρήστη.';
+$l['userdata_invalid_username_length'] = 'Το όνομα χρήστη που εισάγατε είναι μεγαλύτερο από το μέγιστο επιτρεπτό μήκος. Παρακαλώ εισάγετε ένα όνομα χρήστη μεταξύ {1} και {2} χαρακτήρων.';
+$l['userdata_invalid_usertitle_length'] = 'Ο τίτλος που εισάγατε είναι μεγαλύτερος από το μέγιστο επιτρεπτό μήκος. Παρακαλώ εισάγετε ένα τίτλο μεταξύ {1} και {2} χαρακτήρων.';
+$l['userdata_username_exists'] = 'Το όνομα χρήστη που εισάγατε υπάρχει ήδη. Παρακαλώ εισάγετε ένα διαφορετικό όνομα χρήστη.';
 
-$l['userdata_invalid_password_length'] = 'The password you entered is of invalid length. Please enter a password between {1} and {2} characters.';
-$l['userdata_no_complex_characters'] = 'The password you entered is not complex enough. Please enter a password that is at least {1} characters long, and contains an upper case letter, lower case letter and a number.';
-$l['userdata_passwords_dont_match'] = 'The password you entered as confirmation does not match the original one. Please confirm your password correctly.';
-$l['userdata_bad_password_security'] = 'The password you entered is similar to either your username or email address. Please enter a stronger password.';
+$l['userdata_invalid_password_length'] = 'Ο κωδικός πρόσβασης που εισάγατε έχει άκυρο μήκος. Παρακαλώ εισάγετε έναν κωδικό πρόσβασης μεταξύ {1} και {2} χαρακτήρων.';
+$l['userdata_no_complex_characters'] = 'Ο κωδικός πρόσβασης που εισάγατε δεν είναι αρκετά πολύπλοκος. Παρακαλώ εισάγετε έναν κωδικό πρόσβασης που να είναι τουλάχιστον {1} χαρακτήρες, περιέχει τουλάχιστον έναν αριθμό, ένα κεφαλαίο γράμμα και ένα μικρό γράμμα.';
+$l['userdata_passwords_dont_match'] = 'Ο κωδικός πρόσβασης που πληκτρολογήσατε ως επιβεβαίωση δεν ταιριάζει με τον αρχικό. Παρακαλώ επιβεβαιώστε το κωδικό σας σωστά.';
+$l['userdata_bad_password_security'] = 'Ο κωδικός πρόσβασης που εισάγατε είναι ο ίδιος με το όνομα χρήστη ή την διεύθυνση email. Παρακαλώ επιλέξτε έναν πιο πολύπλοκο κωδικό πρόσβασης.';
 
-$l['userdata_missing_email'] = 'You did not enter an email address. Please enter one.';
-$l['userdata_invalid_email_format'] = 'The email address you entered is invalid. Please enter a valid email address.';
-$l['userdata_emails_dont_match'] = 'The email address you entered as confirmation does not match the original one. Please confirm your email address correctly.';
-$l['userdata_banned_email'] = "The email address you have entered is currently disallowed from being used. Please enter a different email address.";
-$l['userdata_email_already_in_use'] = "You have entered an email address that is already in use by another member. Please enter a different email address.";
+$l['userdata_missing_email'] = 'Δεν εισάγατε διεύθυνση email. Παρακαλώ εισάγετε μία.';
+$l['userdata_invalid_email_format'] = 'Η διεύθυνση email που εισάγατε δεν είναι έγκυρη. Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.';
+$l['userdata_emails_dont_match'] = 'Η διεύθυνση email που πληκτρολογήσατε ως επιβεβαίωση δεν ταιριάζει με την αρχική. Παρακαλώ επιβεβαιώστε την διεύθυνση email σας σωστά.';
+$l['userdata_banned_email'] = "Η διεύθυνση email που εισάγατε είναι απαγορευμένη. Παρακαλώ εισάγετε μια διαφορετική διεύθυνση email.";
+$l['userdata_email_already_in_use'] = "Η διεύθυνση email που εισάγατε χρησιμοποιείται ήδη από έναν άλλο χρήστη. Παρακαλώ εισάγετε μια διαφορετική διεύθυνση email.";
 
-$l['userdata_dob_required'] = "You did not select your date of birth. Please select your date of birth to continue - you can hide your birthday and age from other users, however.";
-$l['userdata_invalid_website'] = 'The website address you entered is invalid. Please enter a valid website address or leave the field empty.';
-$l['userdata_invalid_icq_number'] = 'The ICQ number you entered is invalid. Please enter a valid ICQ number or leave the field empty.';
-$l['userdata_invalid_birthday'] = 'The birthday you entered is invalid. Please enter a valid birthday or leave the field empty.';
-$l['userdata_invalid_birthday_coppa'] = 'To verify your age, please enter the year you were born. You may hide your Age and Date of Birth in your profile options.';
-$l['userdata_invalid_birthday_coppa2'] = 'You must be at least 13 years of age to be a member of this message board. Please contact an Administrator.';
-$l['userdata_invalid_birthday_privacy'] = 'Please choose a valid birthday privacy option.';
-$l['userdata_conflicted_birthday_privacy'] = 'You must specify your birth year if you choose to display age only as your birthday privacy.';
-$l['userdata_invalid_referrer'] = 'The referrer you entered does not exist. Please enter an existing referrer or leave the field empty.';
-$l['userdata_invalid_language'] = 'The language you selected does not exist. Please select an existing language.';
-$l['userdata_invalid_style'] = 'The style you selected is invalid. Please select a valid style.';
-$l['userdata_away_too_long'] = 'The Away Reason you specified is too long. A maximum of 200 characters is allowed for this field. Please remove {1} character(s) from this field.';
-$l['userdata_missing_returndate'] = 'The Return Date you specified is missing one or more fields. Please make sure you have filled in the day, month, and year fields.';
-$l['userdata_missing_required_profile_field'] = 'You did not enter an option for the "{1}" field. Please fill in or select a value for this field.';
-$l['userdata_bad_profile_field_value'] = 'You did not enter a valid value for the "{1}" field. Please enter a valid value before continuing.';
-$l['userdata_bad_profile_field_values'] = 'You did not select a valid option for the "{1}" field. Please select a value from the presented choices.';
-$l['userdata_max_limit_reached'] = 'You entered an invalid number of characters for the "{1}" field. Please fill in this field with no more than {2} characters.';
-$l['userdata_invalid_checkfield'] = "It has been detected that this form has been submitted by a spam bot. If this is in error, please contact the administrator.";
-$l['userdata_invalid_postnum'] = "The post count you entered is invalid. Please enter a valid post count, or leave the field empty.";
-$l['userdata_invalid_threadnum'] = "The thread count you entered is invalid. Please enter a valid thread count, or leave the field empty.";
+$l['userdata_dob_required'] = "Δεν επιλέξατε την ημερομηνία γέννησής σας. Παρακαλώ επιλέξτε την ημερομηνία γέννησής σας για να συνεχίσετε - ωστόσο, μπορείτε να κρύψετε τα γενέθλια και την ηλικία σας από άλλους χρήστες.";
+$l['userdata_invalid_website'] = 'Η διεύθυνση της ιστοσελίδας που εισάγατε δεν είναι έγκυρη. Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ή αφήστε το πεδίο κενό.';
+$l['userdata_invalid_icq_number'] = 'Ο αριθμός ICQ που εισάγατε δεν είναι έγκυρος. Παρακαλώ εισάγετε έναν έγκυρο αριθμό ICQ ή αφήστε το πεδίο κενό.';
+$l['userdata_invalid_birthday'] = 'Τα γενέθλια που εισάγατε δεν είναι έγκυρα. Παρακαλώ εισάγετε μια έγκυρη ημερομηνία γενεθλίων ή αφήστε το πεδίο κενό';
+$l['userdata_invalid_birthday_coppa'] = 'Για επιβεβαίωση της ηλικίας σας, παρακαλώ εισάγετε το έτος γέννησής σας. Μπορείτε να κρύψετε την Ηλικία και την Ημερομηνία Γέννησής σας στις επιλογές του προφίλ σας.';
+$l['userdata_invalid_birthday_coppa2'] = 'Πρέπει να είστε τουλάχιστον 13 ετών για να εγγραφείτε σε αυτό το φόρουμ. Παρακαλώ επικοινωνήστε με ένα Διαχειριστή.';
+$l['userdata_invalid_birthday_privacy'] = 'Παρακαλώ επιλέξτε μια έγκυρη επιλογή για την ιδιωτικότητα των γενεθλίων σας.';
+$l['userdata_conflicted_birthday_privacy'] = 'Πρέπει να ορίσετε το έτος γέννησής σας εάν επιλέξετε μόνο ηλικία ως την ιδιωτικότητα των γενεθλίων σας.';
+$l['userdata_invalid_referrer'] = 'Ο παραπέμπων που εισάγατε δεν υπάρχει. Παρακαλώ εισάγετε έναν έγκυρο παραπέμπον ή αφήστε το πεδίο κενό.';
+$l['userdata_invalid_language'] = 'Η γλώσσα που επιλέξατε δεν υπάρχει. Παρακαλώ επιλέξτε μια έγκυρη γλώσσα.';
+$l['userdata_invalid_style'] = 'Το στυλ που επιλέξατε δεν υπάρχει. Παρακαλώ επιλέξτε ένα έγκυρο στυλ.';
+$l['userdata_away_too_long'] = 'Ο Λόγος Απουσίας που ορίσατε είναι πολύ μεγάλος. Επιτρέπονται το πολύ 200 χαρακτήρες σε αυτό το πεδίο. Παρακαλώ αφαιρέστε {1} χαρακτήρες από αυτό το πεδίο.';
+$l['userdata_missing_returndate'] = 'Λείπουν ένα ή περισσότερα πεδία από την Ημερομηνία Επιστροφής που καθορίσατε. Παρακαλώ σίγουτείτε ότι συμπληρώσατε τα πεδία ημέρας, μήνα, και χρόνου.';
+$l['userdata_missing_required_profile_field'] = 'Δεν εισάγατε επιλογή για το πεδίο "{1}". Παρακαλώ συμπληρώστε ή επιλέξτε μια τιμή για το πεδίο αυτό.';
+$l['userdata_bad_profile_field_value'] = 'Δεν εισάγατε έγκυρη επιλογή για το πεδίο "{1}". Παρακαλώ εισάγετε μια έγκυρη τιμή πριν προχωρήσετε.';
+$l['userdata_bad_profile_field_values'] = 'Δεν επιλέξατε έγκυρη επιλογή για το πεδίο "{1}". Παρακαλώ επιλέξτε μια από τις διαθέσιμες επιλογές.';
+$l['userdata_max_limit_reached'] = 'Εισάγατε άκυρο αριθμό χαρακτήρων για το πεδίο "{1}". Παρακαλώ συμπληρώστε αυτό το πεδίο με όχι πάνω από {2} χαρακτήρες.';
+$l['userdata_invalid_checkfield'] = "Εντοπίστηκε ότι αυτή η φόρμα υποβλήθηκε από ένα spam bot. Αν αυτό είναι λάθος, παρακαλούμε επικοινωνήστε με τον Διαχειριστή.";
+$l['userdata_invalid_postnum'] = "Ο αριθμός δημοσιεύσεων που εισάγατε είναι μη έγκυρος. Παρακαλούμε εισάγετε κάποιον έγκυρο αριθμό δημοσιεύσεων, ή αφήστε το πεδίο κενό.";
+$l['userdata_invalid_threadnum'] = "Ο αριθμός θεμάτων που εισάγατε είναι μη έγκυρος. Παρακαλούμε εισάγετε κάποιον έγκυρο αριθμό θεμάτων, ή αφήστε το πεδίο κενό.";
 
-$l['userdata_too_many_sig_images'] = "We are sorry, but we cannot update your signature because it contains too many images. Please remove some images from your signature to continue.";
-$l['userdata_too_many_sig_images2'] = "<strong>Note:</strong> The maximum amount of images for signatures is {1}.";
-$l['userdata_sig_too_long'] = "You cannot update your signature because it is too long. The maximum length for signatures is {1} characters. ";
-$l['userdata_sig_remove_chars_plural'] = "Please remove {1} characters and try again.";
-$l['userdata_sig_remove_chars_singular'] = "Please remove 1 character and try again.";
+$l['userdata_too_many_sig_images'] = "Λυπούμαστε, αλλά δεν μπορούμε να ενημερώσουμε την υπογραφή σας γιατί περιέχει πολλές εικόνες. Παρακαλώ αφαιρέστε μερικές εικόνες για να συνεχίσετε.";
+$l['userdata_too_many_sig_images2'] = "<strong>Σημείωση:</strong> Ο μέγιστος αριθμός εικόνων για την υπογραφή είναι {1}.";
+$l['userdata_sig_too_long'] = "Δεν μπορείτε να ενημερώσετε την υπογραφή σας γιατί είναι πολύ μεγάλη. Το μέγιστο μήκος για τις υπογραφές είναι {1} χαρακτήρες. ";
+$l['userdata_sig_remove_chars_plural'] = "Παρακαλώ αφαιρέστε {1} χαρακτήρες και δοκιμάστε πάλι.";
+$l['userdata_sig_remove_chars_singular'] = "Παρακαλώ αφαιρέστε 1 χαρακτήρα και δοκιμάστε πάλι.";

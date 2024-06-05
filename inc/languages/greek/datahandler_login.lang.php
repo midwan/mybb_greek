@@ -1,13 +1,13 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['logindata_invalidpwordusername'] = "You have entered an invalid username/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['logindata_invalidpwordusernameemail'] = "You have entered an invalid email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['logindata_invalidpwordusernamecombo'] = "You have entered an invalid username/password or email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
+$l['logindata_invalidpwordusername'] = "Έχετε εισάγει έναν άκυρο συνδυασμό όνομα χρήστη/κωδικού πρόσβασης. <br /><br />Εάν έχετε ξεχάσει τον κωδικό πρόσβασής σας, παρακαλώ <a href=\"member.php?action=lostpw\">ανακτήστε έναν νέο</a>.";
+$l['logindata_invalidpwordusernameemail'] = "Έχετε εισάγει έναν άκυρο συνδυασμό email/κωδικού πρόσβασης. <br /><br />Εάν έχετε ξεχάσει τον κωδικό πρόσβασής σας, παρακαλώ <a href=\"member.php?action=lostpw\">ανακτήστε έναν νέο</a>.";
+$l['logindata_invalidpwordusernamecombo'] = "Έχετε εισάγει έναν άκυρο συνδυασμό ονόματος χρήστη/κωδικού πρόσβασης ή email/κωδικού πρόσβασης. <br /><br />Εάν έχετε ξεχάσει τον κωδικό πρόσβασής σας, παρακαλώ <a href=\"member.php?action=lostpw\">ανακτήστε έναν νέο</a>.";
 
-$l['logindata_regimageinvalid'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['logindata_regimagerequired'] = "Please fill out the image verification code to continue the login process. Please enter the code exactly how it appears in the image.";
+$l['logindata_regimageinvalid'] = "Ο κωδικός επιβεβαίωσης που εισάγατε δεν είναι σωστός. Παρακαλώ εισάγετε τον κωδικό ακριβώς όπως εμφανίζεται στην εικόνα.";
+$l['logindata_regimagerequired'] = "Παρακαλώ συμπληρώστε τον κωδικό επιβεβαίωσης που εμφανίζεται στην εικόνα για να συνεχίσετε την σύνδεση. Παρακαλώ εισάγετε τον κωδικό ακριβώς όπως εμφανίζεται στην εικόνα.";
