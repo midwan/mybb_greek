@@ -9,7 +9,7 @@
 $langinfo['name'] = "Ελληνικά";
 
 // The author of the language
-$langinfo['author'] = "MyBB Group";
+$langinfo['author'] = "Dimitris Panokostas";
 
 // The language authors website
 $langinfo['website'] = "https://github.com/midwan/mybb_greek";

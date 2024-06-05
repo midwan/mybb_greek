@@ -1,2 +1,3 @@
-# mybb_greek
+# MyBB Greek translation
+
 MyBB Greek translation
