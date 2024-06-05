@@ -8,9 +8,9 @@
  *
  */
 
-$l['hello'] = 'Hello World!';
-$l['hello_add'] = 'Add';
-$l['hello_add_message'] = 'Add Message';
-$l['hello_empty'] = 'No messages were found.';
-$l['hello_message_empty'] = 'Message cannot be empty.';
-$l['hello_done'] = 'Successfully added a new message.';
+$l['hello'] = 'Γεια σου Κόσμε!';
+$l['hello_add'] = 'Προσθήκη';
+$l['hello_add_message'] = 'Προσθήκη Μηνύματος';
+$l['hello_empty'] = 'Δεν βρέθηκαν μηνύματα.';
+$l['hello_message_empty'] = 'Το μήνυμα δεν μπορεί να είναι κενό.';
+$l['hello_done'] = 'Προστέθηκε με επιτυχία ένα νέο μήνυμα.';
