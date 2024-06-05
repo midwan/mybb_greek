@@ -1,16 +1,16 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['error_no_connection'] = 'There was an error establishing a connection through the server: ';
-$l['error_no_message'] = 'There was no message specified.';
-$l['error_no_subject'] = 'There was no subject specified.';
-$l['error_no_recipient'] = 'There was no recipient specified.';
-$l['error_not_sent'] = 'There was a error while trying to send the mail through php mail function.';
-$l['error_status_missmatch'] = 'The status from server mismatches expected result, returning: ';
-$l['error_data_not_sent'] = 'This data could not be sent to server: ';
+$l['error_no_connection'] = 'Παρουσιάστηκε σφάλμα κατά την εγκαθίδρυση σύνδεσης μέσω του διακομιστή: ';
+$l['error_no_message'] = 'Δεν καθορίστηκε μήνυμα.';
+$l['error_no_subject'] = 'Δεν καθορίστηκε θέμα.';
+$l['error_no_recipient'] = 'Δεν καθορίστηκε παραλήπτης.';
+$l['error_not_sent'] = 'Παρουσιάστηκε σφάλμα κατά την απόπειρα αποστολής του μηνύματος μέσω της συνάρτησης mail της PHP.';
+$l['error_status_missmatch'] = 'Το αποτέλεσμα από τον διακομιστή δεν ταιριάζει με το αναμενόμενο αποτέλεσμα, επιστρέφεται: ';
+$l['error_data_not_sent'] = 'Αυτά τα δεδομένα δεν μπορούν να αποσταλούν στον διακομιστή: ';
 
-$l['error_occurred'] = 'One or more errors have occurred. Please correct the following errors before continuing.<br />';
+$l['error_occurred'] = 'Παρουσιάστηκε ένα ή περισσότερα σφάλματα. Διορθώστε τα παρακάτω σφάλματα πριν συνεχίσετε.<br />';
