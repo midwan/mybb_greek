@@ -1,53 +1,54 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_newreply'] = "Post Reply";
+$l['nav_newreply'] = "Απάντηση στη δημοσίευση";
 
-$l['post_reply_to'] = "Post Reply to {1}";
-$l['post_new_reply'] = "Post a New Reply";
-$l['reply_to'] = "Reply to thread: {1}";
-$l['post_subject'] = "Post Subject:";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<strong>Signature:</strong> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<strong>Email Notification:</strong> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<strong>Disable Smilies:</strong> disable smilies from showing in this post.";
-$l['post_reply'] = "Post Reply";
-$l['preview_post'] = "Preview Post";
-$l['mod_options'] = "Moderator Options:";
-$l['close_thread'] = "<strong>Close Thread</strong>: prevent further posting in this thread.";
-$l['stick_thread'] = "<strong>Stick Thread:</strong> stick this thread to the top of the forum.";
-$l['forum_rules'] = "{1} - Rules";
-$l['thread_review'] = "Thread Review (Newest First)";
-$l['thread_review_more'] = "This thread has more than {1} replies. <a href=\"{2}\" target=\"_blank\">Read the whole thread.</a>";
-$l['posted_by'] = "Posted by";
-$l['draft_saved'] = "The new post has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['error_post_already_submitted'] = "You have already posted this reply to the specified thread. Please visit the thread to see your reply.";
-$l['multiquote_external_one'] = "You have selected one post outside of this thread.";
-$l['multiquote_external'] = "You have selected {1} posts outside of this thread.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['post_reply_to'] = "Απάντηση στη δημοσίευση {1}";
+$l['post_new_reply'] = "Δημοσίευση νέας απάντησης";
+$l['reply_to'] = "Απάντηση στο θέμα: {1}";
+$l['post_subject'] = "Θέμα δημοσίευσης:";
+$l['your_message'] = "Το μήνυμά σας:";
+$l['post_options'] = "Επιλογές δημοσίευσης:";
+$l['options_sig'] = "<strong>Υπογραφή:</strong> συμπερίληψη της υπογραφής σας. (μόνο για εγγεγραμμένους χρήστες)";
+$l['options_emailnotify'] = "<strong>Ειδοποίηση μέσω email:</strong> λήψη email κάθε φορά που υπάρχει μια νέα απάντηση. (μόνο για εγγεγραμμένους χρήστες)";
+$l['options_disablesmilies'] = "<strong>Απενεργοποίηση συμβολοσειρών:</strong> απενεργοποίηση των συμβολοσειρών από την εμφάνιση σε αυτήν τη δημοσίευση.";
+$l['post_reply'] = "Δημοσίευση απάντησης";
+$l['preview_post'] = "Προεπισκόπηση δημοσίευσης";
+$l['mod_options'] = "Επιλογές διαχειριστή:";
+$l['close_thread'] = "<strong>Κλείδωμα θέματος</strong>: αποτροπή περαιτέρω δημοσίευσης σε αυτό το θέμα.";
+$l['stick_thread'] = "<strong>Καρφίτσωμα θέματος:</strong> καρφίτσωμα αυτού του θέματος στην κορυφή του φόρουμ.";
+$l['forum_rules'] = "{1} - Κανόνες";
+$l['thread_review'] = "Ανασκόπηση θέματος (Νεότερα πρώτα)";
+$l['thread_review_more'] = "Αυτό το θέμα έχει περισσότερες από {1} απαντήσεις. <a href=\"{2}\" target=\"_blank\">Διαβάστε ολόκληρο το θέμα.</a>";
+$l['posted_by'] = "Δημοσιεύτηκε από";
+$l['draft_saved'] = "Η νέα δημοσίευση αποθηκεύτηκε με επιτυχία ως πρόχειρο.<br />Θα μεταφερθείτε τώρα στη λίστα των προχείρων σας.";
+$l['error_post_already_submitted'] = "Έχετε ήδη δημοσιεύσει αυτήν την απάντηση στο συγκεκριμένο θέμα. Παρακαλούμε επισκεφθείτε το θέμα για να δείτε την απάντησή σας.";
+$l['multiquote_external_one'] = "Έχετε επιλέξει μια δημοσίευση εκτός αυτού του θέματος.";
+$l['multiquote_external'] = "Έχετε επιλέξει {1} δημοσιεύσεις εκτός αυτού του θέματος.";
+$l['multiquote_external_one_deselect'] = "αποεπιλέξτε αυτήν τη δημοσίευση";
+$l['multiquote_external_deselect'] = "αποεπιλέξτε αυτές τις δημοσιεύσεις";
+$l['multiquote_external_one_quote'] = "Παράθεση και αυτής της δημοσίευσης";
+$l['multiquote_external_quote'] = "Παράθεση και αυτών των δημοσιεύσεων";
 
-$l['redirect_newreply'] = "Thank you, your reply has been posted.";
-$l['redirect_newreply_moderation'] = "The administrator has specified that all new posts require moderation. You will now be returned to the thread.";
-$l['redirect_newreply_post'] = "<br />You will now be taken to your post.";
-$l['redirect_newreplyerror'] = "Sorry, but your reply has been rejected for lack of content. <br />You will now be returned to the thread.";
-$l['redirect_threadclosed'] = "You cannot post replies in this thread because it has been closed by a moderator.";
-$l['error_post_noperms'] = "You don't have permission to edit this draft.";
+$l['redirect_newreply'] = "Σας ευχαριστούμε, η απάντησή σας έχει δημοσιευθεί.";
+$l['redirect_newreply_moderation'] = "Ο διαχειριστής έχει καθορίσει ότι όλες οι νέες δημοσιεύσεις απαιτούν επιθεώρηση. Θα επιστραφείτε τώρα στο θέμα.";
+$l['redirect_newreply_post'] = "<br />Θα μεταφερθείτε τώρα στη δημοσίευσή σας.";
+$l['redirect_newreplyerror'] = "Λυπούμαστε, αλλά η απάντησή σας απορρίφθηκε λόγω έλλειψης περιεχομένου. <br />Θα επιστραφείτε τώρα στο θέμα.";
+$l['redirect_threadclosed'] = "Δεν μπορείτε να δημοσιεύσετε απαντήσεις σε αυτό το θέμα επειδή έχει κλείσει από έναν διαχειριστή.";
+$l['error_post_noperms'] = "Δεν έχετε άδεια να επεξεργαστείτε αυτό το πρόχειρο.";
 
 
-$l['error_stop_forum_spam_spammer'] = 'Sorry, your {1} matches that of a known spammer. If you feel this is a mistake, please contact an administrator';
-$l['error_stop_forum_spam_fetching'] = 'Sorry, something went wrong verifying your reply against a spammer database. Most likely the database couldn\'t be accessed. Please try again later.';
+$l['error_stop_forum_spam_spammer'] = 'Λυπούμαστε, το {1} σας ταιριάζει με αυτό ενός γνωστού ανεπιθύμητου αποστολέα. Εάν πιστεύετε ότι αυτό είναι ένα λάθος, παρακαλούμε επικοινωνήστε με έναν διαχειριστή';
+$l['error_stop_forum_spam_fetching'] = 'Λυπούμαστε, κάτι πήγε στραβά κατά την επαλήθευση της απάντησής σας έναντι μιας βάσης δεδομένων ανεπιθύμητων αποστολέων. Πιθανότατα η βάση δεδομένων δεν ήταν προσβάσιμη. Παρακαλούμε δοκιμάστε ξανά αργότερα.';
 
-$l['error_suspendedposting'] = "Your posting privileges are currently suspended {1}.<br /><br />
+$l['error_suspendedposting'] = "Οι δυνατότητες δημοσίευσής σας είναι αυτήν τη στιγμή ανενεργές {1}.<br /><br />
 
-Suspension Date: {2}";
-$l['error_suspendedposting_temporal'] = "until {1}";
-$l['error_suspendedposting_permanent'] = "permanently";
+Ημερομηνία Αναστολής: {2}";
+$l['error_suspendedposting_temporal'] = "μέχρι {1}";
+$l['error_suspendedposting_permanent'] = "μόνιμα";
+
 

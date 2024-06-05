@@ -1,11 +1,11 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['forum'] = "Forum:";
-$l['printable_version'] = "Printable Version";
-$l['pages'] = "Pages:";
-$l['thread'] = "Thread:";
+$l['forum'] = "Φόρουμ:";
+$l['printable_version'] = "Εκδοσή για εκτύπωση";
+$l['pages'] = "Σελίδες:";
+$l['thread'] = "Θέμα:";

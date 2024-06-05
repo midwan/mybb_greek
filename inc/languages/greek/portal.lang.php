@@ -1,51 +1,51 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_portal'] = "Portal";
-$l['posted_by'] = "Posted by:";
-$l['forum'] = "Forum:";
-$l['replies'] = "Replies";
-$l['no_replies'] = "No Replies";
-$l['latest_threads'] = "Latest Threads";
-$l['latest_threads_replies'] = "Replies:";
-$l['latest_threads_views'] = "Views:";
-$l['latest_threads_lastpost'] = "Last Post:";
-$l['private_messages'] = "Private Messages";
-$l['pms_received_new'] = "{1}, you have <b>{2}</b> unread message(s).";
-$l['pms_unread'] = "Unread Messages";
-$l['pms_total'] = "Total Messages";
-$l['search_forums'] = "Search Forums";
-$l['advanced_search'] = "Advanced Search";
-$l['forum_stats'] = "Forum Statistics";
-$l['num_members'] = "Members:";
-$l['latest_member'] = "Latest member:";
-$l['num_threads'] = "Forum threads:";
-$l['num_posts'] = "Forum posts:";
-$l['full_stats'] = "Full Statistics";
-$l['welcome'] = "Welcome, {1}";
-$l['guest_welcome_registration'] = "You have to <a href=\"{1}\">register</a> before you can post on our site.";
-$l['username'] = "Username";
-$l['password'] = "Password";
-$l['login'] = "Login!";
-$l['member_welcome_lastvisit'] = "Last visit:";
-$l['since_then'] = "Since then, there have been:";
-$l['new_announcements'] = "{1} new announcements";
-$l['new_announcement'] = "1 new announcement";
-$l['new_threads'] = "{1} new threads";
-$l['new_thread'] = "1 new thread";
-$l['new_posts'] = "{1} new posts";
-$l['new_post'] = "1 new post";
-$l['view_new'] = "View New Posts";
-$l['view_todays'] = "View Today's Posts";
-$l['online'] = "Online Users";
-$l['online_user'] = "There is currently 1 user online";
-$l['online_users'] = "There are currently <b>{1}</b> online users.";
-$l['online_counts'] = "<b>{1}</b> Member(s) | <b>{2}</b> Guest(s)";
-$l['print_this_item'] = "Print this item";
-$l['send_to_friend'] = "Send this item to a friend";
-$l['latest_announcements'] = "Latest Announcements";
-$l['portal_disabled'] = "You cannot use the portal functionality as it has been disabled by the Administrator.";
+$l['nav_portal'] = "Πύλη";
+$l['posted_by'] = "Δημοσιεύτηκε από:";
+$l['forum'] = "Φόρουμ:";
+$l['replies'] = "Απαντήσεις";
+$l['no_replies'] = "Χωρίς Απαντήσεις";
+$l['latest_threads'] = "Τελευταία Θέματα";
+$l['latest_threads_replies'] = "Απαντήσεις:";
+$l['latest_threads_views'] = "Προβολές:";
+$l['latest_threads_lastpost'] = "Τελευταία Δημοσίευση:";
+$l['private_messages'] = "Προσωπικά Μηνύματα";
+$l['pms_received_new'] = "{1}, έχετε <b>{2}</b> μη αναγνωσμένο μήνυμα(τα).";
+$l['pms_unread'] = "Μη Αναγνωσμένα Μηνύματα";
+$l['pms_total'] = "Συνολικά Μηνύματα";
+$l['search_forums'] = "Αναζήτηση Φόρουμ";
+$l['advanced_search'] = "Προηγμένη Αναζήτηση";
+$l['forum_stats'] = "Στατιστικά Φόρουμ";
+$l['num_members'] = "Μέλη:";
+$l['latest_member'] = "Τελευταίο μέλος:";
+$l['num_threads'] = "Θέματα φόρουμ:";
+$l['num_posts'] = "Δημοσιεύσεις φόρουμ:";
+$l['full_stats'] = "Πλήρη Στατιστικά";
+$l['welcome'] = "Καλώς ήρθατε, {1}";
+$l['guest_welcome_registration'] = "Πρέπει να <a href=\"{1}\">εγγραφείτε</a> πριν μπορέσετε να δημοσιεύσετε στον ιστότοπό μας.";
+$l['username'] = "Όνομα χρήστη";
+$l['password'] = "Κωδικός πρόσβασης";
+$l['login'] = "Σύνδεση!";
+$l['member_welcome_lastvisit'] = "Τελευταία επίσκεψη:";
+$l['since_then'] = "Από τότε, υπήρξαν:";
+$l['new_announcements'] = "{1} νέες ανακοινώσεις";
+$l['new_announcement'] = "1 νέα ανακοίνωση";
+$l['new_threads'] = "{1} νέα θέματα";
+$l['new_thread'] = "1 νέο θέμα";
+$l['new_posts'] = "{1} νέες δημοσιεύσεις";
+$l['new_post'] = "1 νέα δημοσίευση";
+$l['view_new'] = "Προβολή Νέων Δημοσιεύσεων";
+$l['view_todays'] = "Προβολή Δημοσιεύσεων Σήμερα";
+$l['online'] = "Χρήστες Online";
+$l['online_user'] = "Υπάρχει αυτή τη στιγμή 1 χρήστης online";
+$l['online_users'] = "Υπάρχουν αυτή τη στιγμή <b>{1}</b> χρήστες online.";
+$l['online_counts'] = "<b>{1}</b> Μέλος(η) | <b>{2}</b> Επισκέπτης(ες)";
+$l['print_this_item'] = "Εκτύπωση αυτού του στοιχείου";
+$l['send_to_friend'] = "Αποστολή αυτού του στοιχείου σε έναν φίλο";
+$l['latest_announcements'] = "Τελευταίες Ανακοινώσεις";
+$l['portal_disabled'] = "Δεν μπορείτε να χρησιμοποιήσετε τη λειτουργία της πύλης καθώς έχει απενεργοποιηθεί από τον Διαχειριστή.";

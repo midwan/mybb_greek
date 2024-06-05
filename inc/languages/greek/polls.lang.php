@@ -1,60 +1,60 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_postpoll'] = "Post Poll";
-$l['nav_editpoll'] = "Edit Poll";
-$l['nav_pollresults'] = "Poll Results";
+$l['nav_postpoll'] = "Δημοσίευση Δημοσκόπησης";
+$l['nav_editpoll'] = "Επεξεργασία Δημοσκόπησης";
+$l['nav_pollresults'] = "Αποτελέσματα Δημοσκόπησης";
 
-$l['edit_poll'] = "Edit Poll";
-$l['delete_poll'] = "Delete Poll";
-$l['delete_q'] = "Delete?";
-$l['delete_note'] = "To delete this poll, check the box to the left and click the button to the right.";
-$l['delete_note2'] = "<b>Note:</b> Once this poll has been deleted there is no way of restoring it.";
-$l['question'] = "Question:";
-$l['num_options'] = "Number of Options:";
-$l['max_options'] = "Maximum:";
-$l['poll_options'] = "Poll Options:";
-$l['update_options'] = "Update Options";
-$l['poll_options_note'] = "Poll options should be short and to the point.";
-$l['options'] = "Options:";
-$l['option_multiple'] = "<b>Allow multiple choice:</b> Users have the ability to vote on more than one option.";
-$l['option_multiple_maxoptions'] = "Maximum number of options per user (0 for no limit):";
-$l['option_public'] = "<b>Public Poll:</b> Give users the ability to see which user voted on which option(s).";
-$l['option_closed'] = "<b>Poll is Closed:</b> If checked the poll will be closed from voting.";
-$l['poll_timeout'] = "Poll Timeout:";
-$l['timeout_note'] = "The number of day(s) which people can vote on this poll.<br />(Set to 0 to if this poll should not timeout.)";
-$l['days_after'] = "days after:";
-$l['update_poll'] = "Update Poll";
-$l['option'] = "Option";
-$l['votes'] = "Votes:";
-$l['post_new_poll'] = "Post New Poll";
-$l['days'] = "days";
-$l['poll_results'] = "Poll Results";
-$l['poll_total'] = "Total:";
-$l['poll_votes'] = "vote(s)";
+$l['edit_poll'] = "Επεξεργασία Δημοσκόπησης";
+$l['delete_poll'] = "Διαγραφή Δημοσκόπησης";
+$l['delete_q'] = "Διαγραφή;";
+$l['delete_note'] = "Για να διαγράψετε αυτήν τη δημοσκόπηση, επιλέξτε το πλαίσιο στα αριστερά και κάντε κλικ στο κουμπί στα δεξιά.";
+$l['delete_note2'] = "<b>Σημείωση:</b> Μόλις διαγραφεί αυτή η δημοσκόπηση, δεν υπάρχει τρόπος ανάκτησής της.";
+$l['question'] = "Ερώτηση:";
+$l['num_options'] = "Αριθμός Επιλογών:";
+$l['max_options'] = "Μέγιστο:";
+$l['poll_options'] = "Επιλογές Δημοσκόπησης:";
+$l['update_options'] = "Ενημέρωση Επιλογών";
+$l['poll_options_note'] = "Οι επιλογές της δημοσκόπησης πρέπει να είναι σύντομες και σαφείς.";
+$l['options'] = "Επιλογές:";
+$l['option_multiple'] = "<b>Να επιτρέπεται πολλαπλή επιλογή:</b> Οι χρήστες έχουν τη δυνατότητα να ψηφίσουν για περισσότερες από μία επιλογές.";
+$l['option_multiple_maxoptions'] = "Μέγιστος αριθμός επιλογών ανά χρήστη (0 για απεριόριστο):";
+$l['option_public'] = "<b>Δημόσια Δημοσκόπηση:</b> Δίνετε στους χρήστες τη δυνατότητα να δουν ποιος ψήφισε σε ποιες επιλογές.";
+$l['option_closed'] = "<b>Η Δημοσκόπηση είναι Κλειστή:</b> Αν επιλεγεί, η δημοσκόπηση θα είναι κλειστή για ψηφοφορία.";
+$l['poll_timeout'] = "Λήξη Δημοσκόπησης:";
+$l['timeout_note'] = "Ο αριθμός των ημερών που οι άνθρωποι μπορούν να ψηφίσουν σε αυτήν τη δημοσκόπηση.<br />(Ορίστε το σε 0 αν αυτή η δημοσκόπηση δεν πρέπει να λήξει.)";
+$l['days_after'] = "ημέρες μετά τις:";
+$l['update_poll'] = "Ενημέρωση Δημοσκόπησης";
+$l['option'] = "Επιλογή";
+$l['votes'] = "Ψήφοι:";
+$l['post_new_poll'] = "Δημοσίευση Νέας Δημοσκόπησης";
+$l['days'] = "ημέρες";
+$l['poll_results'] = "Αποτελέσματα Δημοσκόπησης";
+$l['poll_total'] = "Σύνολο:";
+$l['poll_votes'] = "ψήφος/ψήφοι";
 
-$l['redirect_pollposted'] = "Your poll has been posted.<br />You will now be returned to the thread.";
-$l['redirect_pollpostedmoderated'] = "Your poll has been posted, but your thread is still pending moderation.<br />You will be returned to the forum.";
-$l['redirect_pollupdated'] = "The poll has been updated.<br />You will now be returned to the thread.";
-$l['redirect_votethanks'] = "Thank you for voting.<br />You will now be returned to the thread.";
-$l['redirect_unvoted'] = "Your vote(s) in this thread have been removed.<br />You will now be returned to the thread.";
-$l['redirect_polldeleted'] = "Thank you, the poll has successfully been removed from the thread.<br />You will now be taken back to the thread.";
+$l['redirect_pollposted'] = "Η δημοσκόπησή σας έχει δημοσιευτεί.<br />Θα επιστρέψετε τώρα στο νήμα.";
+$l['redirect_pollpostedmoderated'] = "Η δημοσκόπησή σας έχει δημοσιευτεί, αλλά το νήμα σας είναι ακόμα υπό έγκριση.<br />Θα επιστρέψετε στο φόρουμ.";
+$l['redirect_pollupdated'] = "Η δημοσκόπηση έχει ενημερωθεί.<br />Θα επιστρέψετε τώρα στο νήμα.";
+$l['redirect_votethanks'] = "Σας ευχαριστούμε για την ψήφο σας.<br />Θα επιστρέψετε τώρα στο νήμα.";
+$l['redirect_unvoted'] = "Οι ψήφοι σας σε αυτό το νήμα έχουν αφαιρεθεί.<br />Θα επιστρέψετε τώρα στο νήμα.";
+$l['redirect_polldeleted'] = "Σας ευχαριστούμε, η δημοσκόπηση έχει διαγραφεί επιτυχώς από το νήμα.<br />Θα μεταφερθείτε τώρα πίσω στο νήμα.";
 
-$l['error_polloptiontoolong'] = "One or more poll options you entered are longer than the acceptable limit. Please go back and shorten them.";
-$l['error_polloptionsequence'] = "One or more poll options you entered contain a sequence which should not be used in them: <strong>||~|~||</strong>. Please go back and remove it.";
-$l['error_noquestionoptions'] = "You either did not enter a question for your poll or do not have enough options. The minimum number of options a poll can have is 2.<br />Please go back and correct this error.";
-$l['error_pollalready'] = "Thread already has poll!";
-$l['error_nopolloptions'] = "The specified poll option is invalid or does not exist.";
-$l['error_maxpolloptions'] = "You have voted for too many options. You are only allowed to vote for {1} options.<br />Please go back and try again.";
-$l['error_alreadyvoted'] = "You have already voted in this poll.";
-$l['error_notvoted'] = "You haven't voted in this poll.";
-$l['error_invalidpoll'] = "The specified poll is invalid or does not exist.";
-$l['error_pollclosed'] = "You cannot vote in a poll that has been closed.";
-$l['poll_time_limit'] = "Sorry but you cannot add a poll to your thread. The Administrator has set it so that polls can only be added within {1} hours of posting.";
+$l['error_polloptiontoolong'] = "Μία ή περισσότερες επιλογές της δημοσκόπησης που εισαγάγατε είναι μεγαλύτερες από το επιτρεπτό όριο. Παρακαλούμε επιστρέψτε πίσω και συντομεύστε τις.";
+$l['error_polloptionsequence'] = "Μία ή περισσότερες επιλογές της δημοσκόπησης που εισαγάγατε περιέχουν μια ακολουθία που δεν πρέπει να χρησιμοποιείται σε αυτές: <strong>||~|~||</strong>. Παρακαλούμε επιστρέψτε πίσω και αφαιρέστε την.";
+$l['error_noquestionoptions'] = "Είτε δεν εισαγάγατε μια ερώτηση για τη δημοσκόπησή σας είτε δεν έχετε αρκετές επιλογές. Ο ελάχιστος αριθμός επιλογών που μπορεί να έχει μια δημοσκόπηση είναι 2.<br />Παρακαλούμε επιστρέψτε πίσω και διορθώστε αυτό το σφάλμα.";
+$l['error_pollalready'] = "Το νήμα έχει ήδη δημοσκόπηση!";
+$l['error_nopolloptions'] = "Η καθορισμένη επιλογή της δημοσκόπησης είναι άκυρη ή δεν υπάρχει.";
+$l['error_maxpolloptions'] = "Ψηφίσατε για πολλές επιλογές. Επιτρέπεται να ψηφίσετε για {1} επιλογές μόνο.<br />Παρακαλούμε επιστρέψτε πίσω και προσπαθήστε ξανά.";
+$l['error_alreadyvoted'] = "Έχετε ήδη ψηφίσει σε αυτήν τη δημοσκόπηση.";
+$l['error_notvoted'] = "Δεν έχετε ψηφίσει σε αυτήν τη δημοσκόπηση.";
+$l['error_invalidpoll'] = "Η καθορισμένη δημοσκόπηση είναι άκυρη ή δεν υπάρχει.";
+$l['error_pollclosed'] = "Δεν μπορείτε να ψηφίσετε σε μια δημοσκόπηση που έχει κλείσει.";
+$l['poll_time_limit'] = "Λυπούμαστε, αλλά δεν μπορείτε να προσθέσετε μια δημοσκόπηση στο νήμα σας. Ο Διαχειριστής έχει ορίσει ώρες κατά τις οποίες μπορούν να προστεθούν δημοσκοπήσεις μόνο εντός {1} ωρών από τη δημοσίευση.";
 
-$l['poll_deleted'] = "Deleted Poll";
-$l['poll_edited'] = "Edited Poll";
+$l['poll_deleted'] = "Διαγραμμένη Δημοσκόπηση";
+$l['poll_edited'] = "Επεξεργασμένη Δημοσκόπηση";

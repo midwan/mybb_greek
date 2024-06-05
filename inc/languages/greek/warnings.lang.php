@@ -1,88 +1,88 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_profile'] = "Profile of {1}";
-$l['nav_warning_log'] = "Warning Log";
-$l['nav_add_warning'] = "Warn User";
-$l['nav_view_warning'] = "Warning Details";
+$l['nav_profile'] = "Προφίλ του {1}";
+$l['nav_warning_log'] = "Αρχείο Προειδοποιήσεων";
+$l['nav_add_warning'] = "Προειδοποίηση Χρήστη";
+$l['nav_view_warning'] = "Λεπτομέρειες Προειδοποίησης";
 
-$l['warning_for_post'] = "&hellip; Post:";
-$l['already_expired'] = "Expired";
-$l['details_username'] = "Username";
-$l['warning_active'] = "Active";
-$l['warning_revoked'] = "Revoked";
-$l['warning_log'] = "Warning Log";
-$l['warning'] = "Warning";
-$l['issued_by'] = "Issued By";
-$l['date_issued'] = "Date Issued";
-$l['expiry_date'] = "Expires";
-$l['active_warnings'] = "Active Warnings";
-$l['expired_warnings'] = "Expired Warnings";
-$l['warning_points'] = "({1} points)";
-$l['no_warnings'] = "This user has not received any warnings or they've all been removed.";
-$l['warn_user'] = "Warn User";
-$l['post'] = "Post:";
-$l['warning_note'] = "Administrative Notes:";
-$l['details_warning_note'] = "Administrative Notes";
-$l['warning_type'] = "Warning Type:";
-$l['custom'] = "Custom Reason";
-$l['reason'] = "Reason:";
-$l['points'] = "Points:";
-$l['details_reason'] = "Reason";
-$l['warn_user_desc'] = "Here you can increase the warning level of this user if they've violated one or more rules.";
-$l['send_pm'] = "Notify User:";
-$l['send_user_warning_pm'] = "Send this user a private message notifying them of this warning.";
-$l['send_pm_subject'] = "Subject:";
-$l['warning_pm_subject'] = "You have received a warning.";
-$l['send_pm_message'] = "Message:";
-$l['warning_pm_message'] = "Dear {1}
+$l['warning_for_post'] = "&hellip; Δημοσίευση:";
+$l['already_expired'] = "Έληξε";
+$l['details_username'] = "Όνομα χρήστη";
+$l['warning_active'] = "Ενεργή";
+$l['warning_revoked'] = "Ανακλήθηκε";
+$l['warning_log'] = "Αρχείο Προειδοποιήσεων";
+$l['warning'] = "Προειδοποίηση";
+$l['issued_by'] = "Έκδοση από";
+$l['date_issued'] = "Ημερομηνία Έκδοσης";
+$l['expiry_date'] = "Λήξη";
+$l['active_warnings'] = "Ενεργές Προειδοποιήσεις";
+$l['expired_warnings'] = "Ληγμένες Προειδοποιήσεις";
+$l['warning_points'] = "({1} πόντοι)";
+$l['no_warnings'] = "Αυτός ο χρήστης δεν έχει λάβει καμία προειδοποίηση ή έχουν όλες αφαιρεθεί.";
+$l['warn_user'] = "Προειδοποίηση Χρήστη";
+$l['post'] = "Δημοσίευση:";
+$l['warning_note'] = "Διαχειριστικές Σημειώσεις:";
+$l['details_warning_note'] = "Διαχειριστικές Σημειώσεις";
+$l['warning_type'] = "Τύπος Προειδοποίησης:";
+$l['custom'] = "Προσαρμοσμένος Λόγος";
+$l['reason'] = "Λόγος:";
+$l['points'] = "Πόντοι:";
+$l['details_reason'] = "Λόγος";
+$l['warn_user_desc'] = "Εδώ μπορείτε να αυξήσετε το επίπεδο προειδοποίησης αυτού του χρήστη αν έχει παραβιάσει έναν ή περισσότερους κανόνες.";
+$l['send_pm'] = "Ειδοποίηση Χρήστη:";
+$l['send_user_warning_pm'] = "Αποστολή ενός προσωπικού μηνύματος σε αυτόν τον χρήστη ειδοποιώντας τον για αυτήν την προειδοποίηση.";
+$l['send_pm_subject'] = "Θέμα:";
+$l['warning_pm_subject'] = "Έχετε λάβει μια προειδοποίηση.";
+$l['send_pm_message'] = "Μήνυμα:";
+$l['warning_pm_message'] = "Αγαπητέ {1}
 
-You have received a warning from the staff of {2}.
+Έχετε λάβει μια προειδοποίηση από την διαχείριση του {2}.
 --
 
 --";
-$l['send_pm_options'] = "Options:";
-$l['send_pm_options_anonymous'] = "<strong>Anonymous PM</strong>: send this private message as an anonymous user.";
-$l['expiration_never'] = "permanently";
-$l['expiration_hours'] = "hours";
-$l['expiration_days'] = "days";
-$l['expiration_weeks'] = "weeks";
-$l['expiration_months'] = "months";
-$l['redirect_warned_banned'] = "<br /><br />The user has also been moved to the {1} group {2}.";
-$l['redirect_warned_suspended'] = "<br /><br />This users posting privileges have been suspended {1}.";
-$l['redirect_warned_moderate'] = "<br /><br />All posts by this user will now be moderated {1}.";
-$l['redirect_warned_pmerror'] = "<br /><br />Please note that the PM was not sent.";
-$l['redirect_warned'] = "The warning level of {1} has been increased to {2}%.{3}<br /><br />You will now be taken back to where you came from.";
-$l['error_warning_system_disabled'] = "You cannot use the warning system as it has been disabled by the board administrator.";
-$l['error_cant_warn_group'] = "You do not have permission to warn users of this group.";
-$l['error_invalid_user'] = "Selected user doesn't exist.";
-$l['details'] = "Details";
-$l['view'] = "View";
-$l['current_warning_level'] = "Current warning level: <strong>{1}%</strong> ({2}/{3})";
-$l['warning_details'] = "Warning Details";
-$l['revoke_warning'] = "Revoke this Warning";
-$l['revoke_warning_desc'] = "To revoke this warning please enter a reason below. This will not remove any bans or suspensions imposed by this warning.";
-$l['warning_is_revoked'] = "This Warning has been revoked";
-$l['revoked_by'] = "Revoked By";
-$l['date_revoked'] = "Date Revoked";
-$l['warning_already_revoked'] = "This warning has already been revoked.";
-$l['no_revoke_reason'] = "You did not enter a reason as to why you want to revoke this warning.";
-$l['redirect_warning_revoked'] = "This warning has successfully been revoked and the users warning points decreased.<br /><br />You will now be taken back to the warning.";
-$l['result'] = "Result:";
-$l['result_banned'] = "User will be moved to banned group ({1}) {2}";
-$l['result_suspended'] = "Posting privileges will be suspended {1}";
-$l['result_moderated'] = "Posts will be moderated {1}";
-$l['result_period'] = "for {1} {2}";
-$l['result_period_perm'] = "permanently";
-$l['hour_or_hours'] = "Hour(s)";
-$l['day_or_days'] = "Day(s)";
-$l['week_or_weeks'] = "Week(s)";
-$l['month_or_months'] = "Month(s)";
-$l['expires'] = "Expires:";
-$l['new_warning_level'] = "New warning level:";
-$l['error_cant_warn_user'] = "You do not have permission to warn this user.";
-$l['existing_post_warnings'] = "Existing Warnings for this Post";
+$l['send_pm_options'] = "Επιλογές:";
+$l['send_pm_options_anonymous'] = "<strong>Ανώνυμο PM</strong>: αποστολή αυτού του προσωπικού μηνύματος ως ανώνυμος χρήστης.";
+$l['expiration_never'] = "μόνιμα";
+$l['expiration_hours'] = "ώρες";
+$l['expiration_days'] = "ημέρες";
+$l['expiration_weeks'] = "εβδομάδες";
+$l['expiration_months'] = "μήνες";
+$l['redirect_warned_banned'] = "<br /><br />Ο χρήστης έχει μετακινηθεί επίσης στην ομάδα {1} {2}.";
+$l['redirect_warned_suspended'] = "<br /><br />Τα δικαιώματα αποστολής μηνυμάτων αυτού του χρήστη έχουν ανασταλεί {1}.";
+$l['redirect_warned_moderate'] = "<br /><br />Όλες οι δημοσιεύσεις αυτού του χρήστη θα είναι πλέον υπό την επίβλεψη {1}.";
+$l['redirect_warned_pmerror'] = "<br /><br />Σημειώστε ότι το PM δεν αποστάλθηκε.";
+$l['redirect_warned'] = "Το επίπεδο προειδοποίησης του {1} έχει αυξηθεί σε {2}%.{3}<br /><br />Θα σας γυρίσουμε τώρα στο σημείο προέλευσης.";
+$l['error_warning_system_disabled'] = "Δεν μπορείτε να χρησιμοποιήσετε το σύστημα προειδοποιήσεων καθώς έχει απενεργοποιηθεί από τον διαχειριστή του φόρουμ.";
+$l['error_cant_warn_group'] = "Δεν έχετε άδεια να προειδοποιήσετε χρήστες αυτής της ομάδας.";
+$l['error_invalid_user'] = "Ο επιλεγμένος χρήστης δεν υπάρχει.";
+$l['details'] = "Λεπτομέρειες";
+$l['view'] = "Προβολή";
+$l['current_warning_level'] = "Τρέχον επίπεδο προειδοποίησης: <strong>{1}%</strong> ({2}/{3})";
+$l['warning_details'] = "Λεπτομέρειες Προειδοποίησης";
+$l['revoke_warning'] = "Ανάκληση αυτής της Προειδοποίησης";
+$l['revoke_warning_desc'] = "Για να ανακαλέσετε αυτήν την προειδοποίηση, εισαγάγετε έναν λόγο παρακάτω. Αυτό δεν θα αφαιρέσει καμία απαγόρευση ή αναστολή που επιβλήθηκε από αυτήν την προειδοποίηση.";
+$l['warning_is_revoked'] = "Αυτή η Προειδοποίηση έχει ανακληθεί";
+$l['revoked_by'] = "Ανακλήθηκε από";
+$l['date_revoked'] = "Ημερομηνία Ανάκλησης";
+$l['warning_already_revoked'] = "Αυτή η προειδοποίηση έχει ήδη ανακληθεί.";
+$l['no_revoke_reason'] = "Δεν εισαγάγατε λόγο για τον οποίο θέλετε να ανακαλέσετε αυτήν την προειδοποίηση.";
+$l['redirect_warning_revoked'] = "Αυτή η προειδοποίηση έχει ανακληθεί με επιτυχία και οι πόντοι προειδοποίησης του χρήστη έχουν μειωθεί.<br /><br />Θα σας γυρίσουμε τώρα στην προειδοποίηση.";
+$l['result'] = "Αποτέλεσμα:";
+$l['result_banned'] = "Ο χρήστης θα μετακινηθεί στην ομάδα αποκλεισμένων ({1}) {2}";
+$l['result_suspended'] = "Τα δικαιώματα αποστολής μηνυμάτων θα ανασταλούν {1}";
+$l['result_moderated'] = "Οι δημοσιεύσεις θα είναι υπό επίβλεψη {1}";
+$l['result_period'] = "για {1} {2}";
+$l['result_period_perm'] = "μόνιμα";
+$l['hour_or_hours'] = "Ώρα(ες)";
+$l['day_or_days'] = "Ημέρα(ες)";
+$l['week_or_weeks'] = "Εβδομάδα(ες)";
+$l['month_or_months'] = "Μήνας(ες)";
+$l['expires'] = "Λήγει:";
+$l['new_warning_level'] = "Νέο επίπεδο προειδοποίησης:";
+$l['error_cant_warn_user'] = "Δεν έχετε άδεια να προειδοποιήσετε αυτόν τον χρήστη.";
+$l['existing_post_warnings'] = "Υπάρχουσες Προειδοποιήσεις για αυτήν τη Δημοσίευση";

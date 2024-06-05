@@ -1,17 +1,17 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_sendthread'] = "Send Thread to a Friend";
+$l['nav_sendthread'] = "Αποστολή Θέματος σε Φίλο";
 
-$l['send_thread'] = "Send To Friend";
-$l['recipient'] = "Recipient:";
-$l['recipient_note'] = "Enter your friends email address here.";
-$l['subject'] = "Subject:";
-$l['message'] = "Message:";
-$l['error_nosubject'] = "You are required to enter a subject for the message to send your thread";
-$l['error_nomessage'] = "You are required to enter a message before you can send this thread to your friend";
+$l['send_thread'] = "Αποστολή σε Φίλο";
+$l['recipient'] = "Παραλήπτης:";
+$l['recipient_note'] = "Εισάγετε τη διεύθυνση email του φίλου σας εδώ.";
+$l['subject'] = "Θέμα:";
+$l['message'] = "Μήνυμα:";
+$l['error_nosubject'] = "Απαιτείται να εισάγετε ένα θέμα για το μήνυμα που θα στείλετε στο θέμα σας";
+$l['error_nomessage'] = "Απαιτείται να εισάγετε ένα μήνυμα πριν στείλετε αυτό το θέμα στον φίλο σας";
 

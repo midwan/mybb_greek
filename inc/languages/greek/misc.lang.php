@@ -1,82 +1,82 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_helpdocs'] = "Help Documents";
-$l['nav_smilies'] = "Smilie Listing";
-$l['nav_syndication'] = "Latest Thread Syndication (RSS)";
+$l['nav_helpdocs'] = "Έγγραφα Βοήθειας";
+$l['nav_smilies'] = "Λίστα Συμβολοσειρών";
+$l['nav_syndication'] = "Πιο πρόσφατη Συνδρομή Θέματος (RSS)";
 
-$l['buddy_list'] = "Buddy List";
-$l['online'] = "Online";
-$l['online_none'] = "<em>You have no online buddies</em>";
-$l['offline'] = "Offline";
-$l['offline_none'] = "<em>You have no offline buddies</em>";
-$l['delete_buddy'] = "X";
-$l['pm_buddy'] = "Send Private Message";
-$l['last_active'] = "<strong>Last Active:</strong> {1}";
-$l['close'] = "Close";
-$l['no_buddies'] = "<em>Your buddy list is currently empty. Use your User CP or visit a user profile to add users to your buddy list.</em>";
+$l['buddy_list'] = "Λίστα Φίλων";
+$l['online'] = "Συνδεδεμένος";
+$l['online_none'] = "<em>Δεν έχετε φίλους online</em>";
+$l['offline'] = "Αποσυνδεδεμένος";
+$l['offline_none'] = "<em>Δεν έχετε φίλους offline</em>";
+$l['delete_buddy'] = "Χ";
+$l['pm_buddy'] = "Αποστολή Προσωπικού Μηνύματος";
+$l['last_active'] = "<strong>Τελευταία Δραστηριότητα:</strong> {1}";
+$l['close'] = "Κλείσιμο";
+$l['no_buddies'] = "<em>Η λίστα φίλων σας είναι κενή. Χρησιμοποιήστε τον έλεγχο χρήστη σας ή επισκεφθείτε το προφίλ ενός χρήστη για να προσθέσετε χρήστες στη λίστα φίλων σας.</em>";
 
-$l['help_docs'] = "Help Documents";
+$l['help_docs'] = "Έγγραφα Βοήθειας";
 
-$l['search_help_documents'] = "Search Help Documents";
-$l['search_by_name'] = "Search by Name";
-$l['search_by_document'] = "Search by Document";
-$l['enter_keywords'] = "Enter Keywords";
-$l['search'] = "Search";
-$l['redirect_searchresults'] = "Thank you, your search has been submitted and you will now be taken to the results list.";
-$l['search_results'] = "Search Results";
-$l['help_doc_results'] = "Help Document Results";
-$l['document'] = "Document";
-$l['error_nosearchresults'] = "Sorry, but no results were returned using the query information you provided. Please redefine your search terms and try again.";
-$l['no_help_results'] = "Sorry, but no results were returned using the query information you provided.";
-$l['error_helpsearchdisabled'] = "The ability to search the help documents has been disabled by the Administrator.";
+$l['search_help_documents'] = "Αναζήτηση Έγγραφων Βοήθειας";
+$l['search_by_name'] = "Αναζήτηση με Όνομα";
+$l['search_by_document'] = "Αναζήτηση με Έγγραφο";
+$l['enter_keywords'] = "Εισαγωγή Λέξεων-Κλειδιών";
+$l['search'] = "Αναζήτηση";
+$l['redirect_searchresults'] = "Σας ευχαριστούμε, η αναζήτησή σας έχει υποβληθεί και θα μεταφερθείτε τώρα στη λίστα αποτελεσμάτων.";
+$l['search_results'] = "Αποτελέσματα Αναζήτησης";
+$l['help_doc_results'] = "Αποτελέσματα Έγγραφου Βοήθειας";
+$l['document'] = "Έγγραφο";
+$l['error_nosearchresults'] = "Λυπούμαστε, αλλά δεν επιστράφηκαν αποτελέσματα χρησιμοποιώντας τις πληροφορίες αναζήτησης που δώσατε. Παρακαλούμε επανακαθορίστε τους όρους αναζήτησης σας και προσπαθήστε ξανά.";
+$l['no_help_results'] = "Λυπούμαστε, αλλά δεν επιστράφηκαν αποτελέσματα χρησιμοποιώντας τις πληροφορίες αναζήτησης που δώσατε.";
+$l['error_helpsearchdisabled'] = "Η δυνατότητα αναζήτησης στα έγγραφα βοήθειας έχει απενεργοποιηθεί από τον Διαχειριστή.";
 
-$l['smilies_listing'] = "Smilies Listing";
-$l['name'] = "Name";
-$l['abbreviation'] = "Abbreviation";
-$l['click_to_add'] = "Click a smilie to insert it into your message";
-$l['close_window'] = "close window";
-$l['no_smilies'] = "There are currently no smilies available.";
+$l['smilies_listing'] = "Λίστα Συμβολοσειρών";
+$l['name'] = "Όνομα";
+$l['abbreviation'] = "Συντόμευση";
+$l['click_to_add'] = "Κάντε κλικ σε μια συμβολοσειρά για να την εισάγετε στο μήνυμά σας";
+$l['close_window'] = "κλείσιμο παραθύρου";
+$l['no_smilies'] = "Δεν υπάρχουν διαθέσιμες συμβολοσειρές αυτή τη στιγμή.";
 
-$l['who_posted'] = "Who Posted?";
-$l['total_posts'] = "Total Posts:";
-$l['user'] = "User";
-$l['num_posts'] = "# Posts";
+$l['who_posted'] = "Ποιος Δημοσίευσε;";
+$l['total_posts'] = "Συνολικές Δημοσιεύσεις:";
+$l['user'] = "Χρήστης";
+$l['num_posts'] = "# Δημοσιεύσεις";
 
-$l['forum_rules'] = "{1} - Rules";
+$l['forum_rules'] = "{1} - Κανόνες";
 
-$l['error_invalid_limit'] = "The feed item limit you entered is invalid. Please specify a valid limit.";
+$l['error_invalid_limit'] = "Ο περιορισμός των αντικειμένων τροφοδοσίας που εισαγάγατε δεν είναι έγκυρος. Παρακαλώ καθορίστε έναν έγκυρο περιορισμό.";
 
-$l['syndication'] = "Latest Thread Syndication";
-$l['syndication_generated_url'] = "Your Generated Syndication URL:";
-$l['syndication_note'] = "Below you can generate links to specific RSS syndication feeds. Links can be generated for all forums, per forum, or for a specific number of forums. You will then be presented with a link which you can copy in to an RSS reader. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">What is RSS?</a></i>";
-$l['syndication_forum'] = "Forum to Syndicate:";
-$l['syndication_forum_desc'] = "Please select a forum from the right. Use the CTRL key to select multiple forums.";
-$l['syndication_version'] = "Feed Version:";
-$l['syndication_version_desc'] = "Please select the version of the feeds you wish to generate.";
+$l['syndication'] = "Πιο πρόσφατη Συνδρομή Θέματος (RSS)";
+$l['syndication_generated_url'] = "Το URL Συνδρομής που δημιουργήθηκε για εσάς:";
+$l['syndication_note'] = "Παρακάτω μπορείτε να δημιουργήσετε συνδέσμους για συγκεκριμένες τροφοδοσίες RSS συνδρομής. Οι σύνδεσμοι μπορούν να δημιουργηθούν για όλα τα φόρουμ, ανά φόρουμ ή για έναν συγκεκριμένο αριθμό φόρουμ. Στη συνέχεια θα σας παρουσιαστεί ένας σύνδεσμος που μπορείτε να αντιγράψετε σε έναν αναγνώστη RSS. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">Τι είναι το RSS;</a></i>";
+$l['syndication_forum'] = "Φόρουμ για Συνδρομή:";
+$l['syndication_forum_desc'] = "Παρακαλώ επιλέξτε ένα φόρουμ από τα δεξιά. Χρησιμοποιήστε το πλήκτρο CTRL για να επιλέξετε πολλά φόρουμ.";
+$l['syndication_version'] = "Έκδοση Τροφοδοσίας:";
+$l['syndication_version_desc'] = "Παρακαλώ επιλέξτε την έκδοση των τροφοδοσιών που θέλετε να δημιουργήσετε.";
 $l['syndication_version_json1'] = "JSON Feed 1";
 $l['syndication_version_atom1'] = "Atom 1.0";
-$l['syndication_version_rss2'] = "RSS 2.00 (Default)";
-$l['syndication_generate'] = "Generate Syndication URL";
-$l['syndication_limit'] = "Limit:";
-$l['syndication_limit_desc'] = "The amount of threads to download at one time. 50 at once is maximum limit.";
-$l['syndication_threads_time'] = "threads at a time";
-$l['syndicate_all_forums'] = "Syndicate All Forums";
+$l['syndication_version_rss2'] = "RSS 2.00 (Προεπιλογή)";
+$l['syndication_generate'] = "Δημιουργία URL Συνδρομής";
+$l['syndication_limit'] = "Περιορισμός:";
+$l['syndication_limit_desc'] = "Ο αριθμός των θεμάτων που θα κατεβάσετε κάθε φορά. Ο μέγιστος περιορισμός είναι 50 ταυτόχρονα.";
+$l['syndication_threads_time'] = "θέματα ταυτόχρονα";
+$l['syndicate_all_forums'] = "Συνδρομή σε Όλα τα Φόρουμ";
 
-$l['redirect_markforumread'] = "The selected forum has been marked as read.";
-$l['redirect_markforumsread'] = "All the forums have been marked as read.";
-$l['redirect_forumpasscleared'] = "The stored password for this forum has been cleared.";
-$l['redirect_cookiescleared'] = "All cookies have been cleared.";
+$l['redirect_markforumread'] = "Το επιλεγμένο φόρουμ έχει επισημανθεί ως αναγνωσμένο.";
+$l['redirect_markforumsread'] = "Όλα τα φόρουμ έχουν επισημανθεί ως αναγνωσμένα.";
+$l['redirect_forumpasscleared'] = "Ο αποθηκευμένος κωδικός πρόσβασης για αυτό το φόρουμ έχει διαγραφεί.";
+$l['redirect_cookiescleared'] = "Όλα τα cookies έχουν διαγραφεί.";
 
-$l['error_invalidforum'] = "Invalid forum";
-$l['error_invalidhelpdoc'] = "The specified help document does not appear to exist.";
-$l['error_invalidsearch'] = "An invalid search was specified.  Please go back and try again.";
-$l['error_no_search_support'] = "This database engine does not support searching.";
-$l['error_searchflooding'] = "Sorry, but you can only perform one search every {1} seconds. Please wait another {2} seconds before attempting to search again.";
-$l['error_searchflooding_1'] = "Sorry, but you can only perform one search every {1} seconds. Please wait another 1 second before attempting to search again.";
+$l['error_invalidforum'] = "Μη έγκυρο φόρουμ";
+$l['error_invalidhelpdoc'] = "Το καθορισμένο έγγραφο βοήθειας δεν φαίνεται να υπάρχει.";
+$l['error_invalidsearch'] = "Καθορίστηκε μια μη έγκυρη αναζήτηση. Παρακαλώ επιστρέψτε πίσω και προσπαθήστε ξανά.";
+$l['error_no_search_support'] = "Αυτή η μηχανή βάσης δεδομένων δεν υποστηρίζει αναζήτηση.";
+$l['error_searchflooding'] = "Λυπούμαστε, αλλά μπορείτε να πραγματοποιήσετε μόνο μία αναζήτηση κάθε {1} δευτερόλεπτα. Παρακαλώ περιμένετε άλλα {2} δευτερόλεπτα πριν προσπαθήσετε να αναζητήσετε ξανά.";
+$l['error_searchflooding_1'] = "Λυπούμαστε, αλλά μπορείτε να πραγματοποιήσετε μόνο μία αναζήτηση κάθε {1} δευτερόλεπτα. Παρακαλώ περιμένετε άλλο 1 δευτερόλεπτο πριν προσπαθήσετε να αναζητήσετε ξανά.";
 
-$l['dst_settings_updated'] = "Your daylight saving time settings have automatically been adjusted.<br /><br />You will now be taken back to the forum index.";
+$l['dst_settings_updated'] = "Οι ρυθμίσεις της θερινής ώρας έχουν ενημερωθεί αυτόματα.<br /><br />Θα μεταφερθείτε τώρα πίσω στον κατάλογο του φόρουμ.";

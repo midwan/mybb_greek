@@ -1,54 +1,53 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_newthread'] = "New Thread";
-$l['newthread_in'] = "New Thread in {1}";
-$l['post_new_thread'] = "Post a new Thread";
-$l['thread_subject'] = "Thread Subject:";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<b>Signature:</b> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<b>Email Notification:</b> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<b>Disable Smilies:</b> disable smilies from showing in this post.";
-$l['post_thread'] = "Post Thread";
-$l['preview_post'] = "Preview Post";
-$l['poll'] = "Poll:";
-$l['poll_desc'] = "Optionally you may attach a poll to this thread.";
-$l['poll_check'] = "I want to post a poll";
-$l['num_options'] = "Number of options:";
-$l['max_options'] = "(Maximum: {1})";
-$l['mod_options'] = "Moderator Options:";
-$l['close_thread'] = "<b>Close Thread</b>: prevent further posting in this thread.";
-$l['stick_thread'] = "<b>Stick Thread:</b> stick this thread to the top of the forum.";
-$l['draft_saved'] = "The new thread has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['error_post_already_submitted'] = "You have already posted this thread in this forum. Please visit the forum to see your thread.";
-$l['no_prefix'] = "No Prefix";
-$l['forum_rules'] = "{1} - Rules";
+$l['nav_newthread'] = "Νέο Θέμα";
+$l['newthread_in'] = "Νέο Θέμα στο {1}";
+$l['post_new_thread'] = "Δημοσίευση νέου Θέματος";
+$l['thread_subject'] = "Θέμα Θέματος:";
+$l['your_message'] = "Το Μήνυμά σας:";
+$l['post_options'] = "Επιλογές Δημοσίευσης:";
+$l['options_sig'] = "<b>Υπογραφή:</b> συμπερίληψη της υπογραφής σας. (μόνο για εγγεγραμμένους χρήστες)";
+$l['options_emailnotify'] = "<b>Ειδοποίηση μέσω Email:</b> λήψη email κάθε φορά που υπάρχει νέα απάντηση. (μόνο για εγγεγραμμένους χρήστες)";
+$l['options_disablesmilies'] = "<b>Απενεργοποίηση Smilies:</b> απενεργοποίηση των smilies από την εμφάνιση σε αυτήν τη δημοσίευση.";
+$l['post_thread'] = "Δημοσίευση Θέματος";
+$l['preview_post'] = "Προεπισκόπηση Δημοσίευσης";
+$l['poll'] = "Ψηφοφορία:";
+$l['poll_desc'] = "Προαιρετικά μπορείτε να προσθέσετε μια ψηφοφορία σε αυτό το θέμα.";
+$l['poll_check'] = "Θέλω να δημοσιεύσω μια ψηφοφορία";
+$l['num_options'] = "Αριθμός επιλογών:";
+$l['max_options'] = "(Μέγιστο: {1})";
+$l['mod_options'] = "Επιλογές Διαχειριστή:";
+$l['close_thread'] = "<b>Κλείδωμα Θέματος</b>: αποτροπή περαιτέρω δημοσίευσης σε αυτό το θέμα.";
+$l['stick_thread'] = "<b>Καρφίτσωμα Θέματος:</b> καρφιτσώστε αυτό το θέμα στην κορυφή του φόρουμ.";
+$l['draft_saved'] = "Το νέο θέμα αποθηκεύτηκε με επιτυχία ως πρόχειρο.<br />Θα μεταφερθείτε τώρα στη λίστα των προχείρων σας.";
+$l['error_post_already_submitted'] = "Έχετε ήδη δημοσιεύσει αυτό το θέμα σε αυτό το φόρουμ. Παρακαλώ επισκεφθείτε το φόρουμ για να δείτε το θέμα σας.";
+$l['no_prefix'] = "Χωρίς Πρόθεμα";
+$l['forum_rules'] = "{1} - Κανόνες";
 
-$l['multiquote_external_one'] = "You have selected one post from another thread.";
-$l['multiquote_external'] = "You have selected {1} posts from other threads.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['multiquote_external_one'] = "Έχετε επιλέξει ένα μήνυμα από άλλο θέμα.";
+$l['multiquote_external'] = "Έχετε επιλέξει {1} μηνύματα από άλλα θέματα.";
+$l['multiquote_external_one_deselect'] = "αποεπιλέξτε αυτό το μήνυμα";
+$l['multiquote_external_deselect'] = "αποεπιλέξτε αυτά τα μηνύματα";
+$l['multiquote_external_one_quote'] = "Παράθεση αυτού του μηνύματος επίσης";
+$l['multiquote_external_quote'] = "Παράθεση αυτών των μηνυμάτων επίσης";
 
-$l['redirect_newthread'] = "Thank you, your thread has been posted.";
-$l['redirect_newthread_poll'] = "<br />You will now be taken to the poll options and configuration page.";
-$l['redirect_newthread_moderation'] = "<br />The administrator has specified that all new threads require moderation. You will now be returned to the thread listing.";
-$l['redirect_newthread_unviewable'] = "<br />You do not have permission to view threads in this forum. You will now be returned to the forum.";
-$l['redirect_newthread_thread'] = "<br />You will now be taken to the new thread.";
-$l['invalidthread'] = "The specified draft does not exist or you don't have permission to view it.";
+$l['redirect_newthread'] = "Σας ευχαριστούμε, το θέμα σας έχει δημοσιευθεί.";
+$l['redirect_newthread_poll'] = "<br />Θα μεταφερθείτε τώρα στις επιλογές και τη διαμόρφωση της ψηφοφορίας.";
+$l['redirect_newthread_moderation'] = "<br />Ο διαχειριστής έχει καθορίσει ότι όλα τα νέα θέματα απαιτούν επιθεώρηση. Θα μεταφερθείτε τώρα στη λίστα των θεμάτων.";
+$l['redirect_newthread_unviewable'] = "<br />Δεν έχετε άδεια να προβάλετε θέματα σε αυτό το φόρουμ. Θα μεταφερθείτε τώρα στο φόρουμ.";
+$l['redirect_newthread_thread'] = "<br />Θα μεταφερθείτε τώρα στο νέο θέμα.";
+$l['invalidthread'] = "Το καθορισμένο πρόχειρο δεν υπάρχει ή δεν έχετε άδεια να το δείτε.";
 
-$l['error_stop_forum_spam_spammer'] = 'Sorry, your {1} matches that of a known spammer. If you feel this is a mistake, please contact an administrator';
-$l['error_stop_forum_spam_fetching'] = 'Sorry, something went wrong verifying your thread against a spammer database. Most likely the database couldn\'t be accessed. Please try again later.';
+$l['error_stop_forum_spam_spammer'] = 'Λυπούμαστε, το {1} σας ταιριάζει με αυτό ενός γνωστού ανεπιθύμητου αποστολέα. Εάν πιστεύετε ότι αυτό είναι ένα λάθος, παρακαλούμε επικοινωνήστε με έναν διαχειριστή';
+$l['error_stop_forum_spam_fetching'] = 'Λυπούμαστε, κάτι πήγε στραβά κατά την επαλήθευση του θέματός σας έναντι μιας βάσης δεδομένων ανεπιθύμητων αποστολέων. Πιθανότατα η βάση δεδομένων δεν ήταν προσβάσιμη. Παρακαλούμε δοκιμάστε ξανά αργότερα.';
 
-$l['error_suspendedposting'] = "Your posting privileges are currently suspended {1}.<br /><br />
+$l['error_suspendedposting'] = "Οι δυνατότητες δημοσίευσής σας είναι προσωρινά ανενεργές {1}.<br /><br />
 
-Suspension Date: {2}";
-$l['error_suspendedposting_temporal'] = "until {1}";
-$l['error_suspendedposting_permanent'] = "permanently";
-
+Ημερομηνία Αναστολής: {2}";
+$l['error_suspendedposting_temporal'] = "μέχρι {1}";
+$l['error_suspendedposting_permanent'] = "μόνιμα";

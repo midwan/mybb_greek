@@ -1,26 +1,26 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_showteam'] = "Forum Team";
-$l['forum_team'] = "Forum Team";
-$l['moderators'] = "Moderators";
-$l['username'] = "Username";
-$l['lastvisit'] = "Last Visit";
+$l['nav_showteam'] = "Ομάδα Φόρουμ";
+$l['forum_team'] = "Ομάδα Φόρουμ";
+$l['moderators'] = "Διαχειριστές";
+$l['username'] = "Όνομα χρήστη";
+$l['lastvisit'] = "Τελευταία επίσκεψη";
 $l['email'] = "Email";
-$l['pm'] = "PM";
-$l['mod_forums'] = "Forum(s)";
-$l['mod_groups'] = "Group(s)";
-$l['online'] = "Online";
-$l['offline'] = "Offline";
-$l['away'] = "Away";
+$l['pm'] = "ΠΜ";
+$l['mod_forums'] = "Φόρουμ(ς)";
+$l['mod_groups'] = "Ομάδα(ς)";
+$l['online'] = "Συνδεδεμένος";
+$l['offline'] = "Αποσυνδεδεμένος";
+$l['away'] = "Μακριά";
 
-$l['group_leaders'] = "Group Leaders";
-$l['group_members'] = "Member(s)";
+$l['group_leaders'] = "Ηγέτες Ομάδας";
+$l['group_members'] = "Μέλος(α)";
 
-$l['no_members'] = "No members in this group";
-$l['showteam_disabled'] = "The forum team listing functionality has been disabled by the Administrator.";
-$l['error_noteamstoshow'] = "There are no forum staff to be shown.";
+$l['no_members'] = "Δεν υπάρχουν μέλη σε αυτήν την ομάδα";
+$l['showteam_disabled'] = "Η λειτουργία εμφάνισης της ομάδας του φόρουμ έχει απενεργοποιηθεί από τον Διαχειριστή.";
+$l['error_noteamstoshow'] = "Δεν υπάρχουν μέλη της ομάδας του φόρουμ προς εμφάνιση.";
