@@ -1,64 +1,64 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_group_management'] = "{1} Group Management";
-$l['nav_join_requests'] = "Join Requests";
-$l['nav_group_memberships'] = "Group Memberships";
+$l['nav_group_management'] = "{1} Διαχείριση Ομάδας";
+$l['nav_join_requests'] = "Αιτήσεις Εγγραφής";
+$l['nav_group_memberships'] = "Μέλη Ομάδας";
 
-$l['not_leader_of_this_group'] = "Sorry, but you are not a leader of this user group.";
-$l['invalid_group'] = "This user group does not exist.";
-$l['pending_requests'] = "Pending Join Requests";
-$l['num_requests_pending'] = "There are currently <strong>{1}</strong> pending join requests for this user group.";
-$l['group_management'] = "Group Management";
-$l['members_of'] = "Members in \"{1}\"";
-$l['user_name'] = "Username";
-$l['contact'] = "Contact";
-$l['reg_date'] = "Registered";
-$l['post_count'] = "Posts";
-$l['remove_selected'] = "Remove Selected Users from Group";
-$l['add_member'] = "Add Member to \"{1}\"";
-$l['add_member_submit'] = "Add Member to Group";
-$l['invite_member'] = "Invite Member to \"{1}\"";
-$l['invite_member_submit'] = "Invite Member to Group";
-$l['join_requests'] = "Join Requests";
-$l['join_requests_title'] = "Join Requests for \"{1}\"";
-$l['leader'] = "(Leader)";
-$l['reason'] = "Reason";
-$l['accept'] = "Accept";
-$l['ignore'] = "Ignore";
-$l['decline'] = "Decline";
-$l['action_requests'] = "Perform Actions";
-$l['join_requests_moderated'] = "The join requests have been moderated.<br />You will now be taken to the request listing.";
-$l['no_requests'] = "There are currently no pending join requests for this group.";
-$l['no_users'] = "There are no users in this group.";
-$l['user_added'] = "The user has been added to the user group.";
-$l['users_removed'] = "The selected users have been removed from the user group.";
-$l['group_no_members'] = "There are currently no members in this group.<br />To return to the group management page, click <a href=\"usercp.php?action=usergroups\">here</a>.";
-$l['group_public_moderated'] = "This user group is a public user group that anyone can join.  All join requests must be moderated by a group leader.";
-$l['group_public_not_moderated'] = "This user group is a public user group that anyone can join freely.";
-$l['group_public_invite'] = "This user group is a public user group that requires an invitation from a group leader in order to join.";
-$l['group_private'] = "This user group is a private user group.  Only users added by the group leader can be part of this group.";
-$l['group_default'] = "This user group is a core user group.";
-$l['group_leaders'] = "Group Leaders";
-$l['no_users_selected'] = "Sorry, but no users seemed to be selected for removal.<br />Please go back and select the users you want to remove from this group.";
+$l['not_leader_of_this_group'] = "Λυπούμαστε, αλλά δεν είστε ηγέτης αυτής της ομάδας χρηστών.";
+$l['invalid_group'] = "Αυτή η ομάδα χρηστών δεν υπάρχει.";
+$l['pending_requests'] = "Εκκρεμείς Αιτήσεις Εγγραφής";
+$l['num_requests_pending'] = "Υπάρχουν αυτή τη στιγμή <strong>{1}</strong> εκκρεμείς αιτήσεις εγγραφής για αυτή την ομάδα χρηστών.";
+$l['group_management'] = "Διαχείριση Ομάδας";
+$l['members_of'] = "Μέλη στην \"{1}\"";
+$l['user_name'] = "Όνομα χρήστη";
+$l['contact'] = "Επικοινωνία";
+$l['reg_date'] = "Εγγραφή";
+$l['post_count'] = "Δημοσιεύσεις";
+$l['remove_selected'] = "Αφαίρεση Επιλεγμένων Χρηστών από την Ομάδα";
+$l['add_member'] = "Προσθήκη Μέλους στην \"{1}\"";
+$l['add_member_submit'] = "Προσθήκη Μέλους στην Ομάδα";
+$l['invite_member'] = "Πρόσκληση Μέλους στην \"{1}\"";
+$l['invite_member_submit'] = "Πρόσκληση Μέλους στην Ομάδα";
+$l['join_requests'] = "Αιτήσεις Εγγραφής";
+$l['join_requests_title'] = "Αιτήσεις Εγγραφής για την \"{1}\"";
+$l['leader'] = "(Ηγέτης)";
+$l['reason'] = "Αιτιολογία";
+$l['accept'] = "Αποδοχή";
+$l['ignore'] = "Αγνόηση";
+$l['decline'] = "Απόρριψη";
+$l['action_requests'] = "Εκτέλεση Ενεργειών";
+$l['join_requests_moderated'] = "Οι αιτήσεις εγγραφής έχουν υποβληθεί σε έλεγχο.<br />Θα μεταφερθείτε τώρα στη λίστα των αιτήσεων.";
+$l['no_requests'] = "Δεν υπάρχουν εκκρεμείς αιτήσεις εγγραφής για αυτή την ομάδα.";
+$l['no_users'] = "Δεν υπάρχουν χρήστες σε αυτή την ομάδα.";
+$l['user_added'] = "Ο χρήστης προστέθηκε στην ομάδα χρηστών.";
+$l['users_removed'] = "Οι επιλεγμένοι χρήστες αφαιρέθηκαν από την ομάδα χρηστών.";
+$l['group_no_members'] = "Δεν υπάρχουν αυτή τη στιγμή μέλη σε αυτή την ομάδα.<br />Για να επιστρέψετε στη σελίδα διαχείρισης ομάδας, κάντε κλικ <a href=\"usercp.php?action=usergroups\">εδώ</a>.";
+$l['group_public_moderated'] = "Αυτή η ομάδα χρηστών είναι μια δημόσια ομάδα χρηστών στην οποία μπορεί να εγγραφεί οποιοσδήποτε. Όλες οι αιτήσεις εγγραφής πρέπει να υποβληθούν σε έλεγχο από έναν ηγέτη ομάδας.";
+$l['group_public_not_moderated'] = "Αυτή η ομάδα χρηστών είναι μια δημόσια ομάδα χρηστών στην οποία μπορεί να εγγραφεί οποιοσδήποτε ελεύθερα.";
+$l['group_public_invite'] = "Αυτή η ομάδα χρηστών είναι μια δημόσια ομάδα χρηστών που απαιτεί πρόσκληση από έναν ηγέτη ομάδας για να γίνει κάποιος μέλος.";
+$l['group_private'] = "Αυτή η ομάδα χρηστών είναι μια ιδιωτική ομάδα χρηστών. Μόνο οι χρήστες που προστέθηκαν από τον ηγέτη της ομάδας μπορούν να είναι μέλη αυτής της ομάδας.";
+$l['group_default'] = "Αυτή η ομάδα χρηστών είναι μια προεπιλεγμένη ομάδα χρηστών.";
+$l['group_leaders'] = "Ηγέτες Ομάδας";
+$l['no_users_selected'] = "Λυπούμαστε, αλλά δεν φαίνεται να έχουν επιλεγεί χρήστες για αφαίρεση.<br />Παρακαλούμε επιστρέψτε πίσω και επιλέξτε τους χρήστες που θέλετε να αφαιρέσετε από αυτή την ομάδα.";
 
-$l['error_alreadyingroup'] = "The user specified is already part of the user group.";
-$l['error_alreadyinvited'] = "The user specified has already been invited.";
+$l['error_alreadyingroup'] = "Ο καθορισμένος χρήστης είναι ήδη μέλος της ομάδας χρηστών.";
+$l['error_alreadyinvited'] = "Ο καθορισμένος χρήστης έχει ήδη προσκληθεί.";
 
-$l['user_invited'] = "The user has been invited to join the user group.";
-$l['invite_pm_subject'] = "You have been invited to join \"{1}\"";
-$l['invite_pm_message'] = "You have received an invitation to join the user group \"{1}\".
+$l['user_invited'] = "Ο χρήστης έχει προσκληθεί να γίνει μέλος της ομάδας χρηστών.";
+$l['invite_pm_subject'] = "Έχετε προσκληθεί να γίνετε μέλος της \"{1}\"";
+$l['invite_pm_message'] = "Έχετε λάβει μια πρόσκληση να γίνετε μέλος της ομάδας χρηστών \"{1}\".
 
-To join, please proceed to your [url={2}/usercp.php?action=usergroups]Group Memberships[/url] page and click 'Accept Invite'.
+Για να γίνετε μέλος, παρακαλούμε προχωρήστε στη σελίδα [url={2}/usercp.php?action=usergroups]Μέλη Ομάδας[/url] και κάντε κλικ στο 'Αποδοχή Πρόσκλησης'.
 
-This invitation does not expire.";
-$l['invite_pm_message_expires'] = "You have received an invitation to join the user group \"{1}\".
+Αυτή η πρόσκληση δεν λήγει.";
+$l['invite_pm_message_expires'] = "Έχετε λάβει μια πρόσκληση να γίνετε μέλος της ομάδας χρηστών \"{1}\".
 
-To join, please proceed to your [url={2}/usercp.php?action=usergroups]Group Memberships[/url] page and click 'Accept Invite'.
+Για να γίνετε μέλος, παρακαλούμε προχωρήστε στη σελίδα [url={2}/usercp.php?action=usergroups]Μέλη Ομάδας[/url] και κάντε κλικ στο 'Αποδοχή Πρόσκλησης'.
 
-This invite will expire {3} days from now.";
+Αυτή η πρόσκληση θα λήξει σε {3} ημέρες από τώρα.";
 
