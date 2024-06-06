@@ -1,50 +1,49 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['awaiting_activation'] = "Awaiting Activation";
-$l['awaiting_activation_desc'] = "Here you can manage users who are awaiting activation. Please note any user who is awaiting email activation will not need to confirm their email if they are activated here.";
+$l['awaiting_activation'] = "Αναμονή Ενεργοποίησης";
+$l['awaiting_activation_desc'] = "Εδώ μπορείτε να διαχειριστείτε χρήστες που αναμένουν ενεργοποίηση. Παρακαλούμε σημειώστε ότι οποιοσδήποτε χρήστης περιμένει ενεργοποίηση μέσω email δεν θα χρειαστεί να επιβεβαιώσει το email του αν ενεργοποιηθεί εδώ.";
 
-$l['manage_awaiting_activation'] = "Manage Awaiting Activation";
+$l['manage_awaiting_activation'] = "Διαχείριση Αναμονής Ενεργοποίησης";
 
-$l['no_users_awaiting_activation'] = "There are currently no users awaiting activation.";
+$l['no_users_awaiting_activation'] = "Δεν υπάρχουν αυτή τη στιγμή χρήστες που αναμένουν ενεργοποίηση.";
 
-$l['username'] = "Username";
-$l['registered'] = "Registered";
-$l['last_active'] = "Last Active";
+$l['username'] = "Όνομα χρήστη";
+$l['registered'] = "Εγγεγραμμένος";
+$l['last_active'] = "Τελευταία Δραστηριότητα";
 $l['email'] = "Email";
-$l['ipaddress'] = "IP Address";
-$l['type'] = "Type";
+$l['ipaddress'] = "Διεύθυνση IP";
+$l['type'] = "Τύπος";
 
-$l['email_activation'] = "Awaiting Email Activation";
-$l['administrator_activation'] = "Awaiting Administrator Activation";
-$l['admin_activation_coppa'] = "Awaiting Administrator Activation (COPPA)";
+$l['email_activation'] = "Αναμονή Ενεργοποίησης μέσω Email";
+$l['administrator_activation'] = "Αναμονή Ενεργοποίησης από Διαχειριστή";
+$l['admin_activation_coppa'] = "Αναμονή Ενεργοποίησης από Διαχειριστή (COPPA)";
 
-$l['activate_users'] = "Activate Users";
-$l['delete_users'] = "Delete Users";
+$l['activate_users'] = "Ενεργοποίηση Χρηστών";
+$l['delete_users'] = "Διαγραφή Χρηστών";
 
-$l['confirm_activate_users'] = "Are you sure you want to activate the selected users?";
-$l['confirm_delete_users'] = "Are you sure you want to delete the selected users?";
+$l['confirm_activate_users'] = "Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε τους επιλεγμένους χρήστες;";
+$l['confirm_delete_users'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε τους επιλεγμένους χρήστες;";
 
-$l['no_users_selected'] = "You did not select any users.";
+$l['no_users_selected'] = "Δεν επιλέξατε κανέναν χρήστη.";
 
-$l['success_users_deleted'] = "The selected user(s) have been deleted.";
-$l['success_users_activated'] = "The selected user(s) have been activated.";
+$l['success_users_deleted'] = "Οι επιλεγμένοι χρήστες έχουν διαγραφεί.";
+$l['success_users_activated'] = "Οι επιλεγμένοι χρήστες έχουν ενεργοποιηθεί.";
 
-$l['emailsubject_activateaccount'] = "Account Activation at {1}";
+$l['emailsubject_activateaccount'] = "Ενεργοποίηση Λογαριασμού στο {1}";
 $l['email_adminactivateaccount'] = "{1},
 
-The administrator has activated your forum account on {2}.
+Ο διαχειριστής έχει ενεργοποιήσει τον λογαριασμό σας στο φόρουμ {2}.
 
-To proceed, please go to
+Για να προχωρήσετε, παρακαλούμε πηγαίνετε στη διεύθυνση
 
 {3}
 
-You will be able to login with the credentials you registered with.
+Θα μπορείτε να συνδεθείτε με τα στοιχεία που είχατε εγγραφεί.
 
-Thank you,
-{2} Staff";
-
+Ευχαριστούμε,
+Προσωπικό {2}";
