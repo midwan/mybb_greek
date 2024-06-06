@@ -1,10 +1,10 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['php_info'] = "PHP Info";
-$l['browser_no_iframe_support'] = "Your browser does not support iFrames.";
+$l['php_info'] = "Πληροφορίες PHP";
+$l['browser_no_iframe_support'] = "Ο περιηγητής σας δεν υποστηρίζει iFrames.";
 
