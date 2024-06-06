@@ -1,14 +1,14 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['today_rel'] = "<span title=\"{1}\">Today</span>";
-$l['yesterday_rel'] = "<span title=\"{1}\">Yesterday</span>";
-$l['today'] = "Today";
-$l['yesterday'] = "Yesterday";
+$l['today_rel'] = "<span title=\"{1}\">Σήμερα</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Χθες</span>";
+$l['today'] = "Σήμερα";
+$l['yesterday'] = "Χθες";
 
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
@@ -22,284 +22,283 @@ $l['size_bytes'] = "bytes";
 $l['na'] = "N/A";
 
 // Header language strings
-$l['mybb_admin_panel'] = "MyBB Control Panel";
-$l['mybb_admin_cp'] = "MyBB Admin CP";
-$l['logged_in_as'] = "Logged in as";
-$l['view_board'] = "View Forum";
-$l['logout'] = "Log Out";
+$l['mybb_admin_panel'] = "Πίνακας Ελέγχου MyBB";
+$l['mybb_admin_cp'] = "Διαχείριση MyBB";
+$l['logged_in_as'] = "Συνδεδεμένος ως";
+$l['view_board'] = "Προβολή Φόρουμ";
+$l['logout'] = "Αποσύνδεση";
 
 // Footer language strings
-$l['generated_in'] = "Generated in {1} with <a href=\"{2}\" target=\"_blank\">{3} queries</a>. Memory Usage: {4}";
+$l['generated_in'] = "Δημιουργήθηκε σε {1} με <a href=\"{2}\" target=\"_blank\">{3} ερωτήματα</a>. Χρήση Μνήμης: {4}";
 
 // Login page
-$l['enter_username_and_password'] = "Please enter your {1} and password to continue.";
-$l['login_username'] = 'username';
+$l['enter_username_and_password'] = "Παρακαλώ εισάγετε το {1} και τον κωδικό πρόσβασής σας για να συνεχίσετε.";
+$l['login_username'] = 'όνομα χρήστη';
 $l['login_email'] = 'email';
-$l['login_username_and_password'] = 'username/email';
-$l['mybb_admin_login'] = "MyBB Control Panel - Login";
-$l['return_to_forum'] = "Return to forum";
-$l['please_login'] = "Please Login";
-$l['username'] = "Username:";
+$l['login_username_and_password'] = 'όνομα χρήστη/email';
+$l['mybb_admin_login'] = "Πίνακας Ελέγχου MyBB - Σύνδεση";
+$l['return_to_forum'] = "Επιστροφή στο φόρουμ";
+$l['please_login'] = "Παρακαλώ Συνδεθείτε";
+$l['username'] = "Όνομα Χρήστη:";
 $l['username1'] = "Email:";
-$l['username2'] = "Username/Email:";
-$l['password'] = "Password:";
-$l['secret_pin'] = "Secret PIN:";
-$l['login'] = "Login";
-$l['lost_password'] = "Forgot your password?";
+$l['username2'] = "Όνομα Χρήστη/Email:";
+$l['password'] = "Κωδικός Πρόσβασης:";
+$l['secret_pin'] = "Μυστικός Κωδικός:";
+$l['login'] = "Σύνδεση";
+$l['lost_password'] = "Ξεχάσατε τον κωδικό σας;";
 
-$l['error_invalid_admin_session'] = "Invalid administration session.";
-$l['error_admin_session_expired'] = "Your administration session has expired.";
-$l['error_invalid_ip'] = "Your IP address is not valid for this session.";
-$l['error_mybb_admin_lockedout'] = "This account has been locked out.";
-$l['error_mybb_admin_lockedout_message'] = "Your account is currently locked out after failing to login {1} times. You have been sent an email with instructions on how to unlock your account.";
-$l['error_mybb_not_admin_account'] = "You do not have permission to access the administration control panel.";
+$l['error_invalid_admin_session'] = "Μη έγκυρη συνεδρία διαχειριστή.";
+$l['error_admin_session_expired'] = "Η συνεδρία διαχειριστή έχει λήξει.";
+$l['error_invalid_ip'] = "Η IP διεύθυνσή σας δεν είναι έγκυρη για αυτήν τη συνεδρία.";
+$l['error_mybb_admin_lockedout'] = "Αυτός ο λογαριασμός έχει κλειδωθεί.";
+$l['error_mybb_admin_lockedout_message'] = "Ο λογαριασμός σας έχει κλειδωθεί μετά από {1} αποτυχημένες προσπάθειες σύνδεσης. Σας έχει σταλεί ένα email με οδηγίες για το πώς να ξεκλειδώσετε τον λογαριασμό σας.";
+$l['error_mybb_not_admin_account'] = "Δεν έχετε δικαιώματα πρόσβασης στον πίνακα ελέγχου διαχείρισης.";
 
-$l['error_invalid_username'] = "The username you entered is invalid.";
-$l['error_invalid_uid'] = "The user id you entered is invalid.";
-$l['error_invalid_token'] = "The activation code you entered is invalid.";
-
-$l['success_logged_out'] = "You have been logged out successfully.";
-$l['error_invalid_username_password'] = "The {1} and password combination you entered is invalid.";
+$l['error_invalid_username'] = "Το όνομα χρήστη που εισάγατε δεν είναι έγκυρο.";
+$l['error_invalid_uid'] = "Ο αριθμός χρήστη που εισάγατε δεν είναι έγκυρος.";
+$l['error_invalid_token'] = "Ο κωδικός ενεργοποίησης που εισάγατε δεν είναι έγκυρος.";
+$l['success_logged_out'] = "Αποσυνδεθήκατε επιτυχώς.";
+$l['error_invalid_username_password'] = "Ο συνδυασμός {1} και κωδικού πρόσβασης που εισάγατε δεν είναι έγκυρος.";
 
 // Action Confirmation
-$l['confirm_action'] = "Are you sure you wish to perform this action?";
+$l['confirm_action'] = "Είστε βέβαιοι ότι θέλετε να εκτελέσετε αυτήν την ενέργεια;";
 
 // Common words and phrases
-$l['home'] = "Home";
-$l['name'] = "Name";
-$l['size'] = "Size";
-$l['controls'] = "Controls";
-$l['view'] = "View";
-$l['yes'] = "Yes";
-$l['no'] = "No";
-$l['cancel'] = "Cancel";
-$l['options'] = "Options";
-$l['proceed'] = "Proceed";
-$l['ok'] = "OK";
-$l['error'] = "Error";
-$l['edit'] = "Edit";
-$l['never'] = "Never";
-$l['legend'] = "Legend";
-$l['version'] = "Version";
-$l['languagevar'] = "Language";
-$l['use_default'] = "Use Default";
-$l['file'] = "File";
-$l['go'] = "Go";
-$l['clear'] = "Clear";
-$l['unknown'] = "Unknown";
-$l['year'] = "Year";
-$l['year_short'] = "y";
-$l['years'] = "Years";
-$l['years_short'] = "y";
-$l['month'] = "Month";
-$l['month_short'] = "m";
-$l['months'] = "Months";
-$l['months_short'] = "m";
-$l['week'] = "Week";
-$l['week_short'] = "w";
-$l['weeks'] = "Weeks";
-$l['weeks_short'] = "w";
-$l['day'] = "Day";
-$l['day_short'] = "d";
-$l['days'] = "Days";
-$l['days_short'] = "d";
-$l['hour'] = "Hour";
-$l['hour_short'] = "h";
-$l['hours'] = "Hours";
-$l['hours_short'] = "h";
-$l['minute'] = "Minute";
-$l['minute_short'] = "m";
-$l['minutes'] = "Minutes";
-$l['minutes_short'] = "m";
-$l['second'] = "Second";
-$l['second_short'] = "s";
-$l['seconds'] = "Seconds";
-$l['seconds_short'] = "s";
-$l['permanent'] = "Permanent";
-$l['all_forums'] = "All Forums";
-$l['all_groups'] = "All groups";
-$l['all_prefix'] = "All prefixes";
-$l['select_forums'] = "Select forums";
-$l['select_groups'] = "Select groups";
-$l['select_prefix'] = "Select prefixes";
-$l['forums_colon'] = "Forums:";
-$l['groups_colon'] = "Groups:";
-$l['prefix_colon'] = "Prefixes:";
-$l['none'] = "None";
-$l['mybb_acp'] = "MyBB ACP";
-$l['pages'] = "Pages";
-$l['previous'] = "Previous";
-$l['page'] = "Page";
-$l['next'] = "Next";
-$l['delete'] = "Delete";
-$l['reset'] = "Reset";
-$l['and'] = "and";
-$l['on'] = "On";
-$l['off'] = "Off";
-$l['alt_enabled'] = "Enabled";
-$l['alt_disabled'] = "Disabled";
-$l['enable'] = "Enable";
-$l['disable'] = "Disable";
-$l['saved'] = 'Saved';
-$l['guest'] = 'Guest';
+$l['home'] = "Αρχική";
+$l['name'] = "Όνομα";
+$l['size'] = "Μέγεθος";
+$l['controls'] = "Ελέγχοι";
+$l['view'] = "Προβολή";
+$l['yes'] = "Ναι";
+$l['no'] = "Όχι";
+$l['cancel'] = "Ακύρωση";
+$l['options'] = "Επιλογές";
+$l['proceed'] = "Προχωρήστε";
+$l['ok'] = "ΟΚ";
+$l['error'] = "Σφάλμα";
+$l['edit'] = "Επεξεργασία";
+$l['never'] = "Ποτέ";
+$l['legend'] = "Υπόμνημα";
+$l['version'] = "Έκδοση";
+$l['languagevar'] = "Γλώσσα";
+$l['use_default'] = "Χρήση προεπιλογής";
+$l['file'] = "Αρχείο";
+$l['go'] = "Πήγαινε";
+$l['clear'] = "Καθαρισμός";
+$l['unknown'] = "Άγνωστο";
+$l['year'] = "Έτος";
+$l['year_short'] = "ε";
+$l['years'] = "Έτη";
+$l['years_short'] = "ε";
+$l['month'] = "Μήνας";
+$l['month_short'] = "μ";
+$l['months'] = "Μήνες";
+$l['months_short'] = "μ";
+$l['week'] = "Εβδομάδα";
+$l['week_short'] = "ε";
+$l['weeks'] = "Εβδομάδες";
+$l['weeks_short'] = "ε";
+$l['day'] = "Ημέρα";
+$l['day_short'] = "η";
+$l['days'] = "Ημέρες";
+$l['days_short'] = "η";
+$l['hour'] = "Ώρα";
+$l['hour_short'] = "ω";
+$l['hours'] = "Ώρες";
+$l['hours_short'] = "ω";
+$l['minute'] = "Λεπτό";
+$l['minute_short'] = "λ";
+$l['minutes'] = "Λεπτά";
+$l['minutes_short'] = "λ";
+$l['second'] = "Δευτερόλεπτο";
+$l['second_short'] = "δ";
+$l['seconds'] = "Δευτερόλεπτα";
+$l['seconds_short'] = "δ";
+$l['permanent'] = "Μόνιμο";
+$l['all_forums'] = "Όλα τα φόρουμ";
+$l['all_groups'] = "Όλες οι ομάδες";
+$l['all_prefix'] = "Όλα τα προθέματα";
+$l['select_forums'] = "Επιλέξτε φόρουμ";
+$l['select_groups'] = "Επιλέξτε ομάδες";
+$l['select_prefix'] = "Επιλέξτε προθέματα";
+$l['forums_colon'] = "Φόρουμ:";
+$l['groups_colon'] = "Ομάδες:";
+$l['prefix_colon'] = "Προθέματα:";
+$l['none'] = "Κανένα";
+$l['mybb_acp'] = "Πίνακας Ελέγχου MyBB";
+$l['pages'] = "Σελίδες";
+$l['previous'] = "Προηγούμενο";
+$l['page'] = "Σελίδα";
+$l['next'] = "Επόμενο";
+$l['delete'] = "Διαγραφή";
+$l['reset'] = "Επαναφορά";
+$l['and'] = "και";
+$l['on'] = "Ενεργό";
+$l['off'] = "Ανενεργό";
+$l['alt_enabled'] = "Ενεργοποιημένο";
+$l['alt_disabled'] = "Απενεργοποιημένο";
+$l['enable'] = "Ενεργοποίηση";
+$l['disable'] = "Απενεργοποίηση";
+$l['saved'] = 'Αποθηκεύτηκε';
+$l['guest'] = 'Επισκέπτης';
 
-$l['rel_in'] = "In ";
-$l['rel_ago'] = "ago";
-$l['rel_less_than'] = "Less than ";
+$l['rel_in'] = "Σε ";
+$l['rel_ago'] = "πριν";
+$l['rel_less_than'] = "Λιγότερο από ";
 $l['rel_time'] = "<span title=\"{5}{6}\">{1}{2} {3} {4}</span>";
-$l['rel_minutes_single'] = "minute";
-$l['rel_minutes_plural'] = "minutes";
-$l['rel_hours_single'] = "hour";
-$l['rel_hours_plural'] = "hours";
+$l['rel_minutes_single'] = "λεπτό";
+$l['rel_minutes_plural'] = "λεπτά";
+$l['rel_hours_single'] = "ώρα";
+$l['rel_hours_plural'] = "ώρες";
 
 // Parser bits
-$l['quote'] = "Quote:";
-$l['wrote'] = "Wrote:";
-$l['code'] = "Code:";
-$l['php_code'] = "PHP Code:";
-$l['linkback'] = "Original Post";
+$l['quote'] = "Παράθεση:";
+$l['wrote'] = "Έγραψε:";
+$l['code'] = "Κώδικας:";
+$l['php_code'] = "Κώδικας PHP:";
+$l['linkback'] = "Αρχική Δημοσίευση";
 
 // The months of the year
-$l['january'] = "January";
-$l['february'] = "February";
-$l['march'] = "March";
-$l['april'] = "April";
-$l['may'] = "May";
-$l['june'] = "June";
-$l['july'] = "July";
-$l['august'] = "August";
-$l['september'] = "September";
-$l['october'] = "October";
-$l['november'] = "November";
-$l['december'] = "December";
+$l['january'] = "Ιανουάριος";
+$l['february'] = "Φεβρουάριος";
+$l['march'] = "Μάρτιος";
+$l['april'] = "Απρίλιος";
+$l['may'] = "Μάιος";
+$l['june'] = "Ιούνιος";
+$l['july'] = "Ιούλιος";
+$l['august'] = "Αύγουστος";
+$l['september'] = "Σεπτέμβριος";
+$l['october'] = "Οκτώβριος";
+$l['november'] = "Νοέμβριος";
+$l['december'] = "Δεκέμβριος";
 
 // Access Denied
-$l['access_denied'] = "Access Denied";
-$l['access_denied_desc'] = "You do not have permission to access this part of the administration control panel.";
+$l['access_denied'] = "Άρνηση Πρόσβασης";
+$l['access_denied_desc'] = "Δεν έχετε άδεια πρόσβασης σε αυτό το μέρος του πίνακα ελέγχου διαχείρισης.";
 
 // Super Administrator required
-$l['cannot_perform_action_super_admin_general'] = "Sorry, but you cannot perform this action because you are not a super administrator.<br /><br />To be able to perform this action, you need to add your user ID to the list of super administrators in inc/config.php.";
+$l['cannot_perform_action_super_admin_general'] = "Λυπούμαστε, αλλά δεν μπορείτε να εκτελέσετε αυτήν την ενέργεια επειδή δεν είστε υπερδιαχειριστής.<br /><br />Για να μπορέσετε να εκτελέσετε αυτήν την ενέργεια, πρέπει να προσθέσετε τον αριθμό χρήστη σας στη λίστα των υπερδιαχειριστών στο αρχείο inc/config.php.";
 
 // AJAX
-$l['loading_text'] = "Loading<br />Please wait&hellip;";
+$l['loading_text'] = "Φόρτωση<br />Παρακαλώ περιμένετε&hellip;";
 
 // Time zone selection boxes
-$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Howland and Baker Islands";
+$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Howland και Baker Islands";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island";
-$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii, Papeete";
-$l['timezone_gmt_minus_950'] = "(GMT -9:30) Marquesas Islands";
-$l['timezone_gmt_minus_900'] = "(GMT -9:00) Alaska";
-$l['timezone_gmt_minus_800'] = "(GMT -8:00) Pacific Time";
-$l['timezone_gmt_minus_700'] = "(GMT -7:00) Mountain Time";
-$l['timezone_gmt_minus_600'] = "(GMT -6:00) Central Time, Mexico City";
-$l['timezone_gmt_minus_500'] = "(GMT -5:00) Eastern Time, Bogota, Lima, Quito";
-$l['timezone_gmt_minus_450'] = "(GMT -4:30) Caracas";
-$l['timezone_gmt_minus_400'] = "(GMT -4:00) Atlantic Time, La Paz, Halifax";
-$l['timezone_gmt_minus_350'] = "(GMT -3:30) Newfoundland";
-$l['timezone_gmt_minus_300'] = "(GMT -3:00) Brazil, Buenos Aires, Georgetown, Falkland Is.";
-$l['timezone_gmt_minus_200'] = "(GMT -2:00) Mid-Atlantic, South Georgia and the South Sandwich Islands";
-$l['timezone_gmt_minus_100'] = "(GMT -1:00) Azores, Cape Verde Islands";
-$l['timezone_gmt'] = "(GMT) Casablanca, Dublin, Edinburgh, London, Lisbon, Monrovia";
-$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Bratislava, Brussels, Copenhagen, Madrid, Paris, Prague, Rome, Warsaw";
-$l['timezone_gmt_200'] = "(GMT +2:00) Athens, Istanbul, Cairo, Jerusalem, South Africa";
-$l['timezone_gmt_300'] = "(GMT +3:00) Kaliningrad, Minsk, Baghdad, Riyadh, Nairobi";
-$l['timezone_gmt_350'] = "(GMT +3:30) Tehran";
-$l['timezone_gmt_400'] = "(GMT +4:00) Moscow, Abu Dhabi, Baku, Muscat, Tbilisi";
-$l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
-$l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi";
-$l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
-$l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhaka, Yekaterinburg";
-$l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
-$l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Jakarta";
-$l['timezone_gmt_800'] = "(GMT +8:00) Beijing, Hong Kong, Perth, Singapore, Taipei, Manila";
-$l['timezone_gmt_850'] = "(GMT +8:30) Pyongyang";
-$l['timezone_gmt_875'] = "(GMT +8:45) Eucla";
-$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seoul, Tokyo, Irkutsk";
-$l['timezone_gmt_950'] = "(GMT +9:30) Adelaide, Darwin";
-$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua New Guinea, Sydney, Yakutsk";
-$l['timezone_gmt_1050'] = "(GMT +10:30) Lord Howe Island";
-$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, New Caledonia, Solomon Islands, Vladivostok";
-$l['timezone_gmt_1150'] = "(GMT +11:30) Norfolk Island";
-$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fiji, Marshall Islands";
-$l['timezone_gmt_1275'] = "(GMT +12:45) Chatham Islands";
-$l['timezone_gmt_1300'] = "(GMT +13:00) Samoa, Tonga, Tokelau";
-$l['timezone_gmt_1400'] = "(GMT +14:00) Line Islands";
+$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Χαβάη, Papeete";
+$l['timezone_gmt_minus_950'] = "(GMT -9:30) Νήσοι Marquesas";
+$l['timezone_gmt_minus_900'] = "(GMT -9:00) Αλάσκα";
+$l['timezone_gmt_minus_800'] = "(GMT -8:00) Ώρα Ειρηνικού";
+$l['timezone_gmt_minus_700'] = "(GMT -7:00) Ώρα Ορεινή";
+$l['timezone_gmt_minus_600'] = "(GMT -6:00) Ώρα Κεντρική, Πόλη του Μεξικού";
+$l['timezone_gmt_minus_500'] = "(GMT -5:00) Ώρα Ανατολική, Μπογκοτά, Λίμα, Κίτο";
+$l['timezone_gmt_minus_450'] = "(GMT -4:30) Καράκας";
+$l['timezone_gmt_minus_400'] = "(GMT -4:00) Ώρα Ατλαντική, Λα Παζ, Χάλιφαξ";
+$l['timezone_gmt_minus_350'] = "(GMT -3:30) Νέα Γη";
+$l['timezone_gmt_minus_300'] = "(GMT -3:00) Βραζιλία, Μπουένος Άιρες, Τζόρτζταουν, Νήσοι Φώκλαντ";
+$l['timezone_gmt_minus_200'] = "(GMT -2:00) Μεσοατλαντική, Νότια Γεωργία και Νότιοι Σάντουιτς";
+$l['timezone_gmt_minus_100'] = "(GMT -1:00) Αζόρες, Πράσινο Ακρωτήριο";
+$l['timezone_gmt'] = "(GMT) Καζαμπλάνκα, Δουβλίνο, Εδιμβούργο, Λονδίνο, Λισαβόνα, Μονρόβια";
+$l['timezone_gmt_100'] = "(GMT +1:00) Βερολίνο, Μπρατισλάβα, Βρυξέλλες, Κοπεγχάγη, Μαδρίτη, Παρίσι, Πράγα, Ρώμη, Βαρσοβία";
+$l['timezone_gmt_200'] = "(GMT +2:00) Αθήνα, Κωνσταντινούπολη, Κάιρο, Ιερουσαλήμ, Νότια Αφρική";
+$l['timezone_gmt_300'] = "(GMT +3:00) Καλίνινγκραντ, Μινσκ, Βαγδάτη, Ριάντ, Ναϊρόμπι";
+$l['timezone_gmt_350'] = "(GMT +3:30) Τεχεράνη";
+$l['timezone_gmt_400'] = "(GMT +4:00) Μόσχα, Αμπού Ντάμπι, Μπακού, Μουσκάτ, Τυφλίδα";
+$l['timezone_gmt_450'] = "(GMT +4:30) Καμπούλ";
+$l['timezone_gmt_500'] = "(GMT +5:00) Ισλαμαμπάντ, Καράτσι, Τασκένδη";
+$l['timezone_gmt_550'] = "(GMT +5:30) Μουμπάι, Καλκούτα, Τσεννάι, Νέο Δελχί";
+$l['timezone_gmt_575'] = "(GMT +5:45) Κατμαντού";
+$l['timezone_gmt_600'] = "(GMT +6:00) Αλμάτι, Ντάκα, Εκατερίνμπουργκ";
+$l['timezone_gmt_650'] = "(GMT +6:30) Γιανγκόν";
+$l['timezone_gmt_700'] = "(GMT +7:00) Μπανγκόκ, Ανόι, Τζακάρτα";
+$l['timezone_gmt_800'] = "(GMT +8:00) Πεκίνο, Χονγκ Κονγκ, Περθ, Σιγκαπούρη, Ταϊπέι, Μανίλα";
+$l['timezone_gmt_850'] = "(GMT +8:30) Πιονγιάνγκ";
+$l['timezone_gmt_875'] = "(GMT +8:45) Ευκλά";
+$l['timezone_gmt_900'] = "(GMT +9:00) Οσάκα, Σαπόρο, Σεούλ, Τόκιο, Ιρκούτσκ";
+$l['timezone_gmt_950'] = "(GMT +9:30) Αδελαΐδα, Ντάργουιν";
+$l['timezone_gmt_1000'] = "(GMT +10:00) Μελβούρνη, Παπούα Νέα Γουινέα, Σίδνεϊ, Γιακούτσκ";
+$l['timezone_gmt_1050'] = "(GMT +10:30) Νήσος Λορντ Χάου";
+$l['timezone_gmt_1100'] = "(GMT +11:00) Μαγκαντάν, Νέα Καληδονία, Νήσοι Σολομώντα, Βλαδιβοστόκ";
+$l['timezone_gmt_1150'] = "(GMT +11:30) Νήσος Νόρφολκ";
+$l['timezone_gmt_1200'] = "(GMT +12:00) Όκλαντ, Γουέλινγκτον, Φίτζι, Νήσοι Μάρσαλ";
+$l['timezone_gmt_1275'] = "(GMT +12:45) Νήσοι Τσάθαμ";
+$l['timezone_gmt_1300'] = "(GMT +13:00) Σαμόα, Τόνγκα, Τοκελάου";
+$l['timezone_gmt_1400'] = "(GMT +14:00) Νήσοι Λάιν";
 $l['timezone_gmt_short'] = "GMT {1}({2})";
 
 // Global language strings used for log deletion pages
-$l['confirm_delete_logs'] = "Prune the selected log entries?";
-$l['confirm_delete_all_logs'] = "Prune all log entries?";
-$l['selected_logs_deleted'] = "The selected log entries have been deleted.";
-$l['all_logs_deleted'] = "All log entries have been deleted.";
-$l['delete_selected'] = "Delete Selected";
-$l['delete_all'] = "Delete All Filtered";
+$l['confirm_delete_logs'] = "Θέλετε να διαγράψετε τις επιλεγμένες καταγραφές;";
+$l['confirm_delete_all_logs'] = "Θέλετε να διαγράψετε όλες τις καταγραφές;";
+$l['selected_logs_deleted'] = "Οι επιλεγμένες καταγραφές έχουν διαγραφεί.";
+$l['all_logs_deleted'] = "Όλες οι καταγραφές έχουν διαγραφεί.";
+$l['delete_selected'] = "Διαγραφή Επιλεγμένων";
+$l['delete_all'] = "Διαγραφή Όλων των Φίλτρων";
 
 // Misc
-$l['encountered_errors'] = "The following errors were encountered:";
-$l['invalid_post_verify_key'] = "An authorization code mismatch occurred. Please confirm that you wish to perform the action below.";
-$l['invalid_post_verify_key2'] = "An authorization code mismatch occurred. Please double check that you are accessing this page correctly.";
-$l['unknown_error'] = "An unknown error has occurred.";
+$l['encountered_errors'] = "Παρουσιάστηκαν τα παρακάτω σφάλματα:";
+$l['invalid_post_verify_key'] = "Παρουσιάστηκε αναντιστοιχία κλειδιού εξουσιοδότησης. Παρακαλούμε επιβεβαιώστε ότι επιθυμείτε να πραγματοποιήσετε την παρακάτω ενέργεια.";
+$l['invalid_post_verify_key2'] = "Παρουσιάστηκε αναντιστοιχία κλειδιού εξουσιοδότησης. Παρακαλούμε ελέγξτε ότι έχετε πρόσβαση σε αυτήν τη σελίδα με τον σωστό τρόπο.";
+$l['unknown_error'] = "Παρουσιάστηκε άγνωστο σφάλμα.";
 
 // Code buttons editor language strings
-$l['editor_bold'] = "Bold";
-$l['editor_italic'] = "Italic";
-$l['editor_underline'] = "Underline";
-$l['editor_strikethrough'] = "Strikethrough";
-$l['editor_subscript'] = "Subscript";
-$l['editor_superscript'] = "Superscript";
-$l['editor_alignleft'] = "Align left";
-$l['editor_center'] = "Center";
-$l['editor_alignright'] = "Align right";
-$l['editor_justify'] = "Justify";
-$l['editor_fontname'] = "Font Name";
-$l['editor_fontsize'] = "Font Size";
-$l['editor_fontcolor'] = "Font Color";
-$l['editor_removeformatting'] = "Remove Formatting";
-$l['editor_cut'] = "Cut";
-$l['editor_copy'] = "Copy";
-$l['editor_paste'] = "Paste";
-$l['editor_cutnosupport'] = "Your browser does not allow the cut command. Please use the keyboard shortcut Ctrl/Cmd-X";
-$l['editor_copynosupport'] = "Your browser does not allow the copy command. Please use the keyboard shortcut Ctrl/Cmd-C";
-$l['editor_pastenosupport'] = "Your browser does not allow the paste command. Please use the keyboard shortcut Ctrl/Cmd-V";
-$l['editor_pasteentertext'] = "Paste your text inside the following box:";
-$l['editor_pastetext'] = "Paste Text";
-$l['editor_numlist'] = "Numbered list";
-$l['editor_bullist'] = "Bullet list";
-$l['editor_undo'] = "Undo";
-$l['editor_redo'] = "Redo";
-$l['editor_rows'] = "Rows:";
-$l['editor_cols'] = "Cols:";
-$l['editor_inserttable'] = "Insert a table";
-$l['editor_inserthr'] = "Insert a horizontal rule";
-$l['editor_code'] = "Code";
+$l['editor_bold'] = "Έντονα";
+$l['editor_italic'] = "Πλάγια";
+$l['editor_underline'] = "Υπογράμμιση";
+$l['editor_strikethrough'] = "Διαγράμμιση";
+$l['editor_subscript'] = "Δείκτης";
+$l['editor_superscript'] = "Εκθέτης";
+$l['editor_alignleft'] = "Στοίχιση αριστερά";
+$l['editor_center'] = "Κέντρο";
+$l['editor_alignright'] = "Στοίχιση δεξιά";
+$l['editor_justify'] = "Πλήρης στοίχιση";
+$l['editor_fontname'] = "Όνομα γραμματοσειράς";
+$l['editor_fontsize'] = "Μέγεθος γραμματοσειράς";
+$l['editor_fontcolor'] = "Χρώμα γραμματοσειράς";
+$l['editor_removeformatting'] = "Αφαίρεση μορφοποίησης";
+$l['editor_cut'] = "Αποκοπή";
+$l['editor_copy'] = "Αντιγραφή";
+$l['editor_paste'] = "Επικόλληση";
+$l['editor_cutnosupport'] = "Ο περιηγητής σας δεν υποστηρίζει την εντολή αποκοπής. Χρησιμοποιήστε τον συντόμευση πληκτρολογίου Ctrl/Cmd-X";
+$l['editor_copynosupport'] = "Ο περιηγητής σας δεν υποστηρίζει την εντολή αντιγραφής. Χρησιμοποιήστε τον συντόμευση πληκτρολογίου Ctrl/Cmd-C";
+$l['editor_pastenosupport'] = "Ο περιηγητής σας δεν υποστηρίζει την εντολή επικόλλησης. Χρησιμοποιήστε τον συντόμευση πληκτρολογίου Ctrl/Cmd-V";
+$l['editor_pasteentertext'] = "Επικολλήστε το κείμενό σας μέσα στο παρακάτω πλαίσιο:";
+$l['editor_pastetext'] = "Επικόλληση Κειμένου";
+$l['editor_numlist'] = "Αριθμημένη λίστα";
+$l['editor_bullist'] = "Λίστα με κουκκίδες";
+$l['editor_undo'] = "Αναίρεση";
+$l['editor_redo'] = "Επανάληψη";
+$l['editor_rows'] = "Γραμμές:";
+$l['editor_cols'] = "Στήλες:";
+$l['editor_inserttable'] = "Εισαγωγή πίνακα";
+$l['editor_inserthr'] = "Εισαγωγή οριζόντιας γραμμής";
+$l['editor_code'] = "Κώδικας";
 $l['editor_php'] = "PHP";
-$l['editor_width'] = "Width (optional):";
-$l['editor_height'] = "Height (optional):";
-$l['editor_insertimg'] = "Insert an image";
-$l['editor_email'] = "E-mail:";
-$l['editor_insertemail'] = "Insert an email";
+$l['editor_width'] = "Πλάτος (προαιρετικό):";
+$l['editor_height'] = "Ύψος (προαιρετικό):";
+$l['editor_insertimg'] = "Εισαγωγή εικόνας";
+$l['editor_email'] = "Email:";
+$l['editor_insertemail'] = "Εισαγωγή email";
 $l['editor_url'] = "URL:";
-$l['editor_insertlink'] = "Insert a link";
-$l['editor_unlink'] = "Unlink";
-$l['editor_more'] = "More";
-$l['editor_insertemoticon'] = "Insert an emoticon";
-$l['editor_videourl'] = "Video URL:";
-$l['editor_videotype'] = "Video Type:";
-$l['editor_insert'] = "Insert";
-$l['editor_insertyoutubevideo'] = "Insert a YouTube video";
-$l['editor_currentdate'] = "Insert current date";
-$l['editor_currenttime'] = "Insert current time";
-$l['editor_print'] = "Print";
-$l['editor_viewsource'] = "View source";
-$l['editor_description'] = "Description (optional):";
-$l['editor_enterimgurl'] = "Enter the image URL:";
-$l['editor_enteremail'] = "Enter the e-mail address:";
-$l['editor_enterdisplayedtext'] = "Enter the displayed text:";
-$l['editor_enterurl'] = "Enter URL:";
-$l['editor_enteryoutubeurl'] = "Enter the YouTube video URL or ID:";
-$l['editor_insertquote'] = "Insert a Quote";
-$l['editor_invalidyoutube'] = "Invalid YouTube video";
+$l['editor_insertlink'] = "Εισαγωγή συνδέσμου";
+$l['editor_unlink'] = "Αφαίρεση συνδέσμου";
+$l['editor_more'] = "Περισσότερα";
+$l['editor_insertemoticon'] = "Εισαγωγή συναισθήματος";
+$l['editor_videourl'] = "URL βίντεο:";
+$l['editor_videotype'] = "Τύπος βίντεο:";
+$l['editor_insert'] = "Εισαγωγή";
+$l['editor_insertyoutubevideo'] = "Εισαγωγή βίντεο YouTube";
+$l['editor_currentdate'] = "Εισαγωγή τρέχουσας ημερομηνίας";
+$l['editor_currenttime'] = "Εισαγωγή τρέχουσας ώρας";
+$l['editor_print'] = "Εκτύπωση";
+$l['editor_viewsource'] = "Προβολή πηγαίου κώδικα";
+$l['editor_description'] = "Περιγραφή (προαιρετικό):";
+$l['editor_enterimgurl'] = "Εισαγάγετε το URL της εικόνας:";
+$l['editor_enteremail'] = "Εισαγάγετε τη διεύθυνση email:";
+$l['editor_enterdisplayedtext'] = "Εισαγάγετε το εμφανιζόμενο κείμενο:";
+$l['editor_enterurl'] = "Εισαγάγετε το URL:";
+$l['editor_enteryoutubeurl'] = "Εισαγάγετε το URL ή το ID του βίντεο YouTube:";
+$l['editor_insertquote'] = "Εισαγωγή παράθεσης";
+$l['editor_invalidyoutube'] = "Μη έγκυρο βίντεο YouTube";
 $l['editor_dailymotion'] = "Dailymotion";
 $l['editor_metacafe'] = "MetaCafe";
 $l['editor_mixer'] = "Mixer";
@@ -307,74 +306,74 @@ $l['editor_vimeo'] = "Vimeo";
 $l['editor_youtube'] = "Youtube";
 $l['editor_facebook'] = "Facebook";
 $l['editor_liveleak'] = "LiveLeak";
-$l['editor_insertvideo'] = "Insert a video";
-$l['editor_maximize'] = "Maximize";
+$l['editor_insertvideo'] = "Εισαγωγή βίντεο";
+$l['editor_maximize'] = "Μεγιστοποίηση";
 
-$l['missing_task'] = "Error: Task file does not exist";
-$l['task_backup_cannot_write_backup'] = "Error: The database backup task cannot write to backups directory.";
-$l['task_backup_ran'] = "The database backup task successfully ran.";
-$l['task_checktables_ran'] = "The check tables task successfully ran with no corrupted tables found.";
-$l['task_checktables_ran_found'] = "Notice: The check tables task successfully ran and repaired the {1} table(s).";
-$l['task_dailycleanup_ran'] = "The daily cleanup task successfully ran.";
-$l['task_hourlycleanup_ran'] = "The hourly cleanup task successfully ran.";
-$l['task_logcleanup_ran'] = "The log cleanup task successfully ran and pruned any old logs.";
-$l['task_promotions_ran'] = "The promotions task successfully ran.";
-$l['task_threadviews_ran'] = "The thread views task successfully ran.";
-$l['task_usercleanup_ran'] = "The user cleanup task successfully ran.";
-$l['task_massmail_ran'] = "The mass mail task successfully ran.";
-$l['task_userpruning_ran'] = "The user pruning task successfully ran.";
-$l['task_delayedmoderation_ran'] = "The delayed moderation task successfully ran.";
-$l['task_massmail_ran_errors'] = "One or more problems occurred sending to \"{1}\":
+$l['missing_task'] = "Σφάλμα: Το αρχείο εργασίας δεν υπάρχει";
+$l['task_backup_cannot_write_backup'] = "Σφάλμα: Η εργασία αντιγραφής ασφαλείας της βάσης δεδομένων δεν μπορεί να γράψει στον κατάλογο αντιγράφων ασφαλείας.";
+$l['task_backup_ran'] = "Η εργασία αντιγραφής ασφαλείας της βάσης δεδομένων εκτελέστηκε με επιτυχία.";
+$l['task_checktables_ran'] = "Η εργασία ελέγχου πινάκων εκτελέστηκε με επιτυχία χωρίς να βρεθούν κατεστραμμένοι πίνακες.";
+$l['task_checktables_ran_found'] = "Ειδοποίηση: Η εργασία ελέγχου πινάκων εκτελέστηκε με επιτυχία και επιδιορθώθηκαν οι {1} κατεστραμμένοι πίνακες.";
+$l['task_dailycleanup_ran'] = "Η εργασία καθαρισμού καθημερινών εργασιών εκτελέστηκε με επιτυχία.";
+$l['task_hourlycleanup_ran'] = "Η εργασία καθαρισμού ανά ώρα εκτελέστηκε με επιτυχία.";
+$l['task_logcleanup_ran'] = "Η εργασία καθαρισμού καταγραφών εκτελέστηκε με επιτυχία και αφαιρέθηκαν παλιές καταγραφές.";
+$l['task_promotions_ran'] = "Η εργασία προώθησης εκτελέστηκε με επιτυχία.";
+$l['task_threadviews_ran'] = "Η εργασία προβολών θέματος εκτελέστηκε με επιτυχία.";
+$l['task_usercleanup_ran'] = "Η εργασία καθαρισμού χρηστών εκτελέστηκε με επιτυχία.";
+$l['task_massmail_ran'] = "Η εργασία μαζικής αλληλογραφίας εκτελέστηκε με επιτυχία.";
+$l['task_userpruning_ran'] = "Η εργασία καθαρισμού χρηστών εκτελέστηκε με επιτυχία.";
+$l['task_delayedmoderation_ran'] = "Η εργασία καθυστερημένης διαχείρισης εκτελέστηκε με επιτυχία.";
+$l['task_massmail_ran_errors'] = "Προέκυψαν ένα ή περισσότερα προβλήματα κατά την αποστολή σε \"{1}\":
 {2}";
-$l['task_versioncheck_ran'] = "The version check task successfully ran.";
-$l['task_versioncheck_ran_errors'] = "Could not connect to MyBB for a version check.";
-$l['task_recachestylesheets_ran'] = 'Re-cached {1} stylesheets.';
-$l['task_sendmailqueue_ran'] = 'The send mail queue task sent up to {1} messages.';
+$l['task_versioncheck_ran'] = "Η εργασία έλεγχου έκδοσης εκτελέστηκε με επιτυχία.";
+$l['task_versioncheck_ran_errors'] = "Δεν ήταν δυνατή η σύνδεση με το MyBB για έλεγχο έκδοσης.";
+$l['task_recachestylesheets_ran'] = 'Επανακαταχώρηση {1} φύλλων στυλ.';
+$l['task_sendmailqueue_ran'] = 'Η εργασία αποστολής ουράς αλληλογραφίας απέστειλε έως {1} μηνύματα.';
 
-$l['massmail_username'] = "Username";
-$l['email_addr'] = "Email Address";
-$l['board_name'] = "Board Name";
-$l['board_url'] = "Board URL";
+$l['massmail_username'] = "Όνομα χρήστη";
+$l['email_addr'] = "Διεύθυνση email";
+$l['board_name'] = "Όνομα φόρουμ";
+$l['board_url'] = "URL φόρουμ";
 
 // Unlock ACP
-$l['lockout_unlock'] = "Unlock Admin Control Panel";
-$l['enter_username_and_token'] = "Please enter your username and the activation code to continue.";
-$l['unlock_token'] = "Activation code:";
-$l['unlock_account'] = "Unlock Account";
+$l['lockout_unlock'] = "Ξεκλείδωμα Διαχειριστικού Πίνακα";
+$l['enter_username_and_token'] = "Παρακαλούμε εισαγάγετε το όνομα χρήστη σας και τον κωδικό ενεργοποίησης για να συνεχίσετε.";
+$l['unlock_token'] = "Κωδικός ενεργοποίησης:";
+$l['unlock_account'] = "Ξεκλείδωμα Λογαριασμού";
 
 // Email message for if an admin account has been locked out
-$l['locked_out_subject'] = "Administrator Account Locked Out at {1}";
+$l['locked_out_subject'] = "Ο λογαριασμός Διαχειριστή έχει κλειδωθεί στο {1}";
 $l['locked_out_message'] = "{1},
 
-Your administrator account at {2} has been locked after {3} failed login attempts.
+Ο λογαριασμός σας ως διαχειριστής στο {2} έχει κλειδωθεί μετά από {3} αποτυχημένες προσπάθειες σύνδεσης.
 
-To unlock your account, please go to the URL below in your web browser.
+Για να ξεκλειδώσετε τον λογαριασμό σας, παρακαλούμε πηγαίνετε στον παρακάτω σύνδεσμο με τον περιηγητή σας.
 
 {4}/{5}/index.php?action=unlock&uid={7}&token={6}
 
-If the above link does not work correctly, go to
+Εάν ο παραπάνω σύνδεσμος δεν λειτουργεί σωστά, πηγαίνετε στο
 
 {4}/{5}/index.php?action=unlock
 
-You will need to enter the following:
-Username: {1}
-Activation Code: {6}
+Θα πρέπει να εισαγάγετε τα παρακάτω:
+Όνομα χρήστη: {1}
+Κωδικός ενεργοποίησης: {6}
 
-Thank you,
-{2} Staff";
+Ευχαριστούμε,
+Προσωπικό {2}";
 
 $l['comma'] = ", ";
 
-$l['search_for_a_user'] = "Search for a user";
+$l['search_for_a_user'] = "Αναζήτηση για έναν χρήστη";
 
-$l['mybb_engine'] = "MyBB Engine";
+$l['mybb_engine'] = "Μηχανή MyBB";
 
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 // $l['login_field_width'] = "0";
 
-$l['my2fa'] = "Two-Factor Authentication";
-$l['my2fa_failed'] = "The code was incorrect, you're logged out now";
-$l['my2fa_code'] = "Please enter the authentication code";
-$l['my2fa_label'] = "Authentication code:";
-$l['my2fa_no_codes'] = "Note: you've used all of your recovery codes. Please visit the <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">recovery codes page</a> to generate a new set.";
+$l['my2fa'] = "Διπλή Πιστοποίηση";
+$l['my2fa_failed'] = "Ο κωδικός ήταν εσφαλμένος, έχετε αποσυνδεθεί τώρα";
+$l['my2fa_code'] = "Παρακαλούμε εισαγάγετε τον κωδικό πιστοποίησης";
+$l['my2fa_label'] = "Κωδικός πιστοποίησης:";
+$l['my2fa_no_codes'] = "Σημείωση: Έχετε χρησιμοποιήσει όλους τους κωδικούς ανάκτησης. Παρακαλούμε επισκεφθείτε την <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">σελίδα κωδικών ανάκτησης</a> για να δημιουργήσετε ένα νέο σετ.";
