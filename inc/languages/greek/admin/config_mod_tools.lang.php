@@ -1,135 +1,132 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['mod_tools'] = "Moderator Tools";
+$l['mod_tools'] = "Εργαλεία Διαχειριστή";
 
-$l['thread_tools'] = "Thread Tools";
-$l['thread_tools_desc'] = "Custom moderator tools allows you to create combinations of moderator actions that can be used on both threads and posts. These can then be used like the default tools when managing your forum. Here you can manage your custom thread tools.";
+$l['thread_tools'] = "Εργαλεία Θέματος";
+$l['thread_tools_desc'] = "Τα προσαρμοσμένα εργαλεία διαχειριστή σας επιτρέπουν να δημιουργήσετε συνδυασμούς ενεργειών διαχειριστή που μπορούν να χρησιμοποιηθούν τόσο σε θέματα όσο και σε αναρτήσεις. Αυτά μπορούν να χρησιμοποιηθούν όπως τα προεπιλεγμένα εργαλεία κατά τη διαχείριση του φόρουμ σας. Εδώ μπορείτε να διαχειριστείτε τα προσαρμοσμένα εργαλεία θέματος σας.";
 
-$l['add_thread_tool'] = "Add Thread Tool";
-$l['add_new_thread_tool'] = "Add New Thread Tool";
-$l['add_thread_tool_desc'] = "Here you can add a new custom thread moderation tool. This tool will be accessible from both inline thread moderation and from within threads themselves, listed with the default moderation tools.";
+$l['add_thread_tool'] = "Προσθήκη Εργαλείου Θέματος";
+$l['add_new_thread_tool'] = "Προσθήκη Νέου Εργαλείου Θέματος";
+$l['add_thread_tool_desc'] = "Εδώ μπορείτε να προσθέσετε ένα νέο προσαρμοσμένο εργαλείο διαχείρισης θέματος. Αυτό το εργαλείο θα είναι προσβάσιμο από την ενσωματωμένη διαχείριση θέματος και από τα ίδια τα θέματα, καταχωρημένο με τα προεπιλεγμένα εργαλεία διαχείρισης.";
 
-$l['post_tools'] = "Post Tools";
-$l['post_tools_desc'] = "Custom moderator tools allows you to create combinations of moderator actions that can be used on both threads and posts. These can then be used like the default tools when managing your forum. Here you can manage your custom post tools.";
+$l['post_tools'] = "Εργαλεία Ανάρτησης";
+$l['post_tools_desc'] = "Τα προσαρμοσμένα εργαλεία διαχειριστή σας επιτρέπουν να δημιουργήσετε συνδυασμούς ενεργειών διαχειριστή που μπορούν να χρησιμοποιηθούν τόσο σε θέματα όσο και σε αναρτήσεις. Αυτά μπορούν να χρησιμοποιηθούν όπως τα προεπιλεγμένα εργαλεία κατά τη διαχείριση του φόρουμ σας. Εδώ μπορείτε να διαχειριστείτε τα προσαρμοσμένα εργαλεία ανάρτησης σας.";
 
-$l['add_post_tool'] = "Add Post Tool";
-$l['add_new_post_tool'] = "Add New Post Tool";
-$l['add_post_tool_desc'] = "Here you can add a new custom post moderation tool. This tool will be accessible from within threads themselves, listed with the default moderation tools.";
+$l['add_post_tool'] = "Προσθήκη Εργαλείου Ανάρτησης";
+$l['add_new_post_tool'] = "Προσθήκη Νέου Εργαλείου Ανάρτησης";
+$l['add_post_tool_desc'] = "Εδώ μπορείτε να προσθέσετε ένα νέο προσαρμοσμένο εργαλείο διαχείρισης ανάρτησης. Αυτό το εργαλείο θα είναι προσβάσιμο από τα ίδια τα θέματα, καταχωρημένο με τα προεπιλεγμένα εργαλεία διαχείρισης.";
 
-$l['edit_post_tool'] = "Edit Post Tool";
-$l['edit_post_tool_desc'] = "Here you can edit the post tool's settings and actions.";
-$l['edit_thread_tool'] = "Edit Thread Tool";
-$l['edit_thread_tool_desc'] = "Here you can edit the thread tool's settings and actions.";
+$l['edit_post_tool'] = "Επεξεργασία Εργαλείου Ανάρτησης";
+$l['edit_post_tool_desc'] = "Εδώ μπορείτε να επεξεργαστείτε τις ρυθμίσεις και τις ενέργειες του εργαλείου ανάρτησης.";
+$l['edit_thread_tool'] = "Επεξεργασία Εργαλείου Θέματος";
+$l['edit_thread_tool_desc'] = "Εδώ μπορείτε να επεξεργαστείτε τις ρυθμίσεις και τις ενέργειες του εργαλείου θέματος.";
 
-$l['no_thread_tools'] = "There are no thread tools setup on your forum.";
-$l['no_post_tools'] = "There are no post tools setup on your forum.";
+$l['no_thread_tools'] = "Δεν υπάρχουν προσαρμοσμένα εργαλεία θέματος στο φόρουμ σας.";
+$l['no_post_tools'] = "Δεν υπάρχουν προσαρμοσμένα εργαλεία ανάρτησης στο φόρουμ σας.";
 
-$l['confirm_thread_tool_deletion'] = "Are you sure you want to delete this thread tool?";
-$l['confirm_post_tool_deletion'] = "Are you sure you want to delete this post tool?";
+$l['confirm_thread_tool_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το εργαλείο θέματος;";
+$l['confirm_post_tool_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το εργαλείο ανάρτησης;";
 
-$l['success_post_tool_deleted'] = "The selected post moderation tool has been deleted successfully.";
-$l['success_thread_tool_deleted'] = "The selected thread moderation tool has been deleted successfully.";
+$l['success_post_tool_deleted'] = "Το επιλεγμένο εργαλείο διαχείρισης ανάρτησης διαγράφηκε με επιτυχία.";
+$l['success_thread_tool_deleted'] = "Το επιλεγμένο εργαλείο διαχείρισης θέματος διαγράφηκε με επιτυχία.";
 
-$l['error_invalid_post_tool'] = "The specified post tool does not exist.";
-$l['error_invalid_thread_tool'] = "The specified thread tool does not exist.";
+$l['error_invalid_post_tool'] = "Το καθορισμένο εργαλείο ανάρτησης δεν υπάρχει.";
+$l['error_invalid_thread_tool'] = "Το καθορισμένο εργαλείο θέματος δεν υπάρχει.";
 
-$l['general_options'] = "General Options";
-$l['short_description'] = "Short Description";
-$l['available_in_forums'] = "Available in forums";
-$l['available_to_groups'] = "Available to groups";
-$l['show_confirmation'] = "Show Confirmation Page";
-$l['save_thread_tool'] = "Save Thread Tool";
+$l['general_options'] = "Γενικές Επιλογές";
+$l['short_description'] = "Σύντομη Περιγραφή";
+$l['available_in_forums'] = "Διαθέσιμο σε φόρουμ";
+$l['available_to_groups'] = "Διαθέσιμο σε ομάδες";
+$l['show_confirmation'] = "Εμφάνιση Σελίδας Επιβεβαίωσης";
+$l['save_thread_tool'] = "Αποθήκευση Εργαλείου Θέματος";
 
-$l['title'] = "Title";
+$l['title'] = "Τίτλος";
 
-$l['thread_moderation'] = "Thread Moderation";
-$l['approve_unapprove'] = "Approve/Unapprove thread?";
+$l['thread_moderation'] = "Διαχείριση Θέματος";
+$l['approve_unapprove'] = "Έγκριση/Απόρριψη θέματος;";
+$l['no_change'] = "Χωρίς αλλαγή";
+$l['approve'] = "Έγκριση";
+$l['unapprove'] = "Απόρριψη";
+$l['stick'] = "Καρφίτσωμα";
+$l['unstick'] = "Αποκαρφίτσωμα";
+$l['open'] = "Άνοιγμα";
+$l['close'] = "Κλείσιμο";
+$l['toggle'] = "Εναλλαγή";
+$l['days'] = "Ημέρες";
+$l['no_prefix'] = "Χωρίς Πρόθεμα";
+$l['restore'] = "Επαναφορά";
+$l['softdelete'] = "Μαλακή διαγραφή";
 
-$l['no_change'] = "No Change";
-$l['approve'] = "Approve";
-$l['unapprove'] = "Unapprove";
-$l['stick'] = "Stick";
-$l['unstick'] = "Unstick";
-$l['open'] = "Open";
-$l['close'] = "Close";
-$l['stick'] = "Stick";
-$l['unstick'] = "Unstick";
-$l['toggle'] = "Toggle";
-$l['days'] = "Days";
-$l['no_prefix'] = "No Prefix";
-$l['restore'] = "Restore";
-$l['softdelete'] = "Soft delete";
+$l['forum_to_move_to'] = "Φόρουμ για μετακίνηση:";
+$l['leave_redirect'] = "Αφήστε ανακατεύθυνση;";
+$l['delete_redirect_after'] = "Διαγραφή ανακατεύθυνσης μετά από";
+$l['do_not_move_thread'] = "Να μην μετακινηθεί το θέμα";
+$l['do_not_copy_thread'] = "Να μην αντιγραφεί το θέμα";
+$l['move_thread'] = "Μετακίνηση θέματος;";
+$l['move_thread_desc'] = "Εάν μετακινείτε το θέμα(τα), το \"διαγραφή ανακατεύθυνσης μετά από... ημέρες\" συμπληρώνεται μόνο αν θα αφήσετε μια ανακατεύθυνση.";
+$l['forum_to_copy_to'] = "Φόρουμ για αντιγραφή:";
+$l['copy_thread'] = "Αντιγραφή θέματος;";
+$l['open_close_thread'] = "Άνοιγμα/κλείσιμο θέματος;";
+$l['stick_unstick_thread'] = "Καρφίτσωμα/αποκαρφίτσωμα θέματος;";
+$l['softdelete_restore_thread'] = "Μαλακή διαγραφή/επαναφορά θέματος;";
+$l['delete_thread'] = "Διαγραφή θέματος οριστικά;";
+$l['merge_thread'] = "Συγχώνευση θέματος;";
+$l['merge_thread_desc'] = "Μόνο εάν χρησιμοποιείται στην ενσωματωμένη διαχείριση.";
+$l['delete_poll'] = "Διαγραφή δημοσκόπησης;";
+$l['delete_redirects'] = "Διαγραφή ανακατευθύνσεων;";
+$l['remove_subscriptions'] = "Αφαίρεση εγγραφών σε θέματα;";
+$l['recount_rebuild'] = "Επαναϋπολογισμός & Ανακατασκευή;";
+$l['apply_thread_prefix'] = "Εφαρμογή προθέματος θέματος;";
+$l['new_subject'] = "Νέος τίτλος;";
+$l['new_subject_desc'] = "Εισαγάγετε τον νέο τίτλο για το θέμα.";
 
-$l['forum_to_move_to'] = "Forum to move to:";
-$l['leave_redirect'] = "Leave redirect?";
-$l['delete_redirect_after'] = "Delete redirect after";
-$l['do_not_move_thread'] = "Do not move thread";
-$l['do_not_copy_thread'] = "Do not copy thread";
-$l['move_thread'] = "Move thread?";
-$l['move_thread_desc'] = "If moving the thread(s), the \"delete redirect after&hellip; days\" is only to be filled in if a redirect will be left.";
-$l['forum_to_copy_to'] = "Forum to copy to:";
-$l['copy_thread'] = "Copy thread?";
-$l['open_close_thread'] = "Open/close thread?";
-$l['stick_unstick_thread'] = "Stick/unstick thread?";
-$l['softdelete_restore_thread'] = "Soft delete/restore thread?";
-$l['delete_thread'] = "Delete thread permanently?";
-$l['merge_thread'] = "Merge thread?";
-$l['merge_thread_desc'] = "Only if used in inline moderation.";
-$l['delete_poll'] = "Delete poll?";
-$l['delete_redirects'] = "Delete redirects?";
-$l['remove_subscriptions'] = "Remove thread subscriptions?";
-$l['recount_rebuild'] = "Recount & Rebuild?";
-$l['apply_thread_prefix'] = "Apply thread prefix?";
-$l['new_subject'] = "New subject?";
-$l['new_subject_desc'] = "Enter the new subject for the thread.";
+$l['subject_message_replacements'] = "Διαθέσιμες αντικαταστάσεις";
+$l['subject_message_replacements_desc'] = "Το {subject} αντιπροσωπεύει τον αρχικό τίτλο. Το {username} αντιπροσωπεύει το όνομα χρήστη του διαχειριστή. Το {author} αντιπροσωπεύει το όνομα χρήστη του συγγραφέα του θέματος.";
 
-$l['subject_message_replacements'] = "Available replacements";
-$l['subject_message_replacements_desc'] = "{subject} represents the original subject. {username} represents the moderator's username. {author} represents the thread author's username.";
+$l['add_new_reply'] = "Προσθήκη νέας απάντησης";
+$l['add_new_reply_desc'] = "Αφήστε κενό για καμία απάντηση.";
+$l['reply_subject'] = "Θέμα απάντησης";
+$l['reply_subject_desc'] = "Χρησιμοποιείται μόνο εάν γίνει μια απάντηση.";
 
-$l['add_new_reply'] = "Add New Reply";
-$l['add_new_reply_desc'] = "Leave blank for no reply.";
-$l['reply_subject'] = "Reply subject.";
-$l['reply_subject_desc'] = "Only used if a reply was made.";
+$l['success_mod_tool_created'] = "Το εργαλείο διαχείρισης δημιουργήθηκε με επιτυχία.";
+$l['success_mod_tool_updated'] = "Το εργαλείο διαχείρισης ενημερώθηκε με επιτυχία.";
 
-$l['success_mod_tool_created'] = "The moderation tool has been created successfully.";
-$l['success_mod_tool_updated'] = "The moderation tool has been updated successfully.";
+$l['inline_post_moderation'] = "Διαχείριση ανάρτησης σε γραμμή";
+$l['delete_posts'] = "Διαγραφή αναρτήσεων οριστικά;";
+$l['merge_posts'] = "Συγχώνευση αναρτήσεων;";
+$l['merge_posts_desc'] = "Μόνο εάν χρησιμοποιείται από τη διαχείριση σε γραμμή.";
+$l['approve_unapprove_posts'] = "Έγκριση/απόρριψη αναρτήσεων;";
+$l['softdelete_restore_posts'] = "Μαλακή διαγραφή/επαναφορά αναρτήσεων;";
 
-$l['inline_post_moderation'] = "Inline Post Moderation";
-$l['delete_posts'] = "Delete posts permanently?";
-$l['merge_posts'] = "Merge posts?";
-$l['merge_posts_desc'] = "Only if used from inline moderation.";
-$l['approve_unapprove_posts'] = "Approve/unapprove posts?";
-$l['softdelete_restore_posts'] = "Soft delete/restore posts?";
+$l['split_posts'] = "Διαχωρισμός αναρτήσεων";
+$l['split_posts2'] = "Διαχωρισμός αναρτήσεων;";
+$l['do_not_split'] = "Να μην διαχωριστούν οι αναρτήσεις";
+$l['split_to_same_forum'] = "Διαχωρισμός στο ίδιο φόρουμ";
+$l['close_split_thread'] = "Κλείσιμο διαχωρισμένου θέματος;";
+$l['stick_split_thread'] = "Καρφίτσωμα διαχωρισμένου θέματος;";
+$l['unapprove_split_thread'] = "Απόρριψη διαχωρισμένου θέματος;";
+$l['split_thread_prefix'] = "Πρόθεμα διαχωρισμένου θέματος";
+$l['split_thread_subject'] = "Θέμα διαχωρισμένου θέματος";
+$l['split_thread_subject_desc'] = "Απαιτείται μόνο εάν γίνεται διαχωρισμός αναρτήσεων.";
+$l['add_new_split_reply'] = "Προσθήκη απάντησης σε διαχωρισμένο θέμα";
+$l['add_new_split_reply_desc'] = "Αφήστε κενό για καμία απάντηση.";
+$l['split_reply_subject'] = "Θέμα απάντησης";
+$l['split_reply_subject_desc'] = "Χρησιμοποιείται μόνο εάν γίνει μια απάντηση.";
+$l['save_post_tool'] = "Αποθήκευση εργαλείου ανάρτησης";
 
-$l['split_posts'] = "Split Posts";
-$l['split_posts2'] = "Split posts?";
-$l['do_not_split'] = "Do not split posts";
-$l['split_to_same_forum'] = "Split to same forum";
-$l['close_split_thread'] = "Close split thread?";
-$l['stick_split_thread'] = "Stick split thread?";
-$l['unapprove_split_thread'] = "Unapprove split thread?";
-$l['split_thread_prefix'] = "Split thread prefix";
-$l['split_thread_subject'] = "Split thread subject";
-$l['split_thread_subject_desc'] = "Only required if splitting posts.";
-$l['add_new_split_reply'] = "Add reply to split thread";
-$l['add_new_split_reply_desc'] = "Leave blank for no reply.";
-$l['split_reply_subject'] = "Reply subject";
-$l['split_reply_subject_desc'] = "Only used if a reply is made";
-$l['save_post_tool'] = "Save Post Tool";
+$l['send_private_message'] = 'Αποστολή Προσωπικού Μηνύματος';
+$l['private_message_message'] = 'Μήνυμα';
+$l['private_message_message_desc'] = 'Μήνυμα προς αποστολή στον συγγραφέα του θέματος. Αφήστε κενό για να απενεργοποιήσετε αυτήν τη λειτουργία.';
+$l['private_message_subject'] = 'Θέμα';
+$l['private_message_subject_desc'] = 'Εισαγάγετε το θέμα του Προσωπικού Μηνύματος.';
 
-$l['send_private_message'] = 'Send Private Message';
-$l['private_message_message'] = 'Message';
-$l['private_message_message_desc'] = 'Message to send to the author of the thread. Leave empty to disable this feature.';
-$l['private_message_subject'] = 'Subject';
-$l['private_message_subject_desc'] = 'Enter the subject of the Private Message.';
-
-$l['error_missing_title'] = "Please enter a name for this tool.";
-$l['error_missing_description'] = "Please enter a short description for this tool.";
-$l['error_no_forums_selected'] = "Please select the forums in which this tool will be available.";
-$l['error_no_groups_selected'] = "Please select the groups to which this tool will be available.";
-$l['error_forum_is_category'] = "You can't pick a category-type forum as a destination forum.";
+$l['error_missing_title'] = "Παρακαλώ εισαγάγετε ένα όνομα για αυτό το εργαλείο.";
+$l['error_missing_description'] = "Παρακαλώ εισαγάγετε μια σύντομη περιγραφή για αυτό το εργαλείο.";
+$l['error_no_forums_selected'] = "Παρακαλώ επιλέξτε τα φόρουμ στα οποία θα είναι διαθέσιμο αυτό το εργαλείο.";
+$l['error_no_groups_selected'] = "Παρακαλώ επιλέξτε τις ομάδες στις οποίες θα είναι διαθέσιμο αυτό το εργαλείο.";
+$l['error_forum_is_category'] = "Δεν μπορείτε να επιλέξετε ένα φόρουμ τύπου κατηγορίας ως φόρουμ προορισμού.";
