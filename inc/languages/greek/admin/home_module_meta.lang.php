@@ -1,24 +1,23 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['home'] = "Home";
+$l['home'] = "Αρχική";
 
-$l['dashboard'] = "Dashboard";
-$l['preferences'] = "Preferences";
-$l['mybb_credits'] = "MyBB Credits";
+$l['dashboard'] = "Πίνακας ελέγχου";
+$l['preferences'] = "Προτιμήσεις";
+$l['mybb_credits'] = "Πιστώσεις MyBB";
 
-$l['add_new_forum'] = "Add New Forum";
-$l['search_for_users'] = "Search for Users";
-$l['themes'] = "Themes";
-$l['templates'] = "Templates";
-$l['plugins'] = "Plugins";
-$l['database_backups'] = "Database Backups";
-$l['quick_access'] = "Quick Access";
-$l['online_admins'] = "Online Admins";
-$l['ipaddress'] = "IP Address:";
-$l['mybb_documentation'] = "MyBB Documentation";
-
+$l['add_new_forum'] = "Προσθήκη νέου φόρουμ";
+$l['search_for_users'] = "Αναζήτηση χρηστών";
+$l['themes'] = "Θέματα";
+$l['templates'] = "Πρότυπα";
+$l['plugins'] = "Πρόσθετα";
+$l['database_backups'] = "Αντίγραφα ασφαλείας βάσης δεδομένων";
+$l['quick_access'] = "Γρήγορη πρόσβαση";
+$l['online_admins'] = "Συνδεδεμένοι διαχειριστές";
+$l['ipaddress'] = "Διεύθυνση IP:";
+$l['mybb_documentation'] = "Τεκμηρίωση MyBB";
