@@ -1,54 +1,54 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['dashboard'] = "Dashboard";
-$l['dashboard_description'] = "This section allows you to see some of the various statistics relating to your board. You may also add other notes for other administrators to see.";
+$l['dashboard'] = "Πίνακας Ελέγχου";
+$l['dashboard_description'] = "Αυτή η ενότητα σας επιτρέπει να δείτε μερικά από τα στατιστικά στοιχεία που σχετίζονται με τον πίνακα ελέγχου σας. Μπορείτε επίσης να προσθέσετε άλλες σημειώσεις για άλλους διαχειριστές να δουν.";
 
-$l['mybb_server_stats'] = "MyBB and Server Statistics";
-$l['forum_stats'] = "Forum Statistics";
-$l['mybb_version'] = "MyBB Version";
-$l['threads'] = "Threads";
-$l['new_today'] = "New Today";
-$l['unapproved'] = "Unapproved";
-$l['php_version'] = "PHP Version";
-$l['posts'] = "Posts";
-$l['sql_engine'] = "SQL Engine";
-$l['users'] = "Users";
-$l['registered_users'] = "Registered Users";
-$l['active_users'] = "Active Users";
-$l['registrations_today'] = "Registrations Today";
-$l['awaiting_activation'] = "Awaiting Activation";
-$l['server_load'] = "Server Load";
-$l['attachments'] = "Attachments";
-$l['used'] = "Used";
-$l['reported_posts'] = "Reported Posts";
-$l['unread_reports'] = "Unread Reports";
+$l['mybb_server_stats'] = "Στατιστικά MyBB και Διακομιστή";
+$l['forum_stats'] = "Στατιστικά Δημόσιων Συζητήσεων";
+$l['mybb_version'] = "Έκδοση MyBB";
+$l['threads'] = "Θέματα";
+$l['new_today'] = "Νέα Σήμερα";
+$l['unapproved'] = "Μη Εγκεκριμένα";
+$l['php_version'] = "Έκδοση PHP";
+$l['posts'] = "Δημοσιεύσεις";
+$l['sql_engine'] = "Μηχανή SQL";
+$l['users'] = "Χρήστες";
+$l['registered_users'] = "Εγγεγραμμένοι Χρήστες";
+$l['active_users'] = "Ενεργοί Χρήστες";
+$l['registrations_today'] = "Εγγραφές Σήμερα";
+$l['awaiting_activation'] = "Αναμονή Ενεργοποίησης";
+$l['server_load'] = "Φόρτος Διακομιστή";
+$l['attachments'] = "Συνημμένα";
+$l['used'] = "Χρησιμοποιημένο";
+$l['reported_posts'] = "Αναφερόμενες Δημοσιεύσεις";
+$l['unread_reports'] = "Αδιάβαστες Αναφορές";
 
-$l['version_check'] = "Check for Updates";
-$l['last_update_check_two_weeks'] = "Your last <a href=\"{1}\">MyBB version check</a> was more than two weeks ago.";
-$l['new_version_available'] = "You are currently running {1} whilst the latest generally available release is {2}.";
-$l['version_check_description'] = "Here you can check that you are currently running the latest copy of MyBB and see the latest announcements directly from MyBB.";
-$l['latest_mybb_announcements'] = "Latest MyBB Announcements";
-$l['no_announcements'] = "No stored announcements. <a href=\"index.php?module=home&amp;action=version_check\">Check for Updates</a>.";
-$l['your_version'] = "Your Version";
-$l['latest_version'] = "Latest Version";
-$l['update_forum'] = "Please upgrade to the latest version of MyBB by visiting the <a href=\"https://mybb.com\" target=\"_blank\" rel=\"noopener\">MyBB Website</a>.";
-$l['read_more'] = "Read more";
+$l['version_check'] = "Έλεγχος για Ενημερώσεις";
+$l['last_update_check_two_weeks'] = "Ο τελευταίος <a href=\"{1}\">έλεγχος έκδοσης MyBB</a> ήταν περισσότερο από δύο εβδομάδες πριν.";
+$l['new_version_available'] = "Αυτήν τη στιγμή χρησιμοποιείτε την έκδοση {1} ενώ η τελευταία διαθέσιμη έκδοση είναι {2}.";
+$l['version_check_description'] = "Εδώ μπορείτε να ελέγξετε αν χρησιμοποιείτε την τελευταία έκδοση του MyBB και να δείτε τις τελευταίες ανακοινώσεις απευθείας από το MyBB.";
+$l['latest_mybb_announcements'] = "Τελευταίες Ανακοινώσεις MyBB";
+$l['no_announcements'] = "Δεν υπάρχουν αποθηκευμένες ανακοινώσεις. <a href=\"index.php?module=home&amp;action=version_check\">Έλεγχος για Ενημερώσεις</a>.";
+$l['your_version'] = "Η Έκδοσή σας";
+$l['latest_version'] = "Τελευταία Έκδοση";
+$l['update_forum'] = "Παρακαλούμε αναβαθμίστε στην τελευταία έκδοση του MyBB επισκεπτόμενοι την <a href=\"https://mybb.com\" target=\"_blank\" rel=\"noopener\">Ιστοσελίδα του MyBB</a>.";
+$l['read_more'] = "Διαβάστε περισσότερα";
 
-$l['success_up_to_date'] = "Congratulations, you are running the latest version of MyBB.";
+$l['success_up_to_date'] = "Συγχαρητήρια, χρησιμοποιείτε την τελευταία έκδοση του MyBB.";
 
-$l['error_out_of_date'] = "Your copy of MyBB is out of date.";
-$l['error_communication'] = "There was a problem communicating with the version server. Please try again in a few minutes.";
-$l['error_fetch_news'] = "MyBB was unable to successfully fetch the latest announcements from the MyBB website.";
+$l['error_out_of_date'] = "Η έκδοση του MyBB που χρησιμοποιείτε είναι παλαιότερη.";
+$l['error_communication'] = "Παρουσιάστηκε πρόβλημα κατά την επικοινωνία με τον διακομιστή έκδοσης. Παρακαλούμε δοκιμάστε ξανά σε λίγα λεπτά.";
+$l['error_fetch_news'] = "Το MyBB δεν μπόρεσε να ανακτήσει με επιτυχία τις τελευταίες ανακοινώσεις από την ιστοσελίδα του MyBB.";
 
-$l['news_description'] = "The latest news from the <a href=\"https://blog.mybb.com/\" target=\"_blank\" rel=\"noopener\">MyBB Blog</a>.";
+$l['news_description'] = "Οι τελευταίες ειδήσεις από το <a href=\"https://blog.mybb.com/\" target=\"_blank\" rel=\"noopener\">Ιστολόγιο του MyBB</a>.";
 
-$l['admin_notes_public'] = "These notes are public to all administrators.";
-$l['admin_notes'] = "Administrator Notes";
-$l['save_notes'] = "Save Notes";
+$l['admin_notes_public'] = "Αυτές οι σημειώσεις είναι δημόσιες για όλους τους διαχειριστές.";
+$l['admin_notes'] = "Σημειώσεις Διαχειριστή";
+$l['save_notes'] = "Αποθήκευση Σημειώσεων";
 
-$l['success_notes_updated'] = "The administrator notes have been successfully updated.";
+$l['success_notes_updated'] = "Οι σημειώσεις του διαχειριστή ενημερώθηκαν με επιτυχία.";
