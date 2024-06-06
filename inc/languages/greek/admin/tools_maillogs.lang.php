@@ -1,37 +1,36 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['user_email_log'] = "User Email Log";
-$l['user_email_log_desc'] = "All emails sent from one member to another member as well as emails sent by the 'Send Thread to a Friend' feature are logged and shown below. Here you can identify potential abusers of this function.";
-$l['prune_user_email_log'] = "Prune User Email Log";
+$l['user_email_log'] = "Καταγραφή Ηλεκτρονικού Ταχυδρομείου Χρήστη";
+$l['user_email_log_desc'] = "Όλα τα ηλεκτρονικά ταχυδρομεία που αποστέλλονται από ένα μέλος σε ένα άλλο μέλος, καθώς και τα ηλεκτρονικά ταχυδρομεία που αποστέλλονται από τη λειτουργία 'Αποστολή Θέματος σε Φίλο', καταγράφονται και εμφανίζονται παρακάτω. Εδώ μπορείτε να εντοπίσετε πιθανούς καταχρηστές αυτής της λειτουργίας.";
+$l['prune_user_email_log'] = "Καθαρισμός Καταγραφής Ηλεκτρονικού Ταχυδρομείου Χρήστη";
 
-$l['close_window'] = "Close Window";
-$l['user_email_log_viewer'] = "User Email Log Viewer";
-$l['to'] = "To";
-$l['from'] = "From";
-$l['ip_address'] = "IP Address";
-$l['subject'] = "Subject";
-$l['date'] = "Date";
-$l['email'] = "Email";
-$l['date_sent'] = "Date Sent";
-$l['deleted'] = "Deleted";
-$l['sent_using_send_thread_feature'] = "Sent using the Send Thread to Friend feature";
-$l['thread'] = "Thread:";
-$l['find_emails_by_user'] = "Find all emails sent by this user";
-$l['find'] = "Find";
-$l['deleted_user'] = "Deleted User";
-$l['email_sent_to_user'] = "Email sent to user";
-$l['email_sent_using_contact_form'] = "Email sent using the contact form";
-$l['no_logs'] = "There are no log entries with the selected criteria.";
-$l['filter_user_email_log'] = "Filter User Email Log";
-$l['username_is'] = "Username is";
-$l['email_contains'] = "Email Address contains";
-$l['subject_contains'] = "Subject contains";
-$l['find_emails_to_user'] = "Find all emails sent to this user";
+$l['close_window'] = "Κλείσιμο Παραθύρου";
+$l['user_email_log_viewer'] = "Προβολέας Καταγραφής Ηλεκτρονικού Ταχυδρομείου Χρήστη";
+$l['to'] = "Προς";
+$l['from'] = "Από";
+$l['ip_address'] = "Διεύθυνση IP";
+$l['subject'] = "Θέμα";
+$l['date'] = "Ημερομηνία";
+$l['email'] = "Ηλεκτρονικό Ταχυδρομείο";
+$l['date_sent'] = "Ημερομηνία Αποστολής";
+$l['deleted'] = "Διαγραμμένο";
+$l['sent_using_send_thread_feature'] = "Αποστολή με τη λειτουργία Αποστολή Θέματος σε Φίλο";
+$l['thread'] = "Θέμα:";
+$l['find_emails_by_user'] = "Εύρεση όλων των ηλεκτρονικών ταχυδρομείων που αποστάλθηκαν από αυτόν τον χρήστη";
+$l['find'] = "Εύρεση";
+$l['deleted_user'] = "Διαγραμμένος Χρήστης";
+$l['email_sent_to_user'] = "Ηλεκτρονικό Ταχυδρομείο που απεστάλη στον χρήστη";
+$l['email_sent_using_contact_form'] = "Ηλεκτρονικό Ταχυδρομείο που απεστάλη χρησιμοποιώντας τη φόρμα επικοινωνίας";
+$l['no_logs'] = "Δεν υπάρχουν καταγραφές με τα επιλεγμένα κριτήρια.";
+$l['filter_user_email_log'] = "Φιλτράρισμα Καταγραφής Ηλεκτρονικού Ταχυδρομείου Χρήστη";
+$l['username_is'] = "Το όνομα χρήστη είναι";
+$l['email_contains'] = "Η διεύθυνση ηλεκτρονικού ταχυδρομείου περιέχει";
+$l['subject_contains'] = "Το θέμα περιέχει";
+$l['find_emails_to_user'] = "Εύρεση όλων των ηλεκτρονικών ταχυδρομείων που απεστάλησαν σε αυτόν τον χρήστη";
 
-$l['error_invalid_user'] = "The username you entered does not exist.";
-
+$l['error_invalid_user'] = "Το όνομα χρήστη που εισαγάγατε δεν υπάρχει.";
