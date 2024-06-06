@@ -1,46 +1,44 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['tools_and_maintenance'] = "Tools &amp; Maintenance";
+$l['tools_and_maintenance'] = "Εργαλεία &amp; Συντήρηση";
 
-$l['maintenance'] = "Maintenance";
-$l['logs'] = "Logs";
+$l['maintenance'] = "Συντήρηση";
+$l['logs'] = "Αρχεία καταγραφής";
 
-$l['system_health'] = "System Health";
-$l['cache_manager'] = "Cache Manager";
-$l['task_manager'] = "Task Manager";
-$l['recount_and_rebuild'] = "Recount &amp; Rebuild";
-$l['view_php_info'] = "View PHP Info";
-$l['database_backups'] = "Database Backups";
-$l['optimize_database'] = "Optimize Database";
-$l['file_verification'] = "File Verification";
+$l['system_health'] = "Κατάσταση συστήματος";
+$l['cache_manager'] = "Διαχείριση προσωρινής μνήμης";
+$l['task_manager'] = "Διαχείριση προγραμματισμένων εργασιών";
+$l['recount_and_rebuild'] = "Επαναϋπολογισμός &amp; Ανακατασκευή";
+$l['view_php_info'] = "Προβολή πληροφοριών PHP";
+$l['database_backups'] = "Αντίγραφα ασφαλείας βάσης δεδομένων";
+$l['optimize_database'] = "Βελτιστοποίηση βάσης δεδομένων";
+$l['file_verification'] = "Επαλήθευση αρχείων";
 
-$l['administrator_log'] = "Administrator Log";
-$l['moderator_log'] = "Moderator Log";
-$l['user_email_log'] = "User Email Log";
-$l['system_mail_log'] = "System Mail Log";
-$l['user_warning_log'] = "User Warning Log";
-$l['spam_log'] = "Spam Log";
-$l['statistics'] = "Statistics";
+$l['administrator_log'] = "Αρχείο καταγραφής διαχειριστή";
+$l['moderator_log'] = "Αρχείο καταγραφής συντονιστή";
+$l['user_email_log'] = "Αρχείο καταγραφής email χρήστη";
+$l['system_mail_log'] = "Αρχείο καταγραφής email συστήματος";
+$l['user_warning_log'] = "Αρχείο καταγραφής προειδοποιήσεων χρήστη";
+$l['spam_log'] = "Αρχείο καταγραφής ανεπιθύμητων μηνυμάτων";
+$l['statistics'] = "Στατιστικά";
 
-$l['can_access_system_health'] = "Can access system health?";
-$l['can_manage_cache'] = "Can manage cache?";
-$l['can_manage_tasks'] = "Can manage scheduled tasks?";
-$l['can_manage_db_backup'] = "Can manage backup database?";
-$l['can_optimize_db'] = "Can optimize database?";
-$l['can_recount_and_rebuild'] = "Can recount and rebuild?";
-$l['can_manage_admin_logs'] = "Can manage administrator log?";
-$l['can_manage_mod_logs'] = "Can manage moderator log?";
-$l['can_manage_user_mail_log'] = "Can manage user mail Log?";
-$l['can_manage_system_mail_log'] = "Can manage system mail log?";
-$l['can_manage_user_warning_log'] = "Can manage user warning logs?";
-$l['can_manage_spam_log'] = "Can manage spam logs?";
-$l['can_view_php_info'] = "Can view PHP info?";
-$l['can_manage_file_verification'] = "Can manage file verification?";
-$l['can_view_statistics'] = "Can view statistics?";
-
-
+$l['can_access_system_health'] = "Έχει πρόσβαση στην κατάσταση συστήματος;";
+$l['can_manage_cache'] = "Μπορεί να διαχειριστεί την προσωρινή μνήμη;";
+$l['can_manage_tasks'] = "Μπορεί να διαχειριστεί προγραμματισμένες εργασίες;";
+$l['can_manage_db_backup'] = "Μπορεί να διαχειριστεί αντίγραφα ασφαλείας βάσης δεδομένων;";
+$l['can_optimize_db'] = "Μπορεί να βελτιστοποιήσει τη βάση δεδομένων;";
+$l['can_recount_and_rebuild'] = "Μπορεί να επαναϋπολογίσει και να ανακατασκευάσει;";
+$l['can_manage_admin_logs'] = "Μπορεί να διαχειριστεί το αρχείο καταγραφής διαχειριστή;";
+$l['can_manage_mod_logs'] = "Μπορεί να διαχειριστεί το αρχείο καταγραφής συντονιστή;";
+$l['can_manage_user_mail_log'] = "Μπορεί να διαχειριστεί το αρχείο καταγραφής email χρήστη;";
+$l['can_manage_system_mail_log'] = "Μπορεί να διαχειριστεί το αρχείο καταγραφής email συστήματος;";
+$l['can_manage_user_warning_log'] = "Μπορεί να διαχειριστεί το αρχείο καταγραφής προειδοποιήσεων χρήστη;";
+$l['can_manage_spam_log'] = "Μπορεί να διαχειριστεί το αρχείο καταγραφής ανεπιθύμητων μηνυμάτων;";
+$l['can_view_php_info'] = "Μπορεί να δει τις πληροφορίες του PHP;";
+$l['can_manage_file_verification'] = "Μπορεί να διαχειριστεί την επαλήθευση αρχείων;";
+$l['can_view_statistics'] = "Μπορεί να δει τα στατιστικά;";
