@@ -1,20 +1,19 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['file_verification'] = "File Verification";
-$l['checking'] = "Checking&hellip;";
-$l['file_verification_message'] = "This process will check all MyBB default files to check for validity. Press Yes to continue.<br /> <small>Please note, this process can not differentiate between custom modifications and actual corruption in files. Therefore you should take caution in reverting files this process returns as \"corrupt\". Corrupted and missing files can be replaced by copying them from the <a href=\"https://mybb.com/download\" target=\"_blank\" rel=\"noopener\">original MyBB package</a>.</small>";
+$l['file_verification'] = "Επαλήθευση Αρχείων";
+$l['checking'] = "Γίνεται έλεγχος&hellip;";
+$l['file_verification_message'] = "Αυτή η διαδικασία θα ελέγξει όλα τα προεπιλεγμένα αρχεία του MyBB για εγκυρότητα. Πατήστε Ναι για να συνεχίσετε.<br /> <small>Παρακαλούμε σημειώστε ότι αυτή η διαδικασία δεν μπορεί να διακρίνει μεταξύ προσαρμογών που έχουν γίνει και πραγματικής καταστροφής στα αρχεία. Επομένως, πρέπει να είστε προσεκτικοί όταν επαναφέρετε αρχεία που αυτή η διαδικασία επιστρέφει ως \"κατεστραμμένα\". Τα κατεστραμμένα και απουσιάζοντα αρχεία μπορούν να αντικατασταθούν αντιγράφοντας τα από το <a href=\"https://mybb.com/download\" target=\"_blank\" rel=\"noopener\">πρωτότυπο πακέτο του MyBB</a>.</small>";
 
-$l['error_communication'] = "There was a problem communicating with the MyBB server. Please try again in a few minutes.";
-$l['file'] = "File";
-$l['no_corrupt_files_found'] = "Congratulations! No corrupt files have been found on your installation.";
-$l['found_problems'] = "Found Problems";
-$l['no_problems_found'] = "No Problems Detected";
-$l['changed'] = "Changed";
-$l['missing'] = "Missing";
-$l['status'] = "Status";
-
+$l['error_communication'] = "Παρουσιάστηκε πρόβλημα κατά την επικοινωνία με τον διακομιστή του MyBB. Παρακαλώ δοκιμάστε ξανά σε λίγα λεπτά.";
+$l['file'] = "Αρχείο";
+$l['no_corrupt_files_found'] = "Συγχαρητήρια! Δεν βρέθηκαν κατεστραμμένα αρχεία στην εγκατάστασή σας.";
+$l['found_problems'] = "Βρέθηκαν Προβλήματα";
+$l['no_problems_found'] = "Δεν Βρέθηκαν Προβλήματα";
+$l['changed'] = "Τροποποιήθηκε";
+$l['missing'] = "Λείπει";
+$l['status'] = "Κατάσταση";
