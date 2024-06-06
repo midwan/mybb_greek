@@ -8,16 +8,16 @@
  *
  */
 
-$l['hello_desc'] = 'A sample plugin that allows you to create messages on the index page and appends them to each post.';
+$l['hello_desc'] = 'Ένα δείγμα πρόσθετου που σας επιτρέπει να δημιουργείτε μηνύματα στην αρχική σελίδα και να τα προσθέτετε σε κάθε δημοσίευση.';
 
-$l['setting_group_hello'] = 'Hello World!';
-$l['setting_group_hello_desc'] = 'Settings for Hello World! Plugin.';
+$l['setting_group_hello'] = 'Γεια σου Κόσμε!';
+$l['setting_group_hello_desc'] = 'Ρυθμίσεις για το πρόσθετο Γεια σου Κόσμε!.';
 
-$l['setting_hello_display1'] = 'Display Message Index';
-$l['setting_hello_display1_desc'] = 'Set to no if you do not want to display the messages on index.';
+$l['setting_hello_display1'] = 'Εμφάνιση μηνύματος στην αρχική σελίδα';
+$l['setting_hello_display1_desc'] = 'Ορίστε σε όχι αν δεν θέλετε να εμφανίζονται τα μηνύματα στην αρχική σελίδα.';
 
-$l['setting_hello_display2'] = 'Display Message Postbit';
-$l['setting_hello_display2_desc'] = 'Set to no if you do not want to display the messages below every post.';
+$l['setting_hello_display2'] = 'Εμφάνιση μηνύματος στο Postbit';
+$l['setting_hello_display2_desc'] = 'Ορίστε σε όχι αν δεν θέλετε να εμφανίζονται τα μηνύματα κάτω από κάθε δημοσίευση.';
 
-$l['hello_uninstall'] = 'Hello World! Uninstallation';
-$l['hello_uninstall_message'] = 'Do you wish to drop all messages from the database?';
+$l['hello_uninstall'] = 'Απεγκατάσταση Γεια σου Κόσμε!';
+$l['hello_uninstall_message'] = 'Θέλετε να διαγράψετε όλα τα μηνύματα από τη βάση δεδομένων;';
