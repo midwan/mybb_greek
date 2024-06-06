@@ -1,76 +1,75 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['task_manager'] = "Task Manager";
-$l['add_new_task'] = "Add New Task";
-$l['add_new_task_desc'] = "Here you can create new scheduled tasks which are automatically run on your board.";
-$l['edit_task'] = "Edit Task";
-$l['edit_task_desc'] = "Below you can edit the various settings for this scheduled task.";
-$l['task_logs'] = "Task Logs";
-$l['view_task_logs'] = "View Task Logs";
-$l['view_task_logs_desc'] = "When a task has ran and logging is enabled, any results or errors will be listed below. Entries older than 30 days are automatically deleted.";
-$l['scheduled_tasks'] = "Scheduled Tasks";
-$l['scheduled_tasks_desc'] = "Here you can manage tasks which are automatically run on your board. To run a task now click the icon to the right of the task.";
+$l['task_manager'] = "Διαχειριστής Εργασιών";
+$l['add_new_task'] = "Προσθήκη Νέας Εργασίας";
+$l['add_new_task_desc'] = "Εδώ μπορείτε να δημιουργήσετε νέες προγραμματισμένες εργασίες που εκτελούνται αυτόματα στον πίνακα σας.";
+$l['edit_task'] = "Επεξεργασία Εργασίας";
+$l['edit_task_desc'] = "Παρακάτω μπορείτε να επεξεργαστείτε τις διάφορες ρυθμίσεις για αυτήν την προγραμματισμένη εργασία.";
+$l['task_logs'] = "Αρχεία Εργασιών";
+$l['view_task_logs'] = "Προβολή Αρχείων Εργασιών";
+$l['view_task_logs_desc'] = "Όταν μια εργασία έχει εκτελεστεί και η καταγραφή είναι ενεργοποιημένη, οποιαδήποτε αποτελέσματα ή σφάλματα θα εμφανίζονται παρακάτω. Οι καταχωρίσεις που είναι παλαιότερες από 30 ημέρες διαγράφονται αυτόματα.";
+$l['scheduled_tasks'] = "Προγραμματισμένες Εργασίες";
+$l['scheduled_tasks_desc'] = "Εδώ μπορείτε να διαχειριστείτε εργασίες που εκτελούνται αυτόματα στον πίνακα σας. Για να εκτελέσετε μια εργασία τώρα, κάντε κλικ στο εικονίδιο δίπλα στην εργασία.";
 
-$l['title'] = "Title";
-$l['short_description'] = "Short Description";
-$l['task_file'] = "Task File";
-$l['task_file_desc'] = "Select the task file you wish this task to run.";
-$l['time_minutes'] = "Time: Minutes";
-$l['time_minutes_desc'] = "Enter a comma separated list of minutes (0-59) for which this task should run on. Enter '*' if this task should run on every minute.";
-$l['time_hours'] = "Time: Hours";
-$l['time_hours_desc'] = "Enter a comma separated list of hours (0-23) for which this task should run on. Enter '*' if this task should run on every hour.";
-$l['time_days_of_month'] = "Time: Days of Month";
-$l['time_days_of_month_desc'] = "Enter a comma separated list of days (1-31) for which this task should run on. Enter '*' if this task should run on every day or you wish to specify a weekday below.";
-$l['every_weekday'] = "Every Weekday";
-$l['sunday'] = "Sunday";
-$l['monday'] = "Monday";
-$l['tuesday'] = "Tuesday";
-$l['wednesday'] = "Wednesday";
-$l['thursday'] = "Thursday";
-$l['friday'] = "Friday";
-$l['saturday'] = "Saturday";
-$l['time_weekdays'] = "Time: Weekdays";
-$l['time_weekdays_desc'] = "Select which weekdays this task should run on. Holding down CTRL selects multiple weekdays. Select 'Every weekday' if you want this task to run each weekday or you have entered a predefined day above.";
-$l['every_month'] = "Every Month";
-$l['time_months'] = "Time: Months";
-$l['time_months_desc'] = "Select which months this task should run on. Holding down CTRL selects multiple months. Select 'Every month' if you want this task to run each month.";
-$l['enabled'] = "Task enabled?";
-$l['enable_logging'] = "Enable Logging?";
-$l['save_task'] = "Save Task";
-$l['task'] = "Task";
-$l['date'] = "Date";
-$l['data'] = "Data";
-$l['no_task_logs'] = "There are currently no log entries for any of the scheduled tasks.";
-$l['next_run'] = "Next Run";
-$l['run_task_now'] = "Run this task now";
-$l['disable_task'] = "Disable Task";
-$l['run_task'] = "Run Task";
-$l['enable_task'] = "Enable Task";
-$l['delete_task'] = "Delete Task";
+$l['title'] = "Τίτλος";
+$l['short_description'] = "Σύντομη Περιγραφή";
+$l['task_file'] = "Αρχείο Εργασίας";
+$l['task_file_desc'] = "Επιλέξτε το αρχείο εργασίας που θέλετε αυτή η εργασία να εκτελεί.";
+$l['time_minutes'] = "Ώρα: Λεπτά";
+$l['time_minutes_desc'] = "Εισαγάγετε μια λίστα με διαχωρισμένα με κόμματα λεπτά (0-59) για τα οποία θα εκτελείται αυτή η εργασία. Εισαγάγετε '*' αν θέλετε αυτή η εργασία να εκτελείται κάθε λεπτό.";
+$l['time_hours'] = "Ώρα: Ώρες";
+$l['time_hours_desc'] = "Εισαγάγετε μια λίστα με διαχωρισμένα με κόμματα ώρες (0-23) για τις οποίες θα εκτελείται αυτή η εργασία. Εισαγάγετε '*' αν θέλετε αυτή η εργασία να εκτελείται κάθε ώρα.";
+$l['time_days_of_month'] = "Ώρα: Ημέρες του Μήνα";
+$l['time_days_of_month_desc'] = "Εισαγάγετε μια λίστα με διαχωρισμένα με κόμματα ημέρες (1-31) για τις οποίες θα εκτελείται αυτή η εργασία. Εισαγάγετε '*' αν θέλετε αυτή η εργασία να εκτελείται κάθε ημέρα ή αν θέλετε να καθορίσετε μια ημέρα της εβδομάδας παρακάτω.";
+$l['every_weekday'] = "Κάθε Καθημερινή";
+$l['sunday'] = "Κυριακή";
+$l['monday'] = "Δευτέρα";
+$l['tuesday'] = "Τρίτη";
+$l['wednesday'] = "Τετάρτη";
+$l['thursday'] = "Πέμπτη";
+$l['friday'] = "Παρασκευή";
+$l['saturday'] = "Σάββατο";
+$l['time_weekdays'] = "Ώρα: Ημέρες της Εβδομάδας";
+$l['time_weekdays_desc'] = "Επιλέξτε ποιες ημέρες της εβδομάδας θα εκτελείται αυτή η εργασία. Πατώντας το πλήκτρο CTRL μπορείτε να επιλέξετε πολλαπλές ημέρες της εβδομάδας. Επιλέξτε 'Κάθε καθημερινή' αν θέλετε αυτή η εργασία να εκτελείται κάθε καθημερινή ή αν έχετε εισαγάγει μια προκαθορισμένη ημέρα παραπάνω.";
+$l['every_month'] = "Κάθε Μήνα";
+$l['time_months'] = "Ώρα: Μήνες";
+$l['time_months_desc'] = "Επιλέξτε ποιους μήνες θα εκτελείται αυτή η εργασία. Πατώντας το πλήκτρο CTRL μπορείτε να επιλέξετε πολλαπλούς μήνες. Επιλέξτε 'Κάθε μήνα' αν θέλετε αυτή η εργασία να εκτελείται κάθε μήνα.";
+$l['enabled'] = "Ενεργοποίηση εργασίας;";
+$l['enable_logging'] = "Ενεργοποίηση καταγραφής;";
+$l['save_task'] = "Αποθήκευση Εργασίας";
+$l['task'] = "Εργασία";
+$l['date'] = "Ημερομηνία";
+$l['data'] = "Δεδομένα";
+$l['no_task_logs'] = "Δεν υπάρχουν καταγραφές για καμία από τις προγραμματισμένες εργασίες αυτήν τη στιγμή.";
+$l['next_run'] = "Επόμενη Εκτέλεση";
+$l['run_task_now'] = "Εκτέλεση αυτής της εργασίας τώρα";
+$l['disable_task'] = "Απενεργοποίηση Εργασίας";
+$l['run_task'] = "Εκτέλεση Εργασίας";
+$l['enable_task'] = "Ενεργοποίηση Εργασίας";
+$l['delete_task'] = "Διαγραφή Εργασίας";
 
-$l['error_invalid_task'] = "The specified task does not exist.";
-$l['error_missing_title'] = "You did not enter a title for this scheduled task";
-$l['error_missing_description'] = "You did not enter a description for this scheduled task";
-$l['error_invalid_task_file'] = "The task file you selected does not exist.";
-$l['error_invalid_minute'] = "The minute you've entered is invalid.";
-$l['error_invalid_hour'] = "The hour you've entered is invalid.";
-$l['error_invalid_day'] = "The day you've entered is invalid.";
-$l['error_invalid_weekday'] = "The weekday you've selected is invalid.";
-$l['error_invalid_month'] = "The month you've selected is invalid.";
+$l['error_invalid_task'] = "Η καθορισμένη εργασία δεν υπάρχει.";
+$l['error_missing_title'] = "Δεν έχετε εισαγάγει τίτλο για αυτήν την προγραμματισμένη εργασία";
+$l['error_missing_description'] = "Δεν έχετε εισαγάγει περιγραφή για αυτήν την προγραμματισμένη εργασία";
+$l['error_invalid_task_file'] = "Το αρχείο εργασίας που επιλέξατε δεν υπάρχει.";
+$l['error_invalid_minute'] = "Το λεπτό που εισαγάγατε είναι άκυρο.";
+$l['error_invalid_hour'] = "Η ώρα που εισαγάγατε είναι άκυρη.";
+$l['error_invalid_day'] = "Η ημέρα που εισαγάγατε είναι άκυρη.";
+$l['error_invalid_weekday'] = "Η ημέρα της εβδομάδας που επιλέξατε είναι άκυρη.";
+$l['error_invalid_month'] = "Ο μήνας που επιλέξατε είναι άκυρος.";
 
-$l['success_task_created'] = "The task has been created successfully.";
-$l['success_task_updated'] = "The selected task has been updated successfully.";
-$l['success_task_deleted'] = "The selected task has been deleted successfully.";
-$l['success_task_enabled'] = "The selected task has been enabled successfully.";
-$l['success_task_disabled'] = "The selected task has been disabled successfully.";
-$l['success_task_run'] = "The selected task has been run successfully.";
+$l['success_task_created'] = "Η εργασία δημιουργήθηκε με επιτυχία.";
+$l['success_task_updated'] = "Η επιλεγμένη εργασία ενημερώθηκε με επιτυχία.";
+$l['success_task_deleted'] = "Η επιλεγμένη εργασία διαγράφηκε με επιτυχία.";
+$l['success_task_enabled'] = "Η επιλεγμένη εργασία ενεργοποιήθηκε με επιτυχία.";
+$l['success_task_disabled'] = "Η επιλεγμένη εργασία απενεργοποιήθηκε με επιτυχία.";
+$l['success_task_run'] = "Η επιλεγμένη εργασία εκτελέστηκε με επιτυχία.";
 
-$l['confirm_task_deletion'] = "Are you sure you wish to delete this scheduled task?";
-$l['confirm_task_enable'] = "<strong>WARNING:</strong> You are about to enable a task that is only meant to be run via cron (Please see the <a href=\"https://docs.mybb.com/1.8/administration/task-manager\" target=\"_blank\" rel=\"noopener\">MyBB Docs</a> for more information). Continue?";
-$l['no_tasks'] = "There are no tasks on your forum at this time.";
-
+$l['confirm_task_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την προγραμματισμένη εργασία;";
+$l['confirm_task_enable'] = "<strong>ΠΡΟΕΙΔΟΠΟΙΗΣΗ:</strong> Πρόκειται να ενεργοποιήσετε μια εργασία που προορίζεται να εκτελείται μόνο μέσω cron (Παρακαλούμε ανατρέξτε στα <a href=\"https://docs.mybb.com/1.8/administration/task-manager\" target=\"_blank\" rel=\"noopener\">MyBB Docs</a> για περισσότερες πληροφορίες). Θέλετε να συνεχίσετε;";
+$l['no_tasks'] = "Δεν υπάρχουν εργασίες στο φόρουμ σας αυτήν τη στιγμή.";
