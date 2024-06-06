@@ -1,49 +1,49 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
 // Tabs
-$l['moderation_queue'] = "Moderation Queue";
-$l['threads'] = "Threads";
-$l['threads_desc'] = "Here you can view and approve threads in the moderation queue.";
-$l['posts'] = "Posts";
-$l['posts_desc'] = "Here you can view and approve posts in the moderation queue.";
-$l['attachments'] = "Attachments";
-$l['attachments_desc'] = "Here you can view and approve attachments in the moderation queue.";
-$l['threads_awaiting_moderation'] = "Threads Awaiting Moderation";
-$l['posts_awaiting_moderation'] = "Posts Awaiting Moderation";
-$l['attachments_awaiting_moderation'] = "Attachments Awaiting Moderation";
+$l['moderation_queue'] = "Ουρά Διαχείρισης";
+$l['threads'] = "Θέματα";
+$l['threads_desc'] = "Εδώ μπορείτε να δείτε και να εγκρίνετε θέματα στην ουρά διαχείρισης.";
+$l['posts'] = "Δημοσιεύσεις";
+$l['posts_desc'] = "Εδώ μπορείτε να δείτε και να εγκρίνετε δημοσιεύσεις στην ουρά διαχείρισης.";
+$l['attachments'] = "Συνημμένα";
+$l['attachments_desc'] = "Εδώ μπορείτε να δείτε και να εγκρίνετε συνημμένα στην ουρά διαχείρισης.";
+$l['threads_awaiting_moderation'] = "Θέματα που αναμένουν διαχείριση";
+$l['posts_awaiting_moderation'] = "Δημοσιεύσεις που αναμένουν διαχείριση";
+$l['attachments_awaiting_moderation'] = "Συνημμένα που αναμένουν διαχείριση";
 
 // Errors
-$l['error_no_posts'] = "There are no posts currently awaiting moderation.";
-$l['error_no_attachments'] = "There are no attachments currently awaiting moderation.";
-$l['error_no_threads'] = "There are no threads, posts or attachments currently awaiting moderation.";
+$l['error_no_posts'] = "Δεν υπάρχουν δημοσιεύσεις που αναμένουν διαχείριση αυτή τη στιγμή.";
+$l['error_no_attachments'] = "Δεν υπάρχουν συνημμένα που αναμένουν διαχείριση αυτή τη στιγμή.";
+$l['error_no_threads'] = "Δεν υπάρχουν θέματα, δημοσιεύσεις ή συνημμένα που αναμένουν διαχείριση αυτή τη στιγμή.";
 
 // Success
-$l['success_threads'] = "The selected threads have been moderated successfully.";
-$l['success_posts'] = "The selected posts have been moderated successfully.";
-$l['success_attachments'] = "The selected attachments have been moderated successfully.";
+$l['success_threads'] = "Τα επιλεγμένα θέματα έχουν εγκριθεί με επιτυχία.";
+$l['success_posts'] = "Οι επιλεγμένες δημοσιεύσεις έχουν εγκριθεί με επιτυχία.";
+$l['success_attachments'] = "Τα επιλεγμένα συνημμένα έχουν εγκριθεί με επιτυχία.";
 
 // Pages
-$l['subject'] = "Subject";
-$l['author'] = "Author";
-$l['posted'] = "Posted";
-$l['ignore'] = "Ignore";
-$l['approve'] = "Approve";
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
-$l['post'] = "Post:";
+$l['subject'] = "Θέμα";
+$l['author'] = "Συντάκτης";
+$l['posted'] = "Δημοσιεύθηκε";
+$l['ignore'] = "Αγνόηση";
+$l['approve'] = "Έγκριση";
+$l['forum'] = "Φόρουμ:";
+$l['thread'] = "Θέμα:";
+$l['post'] = "Δημοσίευση:";
 $l['re'] = "RE:";
-$l['filename'] = "File Name";
-$l['uploadedby'] = "Uploaded by";
-$l['controls'] = "Controls";
+$l['filename'] = "Όνομα Αρχείου";
+$l['uploadedby'] = "Μεταφορτώθηκε από";
+$l['controls'] = "Ελέγχοι";
 
 // Buttons
-$l['mark_as_ignored'] = "Mark all as ignored";
-$l['mark_as_deleted'] = "Mark all for deletion";
-$l['mark_as_approved'] = "Mark all as approved";
-$l['perform_action'] = "Perform Actions";
+$l['mark_as_ignored'] = "Σήμανση ως αγνοημένα";
+$l['mark_as_deleted'] = "Σήμανση όλων για διαγραφή";
+$l['mark_as_approved'] = "Σήμανση ως εγκεκριμένα";
+$l['perform_action'] = "Εκτέλεση Ενεργειών";
 
