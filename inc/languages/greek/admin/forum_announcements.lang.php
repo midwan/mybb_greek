@@ -1,55 +1,54 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['forum_announcements'] = "Forum Announcements";
-$l['forum_announcements_desc'] = "Here you can manage the announcements on your board. Global announcements are shown in all forums, whereas ones set for individual forums are shown in that forum and all child forums.";
-$l['add_announcement'] = "Add Announcement";
-$l['add_announcement_desc'] = "Here you can add an announcement for a single forum or all forums.";
-$l['update_announcement'] = "Update Announcement";
-$l['preview_announcement'] = "Preview Announcement";
-$l['update_announcement_desc'] = "Here you can update an announcements details.";
+$l['forum_announcements'] = "Ανακοινώσεις Φόρουμ";
+$l['forum_announcements_desc'] = "Εδώ μπορείτε να διαχειριστείτε τις ανακοινώσεις στο φόρουμ σας. Οι παγκόσμιες ανακοινώσεις εμφανίζονται σε όλα τα φόρουμ, ενώ αυτές που έχουν οριστεί για τα μεμονωμένα φόρουμ εμφανίζονται σε αυτό το φόρουμ και σε όλα τα παιδικά φόρουμ.";
+$l['add_announcement'] = "Προσθήκη Ανακοίνωσης";
+$l['add_announcement_desc'] = "Εδώ μπορείτε να προσθέσετε μια ανακοίνωση για ένα μεμονωμένο φόρουμ ή για όλα τα φόρουμ.";
+$l['update_announcement'] = "Ενημέρωση Ανακοίνωσης";
+$l['preview_announcement'] = "Προεπισκόπηση Ανακοίνωσης";
+$l['update_announcement_desc'] = "Εδώ μπορείτε να ενημερώσετε τις λεπτομέρειες μιας ανακοίνωσης.";
 
-$l['start_date_desc'] = "On this date and time (in GMT), the announcement will appear in the selected forum(s).";
-$l['end_date_desc'] = "On this date and time (in GMT), the announcement will be hidden from view on your forum. You may select never end this announcement until you delete it or edit its end date.";
-$l['forums_to_appear_in_desc'] = "The announcement will appear in the forums selected below. The announcement will appear in the selected forum and all child forums of the selected forum.";
+$l['start_date_desc'] = "Σε αυτήν την ημερομηνία και ώρα (σε GMT), η ανακοίνωση θα εμφανιστεί στα επιλεγμένα φόρουμ(ς).";
+$l['end_date_desc'] = "Σε αυτήν την ημερομηνία και ώρα (σε GMT), η ανακοίνωση θα κρυφτεί από την προβολή στο φόρουμ σας. Μπορείτε να επιλέξετε να μην λήξει ποτέ αυτή η ανακοίνωση μέχρι να τη διαγράψετε ή να επεξεργαστείτε την ημερομηνία λήξης.";
+$l['forums_to_appear_in_desc'] = "Η ανακοίνωση θα εμφανίζεται στα επιλεγμένα φόρουμ που ακολουθούν. Η ανακοίνωση θα εμφανίζεται στο επιλεγμένο φόρουμ και σε όλα τα παιδικά φόρουμ του επιλεγμένου φόρουμ.";
 
-$l['announcement'] = "Announcement";
-$l['global_announcements'] = "Global Announcements";
+$l['announcement'] = "Ανακοίνωση";
+$l['global_announcements'] = "Παγκόσμιες Ανακοινώσεις";
 
-$l['no_global_announcements'] = "There are currently no global forum announcements.";
-$l['no_forums'] = "There are currently no forums setup to show forum announcements.";
+$l['no_global_announcements'] = "Δεν υπάρχουν παγκόσμιες ανακοινώσεις φόρουμ αυτή τη στιγμή.";
+$l['no_forums'] = "Δεν υπάρχουν αυτή τη στιγμή φόρουμ που έχουν ρυθμιστεί για να εμφανίζουν ανακοινώσεις.";
 
-$l['confirm_announcement_deletion'] = "Are you sure you wish to delete this announcement?";
+$l['confirm_announcement_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ανακοίνωση;";
 
-$l['success_announcement_deleted'] = "The selected announcement has been deleted successfully.";
-$l['success_added_announcement'] = "The selected announcement has been created successfully.";
-$l['success_updated_announcement'] = "The selected announcement has been updated successfully.";
+$l['success_announcement_deleted'] = "Η επιλεγμένη ανακοίνωση διαγράφηκε με επιτυχία.";
+$l['success_added_announcement'] = "Η επιλεγμένη ανακοίνωση δημιουργήθηκε με επιτυχία.";
+$l['success_updated_announcement'] = "Η επιλεγμένη ανακοίνωση ενημερώθηκε με επιτυχία.";
 
-$l['error_invalid_announcement'] = "Please input a valid announcement.";
-$l['error_missing_title'] = "You did not enter a title.";
-$l['error_missing_message'] = "You did not enter a message.";
-$l['error_missing_forum'] = "You did not select a forum.";
-$l['error_invalid_start_date'] = "The starting date for the announcement is invalid.";
-$l['error_invalid_end_date'] = "The ending date for the announcement is invalid.";
-$l['error_end_before_start'] = "The ending date must be after the start date.";
+$l['error_invalid_announcement'] = "Παρακαλώ εισάγετε μια έγκυρη ανακοίνωση.";
+$l['error_missing_title'] = "Δεν εισαγάγατε τίτλο.";
+$l['error_missing_message'] = "Δεν εισαγάγατε μήνυμα.";
+$l['error_missing_forum'] = "Δεν επιλέξατε φόρουμ.";
+$l['error_invalid_start_date'] = "Η ημερομηνία έναρξης της ανακοίνωσης δεν είναι έγκυρη.";
+$l['error_invalid_end_date'] = "Η ημερομηνία λήξης της ανακοίνωσης δεν είναι έγκυρη.";
+$l['error_end_before_start'] = "Η ημερομηνία λήξης πρέπει να είναι μετά την ημερομηνία έναρξης.";
 
-$l['add_an_announcement'] = "Add an announcement";
-$l['update_an_announcement'] = "Update an announcement";
-$l['save_announcement'] = "Save Announcement";
-$l['title'] = "Title";
-$l['start_date'] = "Start Date";
-$l['end_date'] = "End Date";
-$l['message'] = "Message";
-$l['forums_to_appear_in'] = "Forums to Appear in";
-$l['allow_html'] = "Allow HTML?";
-$l['allow_mycode'] = "Allow MyCode?";
-$l['allow_smilies'] = "Allow Smilies?";
-$l['time'] = "Time:";
-$l['set_time'] = "Set Time";
+$l['add_an_announcement'] = "Προσθήκη μιας ανακοίνωσης";
+$l['update_an_announcement'] = "Ενημέρωση μιας ανακοίνωσης";
+$l['save_announcement'] = "Αποθήκευση Ανακοίνωσης";
+$l['title'] = "Τίτλος";
+$l['start_date'] = "Ημερομηνία Έναρξης";
+$l['end_date'] = "Ημερομηνία Λήξης";
+$l['message'] = "Μήνυμα";
+$l['forums_to_appear_in'] = "Φόρουμ που θα εμφανίζεται";
+$l['allow_html'] = "Να επιτρέπεται το HTML;";
+$l['allow_mycode'] = "Να επιτρέπεται το MyCode;";
+$l['allow_smilies'] = "Να επιτρέπονται τα Smilies;";
+$l['time'] = "Ώρα:";
+$l['set_time'] = "Ορισμός Ώρας";
 
-$l['announcement_preview'] = 'Announcement Preview';
-
+$l['announcement_preview'] = 'Προεπισκόπηση Ανακοίνωσης';
