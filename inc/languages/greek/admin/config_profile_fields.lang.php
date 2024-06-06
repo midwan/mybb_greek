@@ -1,75 +1,75 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['custom_profile_fields'] = "Custom Profile Fields";
-$l['custom_profile_fields_desc'] = "This section allows you to edit, delete, and manage your custom profile fields.";
-$l['add_profile_field'] = "Add Profile Field";
-$l['add_new_profile_field'] = "Add New Profile Field";
-$l['add_new_profile_field_desc'] = "Here you can add a new custom profile field.";
-$l['edit_profile_field'] = "Edit Profile Field";
-$l['edit_profile_field_desc'] = "Here you can edit a custom profile field.";
+$l['custom_profile_fields'] = "Προσαρμοσμένα πεδία προφίλ";
+$l['custom_profile_fields_desc'] = "Αυτή η ενότητα σας επιτρέπει να επεξεργαστείτε, να διαγράψετε και να διαχειριστείτε τα προσαρμοσμένα πεδία προφίλ.";
+$l['add_profile_field'] = "Προσθήκη πεδίου προφίλ";
+$l['add_new_profile_field'] = "Προσθήκη νέου πεδίου προφίλ";
+$l['add_new_profile_field_desc'] = "Εδώ μπορείτε να προσθέσετε ένα νέο προσαρμοσμένο πεδίο προφίλ.";
+$l['edit_profile_field'] = "Επεξεργασία πεδίου προφίλ";
+$l['edit_profile_field_desc'] = "Εδώ μπορείτε να επεξεργαστείτε ένα προσαρμοσμένο πεδίο προφίλ.";
 
-$l['title'] = "Title";
-$l['short_description'] = "Short Description";
-$l['maximum_length'] = "Maximum Length";
-$l['maximum_length_desc'] = "This maximum number of characters that can be entered. This only applies to text boxes and text areas.";
-$l['field_length'] = "Field Length";
-$l['field_length_desc'] = "This length of the field. This only applies to single and multiple select boxes.";
-$l['display_order'] = "Display Order";
-$l['display_order_desc'] = "This is the order of custom profile fields in relation to other custom profile fields. This number should not be the same as another field.";
-$l['text'] = "Textbox";
-$l['textarea'] = "Textarea";
-$l['select'] = "Select Box";
-$l['multiselect'] = "Multiple Option Selection Box";
-$l['radio'] = "Radio Buttons";
-$l['checkbox'] = "Check Boxes";
-$l['field_type'] = "Field Type";
-$l['field_type_desc'] = "This is the field type that will be shown.";
-$l['field_regex'] = "Regular Expression";
-$l['field_regex_desc'] = "Enter a regular expression that should be matched from the user input. You must make sure the regular expression is valid and safe—no validation is performed. Empty for anything.<br />
-<strong>Example:</strong> ([a-z0-9_\- ,.+]+)";
-$l['selectable_options'] = "Selectable Options?";
-$l['selectable_options_desc'] = "Please enter each option on a separate line. This only applies to the select boxes, check boxes, and radio buttons types.";
-$l['required'] = "Required?";
-$l['required_desc'] = "Is this field required to be filled in during registration or profile editing? Note that this does not apply if the field is hidden or the field is not editable.";
-$l['show_on_registration'] = "Show on Registration?";
-$l['show_on_registration_desc'] = "Should this field appear on the registration form? Note that this does not apply if the field is not editable. Fields that are required will always appear on registration.";
-$l['display_on_profile'] = "Display on profile?";
-$l['display_on_profile_desc'] = "Should this field be displayed on the user's profile?";
-$l['display_on_postbit'] = "Display on postbit?";
-$l['display_on_postbit_desc'] = "Should this field be displayed on the user's posts?";
-$l['viewableby'] = 'Viewable By';
-$l['viewableby_desc'] = 'Select the allowed groups to view this profile field.';
-$l['editableby'] = 'Editable By';
-$l['editableby_desc'] = 'Select the allowed groups to edit this profile field.';
-$l['min_posts_enabled'] = "Minimum post count?";
-$l['min_posts_enabled_desc'] = "Should this field only be available to users with a certain post count? If so, set the minimum amount of posts required here.";
-$l['parser_options'] = "Parser Options";
-$l['parse_allowhtml'] = "Yes, allow HTML in this profile field.";
-$l['parse_allowmycode'] = "Yes, allow MyCode in this profile field.";
-$l['parse_allowsmilies'] = "Yes, allow smilies in this profile field.";
-$l['parse_allowimgcode'] = "Yes, allow [img] code in this profile field.";
-$l['parse_allowvideocode'] = "Yes, allow [video] code in this profile field.";
-$l['save_profile_field'] = "Save Profile Field";
-$l['name'] = "Name";
-$l['registration'] = "Registration?";
-$l['editable'] = "Editable?";
-$l['profile'] = "Profile?";
-$l['postbit'] = "Postbit?";
-$l['edit_field'] = "Edit Field";
-$l['delete_field'] = "Delete Field";
-$l['no_profile_fields'] = "There are no custom profile fields on your forum at this time.";
+$l['title'] = "Τίτλος";
+$l['short_description'] = "Σύντομη περιγραφή";
+$l['maximum_length'] = "Μέγιστο μήκος";
+$l['maximum_length_desc'] = "Ο μέγιστος αριθμός χαρακτήρων που μπορούν να εισαχθούν. Αυτό ισχύει μόνο για τα πλαίσια κειμένου και τις περιοχές κειμένου.";
+$l['field_length'] = "Μήκος πεδίου";
+$l['field_length_desc'] = "Το μήκος του πεδίου. Αυτό ισχύει μόνο για τα πλαίσια επιλογής ενιαίας και πολλαπλής επιλογής.";
+$l['display_order'] = "Σειρά εμφάνισης";
+$l['display_order_desc'] = "Αυτή είναι η σειρά των προσαρμοσμένων πεδίων προφίλ σε σχέση με άλλα προσαρμοσμένα πεδία προφίλ. Αυτός ο αριθμός δεν πρέπει να είναι ίδιος με ένα άλλο πεδίο.";
+$l['text'] = "Πλαίσιο κειμένου";
+$l['textarea'] = "Περιοχή κειμένου";
+$l['select'] = "Πλαίσιο επιλογής";
+$l['multiselect'] = "Πολλαπλή επιλογή";
+$l['radio'] = "Κουμπιά ραδιοφώνου";
+$l['checkbox'] = "Κουτάκια επιλογής";
+$l['field_type'] = "Τύπος πεδίου";
+$l['field_type_desc'] = "Αυτός είναι ο τύπος πεδίου που θα εμφανίζεται.";
+$l['field_regex'] = "Κανονική έκφραση";
+$l['field_regex_desc'] = "Εισαγάγετε μια κανονική έκφραση που πρέπει να ταιριάζει με την είσοδο του χρήστη. Πρέπει να βεβαιωθείτε ότι η κανονική έκφραση είναι έγκυρη και ασφαλής - δεν γίνεται καμία επικύρωση. Κενό για οτιδήποτε.<br />
+<strong>Παράδειγμα:</strong> ([a-z0-9_\- ,.+]+)";
+$l['selectable_options'] = "Επιλέξιμες επιλογές;";
+$l['selectable_options_desc'] = "Παρακαλούμε εισαγάγετε κάθε επιλογή σε ξεχωριστή γραμμή. Αυτό ισχύει μόνο για τα πλαίσια επιλογής, τα κουτάκια επιλογής και τα κουμπιά ραδιοφώνου.";
+$l['required'] = "Απαιτείται;";
+$l['required_desc'] = "Αυτό το πεδίο πρέπει να συμπληρωθεί κατά την εγγραφή ή την επεξεργασία του προφίλ; Σημειώστε ότι αυτό δεν ισχύει εάν το πεδίο είναι κρυφό ή το πεδίο δεν είναι επεξεργάσιμο.";
+$l['show_on_registration'] = "Εμφάνιση κατά την εγγραφή;";
+$l['show_on_registration_desc'] = "Θα πρέπει αυτό το πεδίο να εμφανίζεται στη φόρμα εγγραφής; Σημειώστε ότι αυτό δεν ισχύει εάν το πεδίο δεν είναι επεξεργάσιμο. Τα πεδία που απαιτούνται θα εμφανίζονται πάντα κατά την εγγραφή.";
+$l['display_on_profile'] = "Εμφάνιση στο προφίλ;";
+$l['display_on_profile_desc'] = "Θα πρέπει αυτό το πεδίο να εμφανίζεται στο προφίλ του χρήστη;";
+$l['display_on_postbit'] = "Εμφάνιση στο postbit;";
+$l['display_on_postbit_desc'] = "Θα πρέπει αυτό το πεδίο να εμφανίζεται στις δημοσιεύσεις του χρήστη;";
+$l['viewableby'] = 'Προβολή από';
+$l['viewableby_desc'] = 'Επιλέξτε τις επιτρεπόμενες ομάδες που μπορούν να δουν αυτό το πεδίο προφίλ.';
+$l['editableby'] = 'Επεξεργάσιμο από';
+$l['editableby_desc'] = 'Επιλέξτε τις επιτρεπόμενες ομάδες που μπορούν να επεξεργαστούν αυτό το πεδίο προφίλ.';
+$l['min_posts_enabled'] = "Ελάχιστος αριθμός δημοσιεύσεων;";
+$l['min_posts_enabled_desc'] = "Θα πρέπει αυτό το πεδίο να είναι διαθέσιμο μόνο για χρήστες με συγκεκριμένο αριθμό δημοσιεύσεων; Εάν ναι, ορίστε τον ελάχιστο αριθμό δημοσιεύσεων που απαιτούνται εδώ.";
+$l['parser_options'] = "Επιλογές ανάλυσης";
+$l['parse_allowhtml'] = "Ναι, επιτρέψτε HTML σε αυτό το πεδίο προφίλ.";
+$l['parse_allowmycode'] = "Ναι, επιτρέψτε MyCode σε αυτό το πεδίο προφίλ.";
+$l['parse_allowsmilies'] = "Ναι, επιτρέψτε smilies σε αυτό το πεδίο προφίλ.";
+$l['parse_allowimgcode'] = "Ναι, επιτρέψτε τον κώδικα [img] σε αυτό το πεδίο προφίλ.";
+$l['parse_allowvideocode'] = "Ναι, επιτρέψτε τον κώδικα [video] σε αυτό το πεδίο προφίλ.";
+$l['save_profile_field'] = "Αποθήκευση πεδίου προφίλ";
+$l['name'] = "Όνομα";
+$l['registration'] = "Εγγραφή;";
+$l['editable'] = "Επεξεργάσιμο;";
+$l['profile'] = "Προφίλ;";
+$l['postbit'] = "Postbit;";
+$l['edit_field'] = "Επεξεργασία πεδίου";
+$l['delete_field'] = "Διαγραφή πεδίου";
+$l['no_profile_fields'] = "Δεν υπάρχουν προσαρμοσμένα πεδία προφίλ στο φόρουμ σας αυτή τη στιγμή.";
 
-$l['error_missing_name'] = "You did not enter a title for this custom profile field";
-$l['error_missing_description'] = "You did not enter a description for this custom profile field";
-$l['error_invalid_fid'] = "The selected profile field does not exist.";
+$l['error_missing_name'] = "Δεν καταχωρήσατε τίτλο για αυτό το προσαρμοσμένο πεδίο προφίλ";
+$l['error_missing_description'] = "Δεν καταχωρήσατε περιγραφή για αυτό το προσαρμοσμένο πεδίο προφίλ";
+$l['error_invalid_fid'] = "Το επιλεγμένο πεδίο προφίλ δεν υπάρχει.";
 
-$l['success_profile_field_added'] = "The custom profile field has been created successfully.";
-$l['success_profile_field_saved'] = "The custom profile field has been saved successfully.";
-$l['success_profile_field_deleted'] = "The selected custom profile field has been deleted successfully.";
+$l['success_profile_field_added'] = "Το προσαρμοσμένο πεδίο προφίλ δημιουργήθηκε με επιτυχία.";
+$l['success_profile_field_saved'] = "Το προσαρμοσμένο πεδίο προφίλ αποθηκεύτηκε με επιτυχία.";
+$l['success_profile_field_deleted'] = "Το επιλεγμένο προσαρμοσμένο πεδίο προφίλ διαγράφηκε με επιτυχία.";
 
-$l['confirm_profile_field_deletion'] = "Are you sure you wish to delete this profile field?";
+$l['confirm_profile_field_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το πεδίο προφίλ;";
