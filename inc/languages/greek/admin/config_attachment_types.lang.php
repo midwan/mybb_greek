@@ -5,10 +5,10 @@
  *
  */
 
-$l['attachment_types'] = "Attachment Types";
-$l['attachment_types_desc'] = "Here you can create and manage attachment types which define which types of files users can attach to posts. Note: Disabling an attachment type will make existing attachments of this type inaccessible.";
-$l['add_new_attachment_type'] = "Add New Attachment Type";
-$l['add_attachment_type'] = "Add Attachment Type";
+$l['attachment_types'] = "Τύποι Συνημμένων";
+$l['attachment_types_desc'] = "Εδώ μπορείτε να δημιουργήσετε και να διαχειριστείτε τους τύπους των συνημμένων σας. Αυτοί ορίζουν τα είδη αρχείων τα οποία μπορούν να επισυνάψουν οι χρήστες σας στις καταχωρίσεις τους. Σημείωση: Η απενεργοποίηση ενός τύπου συνημμένου, θα καταστήσει τα υπάρχοντα συνημμένα αυτού του τύπου απροσπέλαστα.";
+$l['add_new_attachment_type'] = "Προσθήκη Νέου Τύπου Συνημμένου";
+$l['add_attachment_type'] = "Προσθήκη Τύπου Συνημμένου";
 $l['add_attachment_type_desc'] = "Adding a new attachment type will allow members to attach files of this type to their posts. You have the ability to control the extension, MIME type, maximum size and show a small icon for each attachment type.";
 $l['edit_attachment_type'] = "Edit Attachment Type";
 $l['edit_attachment_type_desc'] = "You have the ability to control the extension, MIME type, maximum size and show a small MIME type for this attachment type.";
