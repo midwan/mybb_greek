@@ -1,63 +1,64 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['languages'] = "Languages";
-$l['languages_desc'] = "The language packs you have installed on your forum are shown below. You can choose to edit the language files, edit the files with another language, or edit the language's properties.";
-$l['find_language_packs'] = "Find Language Packs";
-$l['language_files'] = "Language Files";
-$l['language_files_desc'] = "Below are the files within the selected language, for both the front-end and the admin control panel. Here you can choose to edit these files.";
-$l['quick_phrases'] = "Quick Phrases";
-$l['quick_phrases_desc'] = "Quick access to commonly modified language phrases.";
+$l['languages'] = "Γλώσσες";
+$l['languages_desc'] = "Οι γλώσσες που έχετε εγκατεστημένες στο φόρουμ σας εμφανίζονται παρακάτω. Μπορείτε να επιλέξετε να επεξεργαστείτε τα αρχεία γλώσσας, να επεξεργαστείτε τα αρχεία με μια άλλη γλώσσα ή να επεξεργαστείτε τις ιδιότητες της γλώσσας.";
+$l['find_language_packs'] = "Βρείτε Πακέτα Γλωσσών";
+$l['language_files'] = "Αρχεία Γλωσσών";
+$l['language_files_desc'] = "Παρακάτω εμφανίζονται τα αρχεία μέσα στην επιλεγμένη γλώσσα, τόσο για το μπροστινό μέρος όσο και για τον διαχειριστικό πίνακα ελέγχου. Εδώ μπορείτε να επιλέξετε να επεξεργαστείτε αυτά τα αρχεία.";
+$l['quick_phrases'] = "Γρήγορες Φράσεις";
+$l['quick_phrases_desc'] = "Γρήγορη πρόσβαση σε συχνά τροποποιούμενες γλωσσικές φράσεις.";
 
-$l['edit_with'] = "Edit with {1}";
-$l['edit_language_variables'] = "Edit Language Variables";
-$l['edit_language_variables_desc'] = "Here you can edit the different language strings to your liking.";
-$l['edit_properties_desc'] = "Here you can edit a language pack properties.";
-$l['installed_language_packs'] = "Installed Language Packs";
-$l['front_end'] = "Front End";
-$l['admin_cp'] = "Admin CP";
-$l['save_language_file'] = "Save Language File";
-$l['nav_editing_set'] = "Editing Language Set Properties";
-$l['edit_properties'] = "Edit Language Pack Properties";
-$l['friendly_name'] = "Friendly Name";
-$l['language_in_html'] = "Language in &lt;html&gt; tag";
-$l['charset'] = "Character Set";
-$l['admin'] = "Contains Admin CP language variables?";
-$l['rtl'] = "Right-To-Left?";
+$l['edit_with'] = "Επεξεργασία με {1}";
+$l['edit_language_variables'] = "Επεξεργασία Γλωσσικών Μεταβλητών";
+$l['edit_language_variables_desc'] = "Εδώ μπορείτε να επεξεργαστείτε τις διάφορες γλωσσικές συμβολοσειρές όπως θέλετε.";
+$l['edit_properties_desc'] = "Εδώ μπορείτε να επεξεργαστείτε τις ιδιότητες ενός πακέτου γλώσσας.";
+$l['installed_language_packs'] = "Εγκατεστημένα Πακέτα Γλωσσών";
+$l['front_end'] = "Μπροστινό Μέρος";
+$l['admin_cp'] = "Διαχειριστικός Πίνακας Ελέγχου";
+$l['save_language_file'] = "Αποθήκευση Αρχείου Γλώσσας";
+$l['nav_editing_set'] = "Επεξεργασία Ιδιοτήτων Συνόλου Γλωσσών";
+$l['edit_properties'] = "Επεξεργασία Ιδιοτήτων Πακέτου Γλώσσας";
+$l['friendly_name'] = "Φιλικό Όνομα";
+$l['language_in_html'] = "Γλώσσα στην ετικέτα &lt;html&gt;";
+$l['charset'] = "Σύνολο Χαρακτήρων";
+$l['admin'] = "Περιέχει μεταβλητές γλώσσας για τον διαχειριστικό πίνακα ελέγχου;";
+$l['rtl'] = "Δεξιά-Προς-Αριστερά;";
 
-$l['quickphrases_agreement'] = 'Registration Agreement - Title';
-$l['quickphrases_agreement_1'] = 'Registration Agreement - Paragraph 1';
-$l['quickphrases_agreement_2'] = 'Registration Agreement - Paragraph 2';
-$l['quickphrases_agreement_3'] = 'Registration Agreement - Paragraph 3';
-$l['quickphrases_agreement_4'] = 'Registration Agreement - Paragraph 4';
-$l['quickphrases_agreement_5'] = 'Registration Agreement - Paragraph 5';
+$l['quickphrases_agreement'] = 'Συμφωνία Εγγραφής - Τίτλος';
+$l['quickphrases_agreement_1'] = 'Συμφωνία Εγγραφής - Παράγραφος 1';
+$l['quickphrases_agreement_2'] = 'Συμφωνία Εγγραφής - Παράγραφος 2';
+$l['quickphrases_agreement_3'] = 'Συμφωνία Εγγραφής - Παράγραφος 3';
+$l['quickphrases_agreement_4'] = 'Συμφωνία Εγγραφής - Παράγραφος 4';
+$l['quickphrases_agreement_5'] = 'Συμφωνία Εγγραφής - Παράγραφος 5';
 
-$l['quickphrases_error_nopermission_guest_1'] = 'No Permissions Message - Paragraph 1';
-$l['quickphrases_error_nopermission_guest_2'] = 'No Permissions Message - Paragraph 2';
-$l['quickphrases_error_nopermission_guest_3'] = 'No Permissions Message - Paragraph 3';
-$l['quickphrases_error_nopermission_guest_4'] = 'No Permissions Message - Paragraph 4';
+$l['quickphrases_error_nopermission_guest_1'] = 'Μήνυμα Χωρίς Δικαιώματα - Παράγραφος 1';
+$l['quickphrases_error_nopermission_guest_2'] = 'Μήνυμα Χωρίς Δικαιώματα - Παράγραφος 2';
+$l['quickphrases_error_nopermission_guest_3'] = 'Μήνυμα Χωρίς Δικαιώματα - Παράγραφος 3';
+$l['quickphrases_error_nopermission_guest_4'] = 'Μήνυμα Χωρίς Δικαιώματα - Παράγραφος 4';
 
-$l['no_languages'] = "No Languages";
-$l['no_language_files_front_end'] = "There are no Front End Language files found.";
-$l['no_language_files_admin_cp'] = "There are no Admin CP Language files found.";
+$l['no_languages'] = "Δεν υπάρχουν γλώσσες";
+$l['no_language_files_front_end'] = "Δεν βρέθηκαν αρχεία γλώσσας για το μπροστινό μέρος.";
+$l['no_language_files_admin_cp'] = "Δεν βρέθηκαν αρχεία γλώσσας για τον διαχειριστικό πίνακα ελέγχου.";
 
-$l['error_invalid_set'] = "Invalid language set specified.";
-$l['error_invalid_file'] = "Invalid language file specified.";
-$l['error_cannot_write_to_file'] = "Cannot write to file.  Check the file permissions for this language set and try again";
-$l['error_folders_fail'] = "There was problem accessing requested language pack folders. Please make sure they exists and are writable.";
+$l['error_invalid_set'] = "Δηλώθηκε μη έγκυρο σύνολο γλωσσών.";
+$l['error_invalid_file'] = "Δηλώθηκε μη έγκυρο αρχείο γλώσσας.";
+$l['error_cannot_write_to_file'] = "Δεν είναι δυνατή η εγγραφή στο αρχείο. Ελέγξτε τα δικαιώματα αρχείου για αυτό το σύνολο γλωσσών και προσπαθήστε ξανά.";
+$l['error_folders_fail'] = "Παρουσιάστηκε πρόβλημα κατά την πρόσβαση στους ζητούμενους φακέλους πακέτου γλώσσας. Βεβαιωθείτε ότι υπάρχουν και είναι εγγράψιμοι.";
 
-$l['alert_note_cannot_write'] = "Before you can edit the language file, you must CHMOD the files in this language set so that the server has permission to write to them.";
+$l['alert_note_cannot_write'] = "Πριν μπορέσετε να επεξεργαστείτε το αρχείο γλώσσας, πρέπει να αλλάξετε τα δικαιώματα των αρχείων σε αυτό το σύνολο γλωσσών, ώστε ο διακομιστής να έχει άδεια εγγραφής σε αυτά.";
 
-$l['success_langfile_updated'] = "The language file has been updated successfully.";
-$l['success_langprops_updated'] = "The language properties have been updated successfully.";
-$l['success_quickphrases_updated'] = "The quick language phrases have been updated successfully.";
+$l['success_langfile_updated'] = "Το αρχείο γλώσσας ενημερώθηκε με επιτυχία.";
+$l['success_langprops_updated'] = "Οι ιδιότητες της γλώσσας ενημερώθηκαν με επιτυχία.";
+$l['success_quickphrases_updated'] = "Οι γρήγορες γλωσσικές φράσεις ενημερώθηκαν με επιτυχία.";
 
-$l['issues'] = "Issues";
-$l['phrases'] = "Phrases";
-$l['issues_ok'] = "It seems like everything should be ok here.";
-$l['issues_nothingtocompare'] = "There is nothing to compare here.";
-$l['issues_warning'] = "This file may require your attention.\nPlease make sure to check it.";
+$l['issues'] = "Προβλήματα";
+$l['phrases'] = "Φράσεις";
+$l['issues_ok'] = "Φαίνεται ότι όλα πρέπει να είναι εντάξει εδώ.";
+$l['issues_nothingtocompare'] = "Δεν υπάρχει τίποτα για σύγκριση εδώ.";
+$l['issues_warning'] = "Αυτό το αρχείο μπορεί να απαιτεί την προσοχή σας.\nΒεβαιωθείτε ότι το ελέγξατε.";
+
