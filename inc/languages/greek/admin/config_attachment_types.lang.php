@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
@@ -9,47 +9,47 @@ $l['attachment_types'] = "Τύποι Συνημμένων";
 $l['attachment_types_desc'] = "Εδώ μπορείτε να δημιουργήσετε και να διαχειριστείτε τους τύπους των συνημμένων σας. Αυτοί ορίζουν τα είδη αρχείων τα οποία μπορούν να επισυνάψουν οι χρήστες σας στις καταχωρίσεις τους. Σημείωση: Η απενεργοποίηση ενός τύπου συνημμένου, θα καταστήσει τα υπάρχοντα συνημμένα αυτού του τύπου απροσπέλαστα.";
 $l['add_new_attachment_type'] = "Προσθήκη Νέου Τύπου Συνημμένου";
 $l['add_attachment_type'] = "Προσθήκη Τύπου Συνημμένου";
-$l['add_attachment_type_desc'] = "Adding a new attachment type will allow members to attach files of this type to their posts. You have the ability to control the extension, MIME type, maximum size and show a small icon for each attachment type.";
-$l['edit_attachment_type'] = "Edit Attachment Type";
-$l['edit_attachment_type_desc'] = "You have the ability to control the extension, MIME type, maximum size and show a small MIME type for this attachment type.";
+$l['add_attachment_type_desc'] = "Η προσθήκη ενός νέου τύπου συνημμένου θα επιτρέψει στα μέλη να επισυνάπτουν αρχεία αυτού του τύπου στις αναρτήσεις τους. Έχετε τη δυνατότητα να ελέγχετε την επέκταση, τον τύπο MIME, το μέγιστο μέγεθος και να εμφανίζετε ένα μικρό εικονίδιο για κάθε τύπο συνημμένου.";
+$l['edit_attachment_type'] = "Επεξεργασία Τύπου Συνημμένου";
+$l['edit_attachment_type_desc'] = "Έχετε τη δυνατότητα να ελέγχετε την επέκταση, τον τύπο MIME, το μέγιστο μέγεθος και να εμφανίζετε ένα μικρό τύπο MIME για αυτόν τον τύπο συνημμένου.";
 
-$l['extension'] = "Extension";
-$l['maximum_size'] = "Maximum Size";
-$l['no_attachment_types'] = "There are no attachment types on your forum at this time.";
+$l['extension'] = "Επέκταση";
+$l['maximum_size'] = "Μέγιστο Μέγεθος";
+$l['no_attachment_types'] = "Δεν υπάρχουν τύποι συνημμένων στο φόρουμ σας αυτή τη στιγμή.";
 
-$l['name'] = "Name";
-$l['name_desc'] = "Enter the name of the attachment type.";
-$l['file_extension'] = "File Extension";
-$l['file_extension_desc'] = "Enter the file extension you wish to allow uploads for here (Do not include the period before the extension) (Example: txt)";
-$l['mime_type'] = "MIME Type";
-$l['mime_type_desc'] = "Enter the MIME type sent by the server when downloading files of this type (<a href=\"http://www.freeformatter.com/mime-types-list.html\">See a list here</a>)";
-$l['maximum_file_size'] = "Maximum File Size (Kilobytes)";
-$l['maximum_file_size_desc'] = "The maximum file size for uploads of this attachment type in Kilobytes (1 MB = 1024 KB)";
-$l['limit_intro'] = "Please ensure the maximum file size is below the smallest of the following PHP limits:";
-$l['limit_post_max_size'] = "Max Post Size: {1}";
-$l['limit_upload_max_filesize'] = "Upload Max File Size: {1}";
-$l['attachment_icon'] = "Attachment Icon";
-$l['attachment_icon_desc'] = "If you wish to show a small attachment icon for attachments of this type then enter the path to it here. {theme} will be replaced by the image directory for the viewers theme allowing you to specify per-theme attachment icons.";
-$l['save_attachment_type'] = "Save Attachment Type";
+$l['name'] = "Όνομα";
+$l['name_desc'] = "Εισαγάγετε το όνομα του τύπου συνημμένου.";
+$l['file_extension'] = "Επέκταση Αρχείου";
+$l['file_extension_desc'] = "Εισαγάγετε την επέκταση αρχείου που επιθυμείτε να επιτρέπετε τις μεταφορτώσεις για αυτόν τον τύπο (Μην περιλαμβάνετε την τελεία πριν από την επέκταση) (Παράδειγμα: txt)";
+$l['mime_type'] = "Τύπος MIME";
+$l['mime_type_desc'] = "Εισαγάγετε τον τύπο MIME που αποστέλλεται από τον διακομιστή κατά τη λήψη αρχείων αυτού του τύπου (<a href=\"http://www.freeformatter.com/mime-types-list.html\">Δείτε μια λίστα εδώ</a>)";
+$l['maximum_file_size'] = "Μέγιστο Μέγεθος Αρχείου (Kilobytes)";
+$l['maximum_file_size_desc'] = "Το μέγιστο μέγεθος αρχείου για μεταφορτώσεις αυτού του τύπου συνημμένου σε Kilobytes (1 MB = 1024 KB)";
+$l['limit_intro'] = "Βεβαιωθείτε ότι το μέγιστο μέγεθος αρχείου είναι κάτω από τα μικρότερα από τα παρακάτω όρια PHP:";
+$l['limit_post_max_size'] = "Μέγιστο Μέγεθος Ανάρτησης: {1}";
+$l['limit_upload_max_filesize'] = "Μέγιστο Μέγεθος Μεταφόρτωσης: {1}";
+$l['attachment_icon'] = "Εικονίδιο Συνημμένου";
+$l['attachment_icon_desc'] = "Εάν επιθυμείτε να εμφανίζετε ένα μικρό εικονίδιο συνημμένου για συνημμένα αυτού του τύπου, εισαγάγετε τη διαδρομή εδώ. {theme} θα αντικατασταθεί από τον κατάλογο εικόνων για το θέμα των θεατών, επιτρέποντάς σας να καθορίσετε εικονίδια συνημμένων ανά θέμα.";
+$l['save_attachment_type'] = "Αποθήκευση Τύπου Συνημμένου";
 
-$l['error_invalid_attachment_type'] = "You have selected an invalid attachment type.";
-$l['error_missing_mime_type'] = "You did not enter a MIME type for this attachment type";
-$l['error_missing_extension'] = "You did not enter a file extension for this attachment type";
+$l['error_invalid_attachment_type'] = "Επιλέξατε έναν μη έγκυρο τύπο συνημμένου.";
+$l['error_missing_mime_type'] = "Δεν εισαγάγατε τύπο MIME για αυτόν τον τύπο συνημμένου";
+$l['error_missing_extension'] = "Δεν εισαγάγατε επέκταση αρχείου για αυτόν τον τύπο συνημμένου";
 
-$l['success_attachment_type_created'] = "The attachment type has been created successfully.";
-$l['success_attachment_type_updated'] = "The attachment type has been updated successfully.";
-$l['success_attachment_type_deleted'] = "The attachment type has been deleted successfully.";
+$l['success_attachment_type_created'] = "Ο τύπος συνημμένου δημιουργήθηκε με επιτυχία.";
+$l['success_attachment_type_updated'] = "Ο τύπος συνημμένου ενημερώθηκε με επιτυχία.";
+$l['success_attachment_type_deleted'] = "Ο τύπος συνημμένου διαγράφηκε με επιτυχία.";
 
-$l['confirm_attachment_type_deletion'] = "Are you sure you wish to delete this attachment type?";
+$l['confirm_attachment_type_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον τύπο συνημμένου;";
 
-$l['success_activated_attachment_type'] = 'The selected attachment type has been activated successfully.';
-$l['success_deactivated_attachment_type'] = 'The selected attachment type has been deactivated successfully.';
+$l['success_activated_attachment_type'] = 'Ο επιλεγμένος τύπος συνημμένου ενεργοποιήθηκε με επιτυχία.';
+$l['success_deactivated_attachment_type'] = 'Ο επιλεγμένος τύπος συνημμένου απενεργοποιήθηκε με επιτυχία.';
 
-$l['enabled'] = "Enabled?";
-$l['forcedownload'] = "Force Download";
-$l['forcedownload_desc'] = "Enabling this will always force the attachment to be downloaded as a file.";
-$l['avatar_file'] = 'Avatar File';
-$l['avatar_file_desc'] = 'Do you want to allow this attachment type to be used for avatars?';
+$l['enabled'] = "Ενεργοποιημένο;";
+$l['forcedownload'] = "Εξαναγκασμένη Λήψη";
+$l['forcedownload_desc'] = "Ενεργοποίηση αυτού θα αναγκάζει πάντα το συνημμένο να λαμβάνεται ως αρχείο.";
+$l['avatar_file'] = 'Αρχείο Εικόνας Προφίλ';
+$l['avatar_file_desc'] = 'Θέλετε να επιτρέπετε αυτόν τον τύπο συνημμένου για τις εικόνες προφίλ;';
 
-$l['available_to_groups'] = 'Available to groups';
-$l['available_in_forums'] = 'Available in forums';
+$l['available_to_groups'] = 'Διαθέσιμο σε ομάδες';
+$l['available_in_forums'] = 'Διαθέσιμο σε φόρουμ';
