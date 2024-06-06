@@ -1,30 +1,30 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['preferences_and_personal_notes'] = "Preferences &amp; Personal Notes";
-$l['prefs_and_personal_notes_description'] = "Here you can manage your Admin Control Panel preferences and leave personal notes for yourself.";
+$l['preferences_and_personal_notes'] = "Προτιμήσεις &amp; Προσωπικές Σημειώσεις";
+$l['prefs_and_personal_notes_description'] = "Εδώ μπορείτε να διαχειριστείτε τις προτιμήσεις του Πίνακα Ελέγχου Διαχειριστή και να αφήσετε προσωπικές σημειώσεις για εσάς.";
 
-$l['preferences'] = "Preferences";
-$l['global_preferences'] = "Global Preferences";
-$l['acp_theme'] = "Admin Control Panel Theme";
-$l['select_acp_theme'] = "Please select a theme to use in the Admin Control Panel.";
-$l['acp_language'] = "Admin Control Panel Language";
-$l['select_acp_language'] = "Please select a language to use in the Admin Control Panel.";
-$l['notes_not_shared'] = "These notes are not shared with other Administrators.";
-$l['save_notes_and_prefs'] = "Save Personal Notes & Preferences";
-$l['personal_notes'] = "Personal Notes";
-$l['codemirror'] = "Turn on / off Code Mirror";
-$l['use_codemirror_desc'] = "This preference allows you to turn off Code Mirror (used in template editing and stylesheet editing for syntax highlighting) if you are experiencing issues / slow loading.";
+$l['preferences'] = "Προτιμήσεις";
+$l['global_preferences'] = "Καθολικές Προτιμήσεις";
+$l['acp_theme'] = "Θέμα Πίνακα Ελέγχου Διαχειριστή";
+$l['select_acp_theme'] = "Παρακαλώ επιλέξτε ένα θέμα για χρήση στον Πίνακα Ελέγχου Διαχειριστή.";
+$l['acp_language'] = "Γλώσσα Πίνακα Ελέγχου Διαχειριστή";
+$l['select_acp_language'] = "Παρακαλώ επιλέξτε μια γλώσσα για χρήση στον Πίνακα Ελέγχου Διαχειριστή.";
+$l['notes_not_shared'] = "Αυτές οι σημειώσεις δεν κοινοποιούνται με άλλους Διαχειριστές.";
+$l['save_notes_and_prefs'] = "Αποθήκευση Προσωπικών Σημειώσεων &amp; Προτιμήσεων";
+$l['personal_notes'] = "Προσωπικές Σημειώσεις";
+$l['codemirror'] = "Ενεργοποίηση / Απενεργοποίηση Code Mirror";
+$l['use_codemirror_desc'] = "Αυτή η προτίμηση σας επιτρέπει να απενεργοποιήσετε το Code Mirror (χρησιμοποιείται στην επεξεργασία προτύπων και την επεξεργασία φύλλων στυλ για την επισήμανση σύνταξης) αν αντιμετωπίζετε προβλήματα / αργή φόρτωση.";
 
-$l['success_preferences_updated'] = "The preferences have been successfully updated.";
+$l['success_preferences_updated'] = "Οι προτιμήσεις ενημερώθηκαν με επιτυχία.";
 
-$l['use_2fa_desc'] = "Two-Factor Authentication is a method to secure your admin account. After you've enabled it you'll see a QR Code below which you need to scan with an app <a href=\"https://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\" rel=\"noopener\">like Google Authenticator or Authy</a>. Those apps will generate a token which you need to enter on every acp login.";
-$l['my2fa_qr'] = "Two-Factor Authentication Code";
-$l['recovery_codes_desc'] = "View your <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">recovery codes</a>.";
-$l['recovery_codes'] = "Recovery Codes";
-$l['recovery_codes_warning'] = "<b>Note:</b> the codes will be regenerated on every page visit and can be only used once.";
-$l['print_recovery_codes'] = "Print Recovery Codes";
+$l['use_2fa_desc'] = "Η Διπλή Πιστοποίηση είναι μια μέθοδος για να ασφαλίσετε τον λογαριασμό σας ως διαχειριστή. Αφού την ενεργοποιήσετε, θα δείτε έναν κωδικό QR παρακάτω, τον οποίο πρέπει να σαρώσετε με μια εφαρμογή <a href=\"https://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\" rel=\"noopener\">όπως το Google Authenticator ή το Authy</a>. Αυτές οι εφαρμογές θα δημιουργήσουν ένα τοκέν που πρέπει να εισαγάγετε κατά την είσοδο στον Πίνακα Ελέγχου Διαχειριστή.";
+$l['my2fa_qr'] = "Κωδικός Διπλής Πιστοποίησης";
+$l['recovery_codes_desc'] = "Προβολή των <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">κωδικών ανάκτησης</a> σας.";
+$l['recovery_codes'] = "Κωδικοί Ανάκτησης";
+$l['recovery_codes_warning'] = "<b>Σημείωση:</b> οι κωδικοί θα ανανεώνονται κατά την επίσκεψη σε κάθε σελίδα και μπορούν να χρησιμοποιηθούν μόνο μία φορά.";
+$l['print_recovery_codes'] = "Εκτύπωση Κωδικών Ανάκτησης";
