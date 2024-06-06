@@ -1,44 +1,43 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['thread_prefixes'] = "Thread Prefixes";
-$l['thread_prefixes_in'] = "Thread Prefixes in \"{1}\"";
-$l['thread_prefixes_desc'] = "Thread prefixes allow you to define prefixes that users can assign to their threads. Threads can then be filtered by prefix within a forum.";
+$l['thread_prefixes'] = "Προθέματα Θέματος";
+$l['thread_prefixes_in'] = "Προθέματα Θέματος στο \"{1}\"";
+$l['thread_prefixes_desc'] = "Τα προθέματα θέματος σας επιτρέπουν να ορίσετε προθέματα που οι χρήστες μπορούν να αναθέσουν στα θέματά τους. Τα θέματα μπορούν στη συνέχεια να φιλτραριστούν ανά πρόθεμα εντός ενός φόρουμ.";
 
-$l['add_new_thread_prefix'] = "Add New Thread Prefix";
-$l['add_new_thread_prefix_desc'] = "Here you can add a new thread prefix and define where it is available, as well as which usergroups can use it.";
+$l['add_new_thread_prefix'] = "Προσθήκη Νέου Προθέματος Θέματος";
+$l['add_new_thread_prefix_desc'] = "Εδώ μπορείτε να προσθέσετε ένα νέο πρόθεμα θέματος και να ορίσετε πού είναι διαθέσιμο, καθώς και ποια ομάδα χρηστών μπορεί να το χρησιμοποιήσει.";
 
-$l['edit_prefix'] = "Edit Prefix";
-$l['edit_prefix_desc'] = "Here you can edit a thread prefix and change how it is displayed, where it is available and which usergroups can use it.";
-$l['edit_thread_prefix'] = "Edit Thread Prefix";
-$l['delete_thread_prefix'] = "Delete Thread Prefix";
+$l['edit_prefix'] = "Επεξεργασία Προθέματος";
+$l['edit_prefix_desc'] = "Εδώ μπορείτε να επεξεργαστείτε ένα πρόθεμα θέματος και να αλλάξετε τον τρόπο προβολής του, πού είναι διαθέσιμο και ποια ομάδα χρηστών μπορεί να το χρησιμοποιήσει.";
+$l['edit_thread_prefix'] = "Επεξεργασία Προθέματος Θέματος";
+$l['delete_thread_prefix'] = "Διαγραφή Προθέματος Θέματος";
 
-$l['prefix_options'] = "Prefix Options";
-$l['save_thread_prefix'] = "Save Thread Prefix";
+$l['prefix_options'] = "Επιλογές Προθέματος";
+$l['save_thread_prefix'] = "Αποθήκευση Προθέματος Θέματος";
 
-$l['prefix'] = "Prefix";
-$l['forums'] = "Available in Forums";
-$l['prefix_desc'] = "Plain text version of the prefix to be displayed in selection menus.";
-$l['display_style'] = "Display Style";
-$l['display_style_desc'] = "This is how the prefix will appear next to thread subjects. You may enter HTML markup here or simply use the same as the plain text version above.";
-$l['available_in_forums'] = "Available in forums";
-$l['available_to_groups'] = "Available to groups";
+$l['prefix'] = "Πρόθεμα";
+$l['forums'] = "Διαθέσιμο σε Φόρουμ";
+$l['prefix_desc'] = "Έκδοση καθαρού κειμένου του προθέματος που θα εμφανίζεται στα μενού επιλογής.";
+$l['display_style'] = "Στυλ Εμφάνισης";
+$l['display_style_desc'] = "Έτσι θα εμφανίζεται το πρόθεμα δίπλα στους τίτλους των θεμάτων. Μπορείτε να εισάγετε HTML κώδικα εδώ ή απλά να χρησιμοποιήσετε τον ίδιο κώδικα με την έκδοση καθαρού κειμένου παραπάνω.";
+$l['available_in_forums'] = "Διαθέσιμο σε φόρουμ";
+$l['available_to_groups'] = "Διαθέσιμο σε ομάδες";
 
-$l['no_thread_prefixes'] = "There are no thread prefixes setup.";
+$l['no_thread_prefixes'] = "Δεν υπάρχουν προθέματα θέματος που έχουν οριστεί.";
 
-$l['confirm_thread_prefix_deletion'] = "Are you sure you want to delete this thread prefix? Note: You should remember to update any custom moderator tools which use this prefix after deletion.";
+$l['confirm_thread_prefix_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το πρόθεμα θέματος; Σημείωση: Θα πρέπει να ενημερώσετε οποιαδήποτε προσαρμοσμένα εργαλεία του συντονιστή που χρησιμοποιούν αυτό το πρόθεμα μετά τη διαγραφή του.";
 
-$l['success_thread_prefix_created'] = "The thread prefix has been created successfully.";
-$l['success_thread_prefix_updated'] = "The thread prefix has been updated successfully.";
-$l['success_thread_prefix_deleted'] = "The thread prefix has been deleted successfully. Please update any custom moderator tools which use this prefix";
+$l['success_thread_prefix_created'] = "Το πρόθεμα θέματος δημιουργήθηκε με επιτυχία.";
+$l['success_thread_prefix_updated'] = "Το πρόθεμα θέματος ενημερώθηκε με επιτυχία.";
+$l['success_thread_prefix_deleted'] = "Το πρόθεμα θέματος διαγράφηκε με επιτυχία. Παρακαλούμε ενημερώστε οποιαδήποτε προσαρμοσμένα εργαλεία του συντονιστή που χρησιμοποιούν αυτό το πρόθεμα";
 
-$l['error_missing_prefix'] = "Please enter the prefix you wish to add.";
-$l['error_missing_display_style'] = "Please enter a display style for this prefix.";
-$l['error_no_forums_selected'] = "Please select the forums in which this prefix will be available.";
-$l['error_no_groups_selected'] = "Please select the groups to which this prefix will be available.";
-$l['error_invalid_prefix'] = "The specified thread prefix does not exist.";
-
+$l['error_missing_prefix'] = "Παρακαλούμε εισάγετε το πρόθεμα που θέλετε να προσθέσετε.";
+$l['error_missing_display_style'] = "Παρακαλούμε εισάγετε ένα στυλ εμφάνισης για αυτό το πρόθεμα.";
+$l['error_no_forums_selected'] = "Παρακαλούμε επιλέξτε τα φόρουμ στα οποία θα είναι διαθέσιμο αυτό το πρόθεμα.";
+$l['error_no_groups_selected'] = "Παρακαλούμε επιλέξτε τις ομάδες στις οποίες θα είναι διαθέσιμο αυτό το πρόθεμα.";
+$l['error_invalid_prefix'] = "Το καθορισμένο πρόθεμα θέματος δεν υπάρχει.";
