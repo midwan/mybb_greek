@@ -1,65 +1,65 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['report_reasons'] = "Report Reasons";
-$l['report_reasons_desc'] = "Here you can create and manage reasons that can be selecting when users report content.";
-$l['add_new_reason'] = "Add New Reason";
-$l['add_new_reason_desc'] = "Add a new reason for users to select when reporting content.";
-$l['edit_reason'] = "Edit Reason";
-$l['edit_reason_desc'] = "Edit a reason for users to select when reporting content.";
+$l['report_reasons'] = "Λόγοι Αναφοράς";
+$l['report_reasons_desc'] = "Εδώ μπορείτε να δημιουργήσετε και να διαχειριστείτε λόγους που μπορούν να επιλεγούν όταν οι χρήστες αναφέρουν περιεχόμενο.";
+$l['add_new_reason'] = "Προσθήκη Νέου Λόγου";
+$l['add_new_reason_desc'] = "Προσθέστε έναν νέο λόγο για τους χρήστες να επιλέγουν όταν αναφέρουν περιεχόμενο.";
+$l['edit_reason'] = "Επεξεργασία Λόγου";
+$l['edit_reason_desc'] = "Επεξεργαστείτε έναν λόγο για τους χρήστες να επιλέγουν όταν αναφέρουν περιεχόμενο.";
 
-$l['applies_to'] = "Applies To";
-$l['order'] = "Order";
-$l['extra_comment'] = "Require Comment?";
-$l['options'] = "Options";
-$l['delete_reason'] = "Delete Reason";
-$l['no_report_reasons'] = "There are no report reasons on your forum at this time.";
+$l['applies_to'] = "Ισχύει Για";
+$l['order'] = "Σειρά";
+$l['extra_comment'] = "Απαιτείται Σχόλιο;";
+$l['options'] = "Επιλογές";
+$l['delete_reason'] = "Διαγραφή Λόγου";
+$l['no_report_reasons'] = "Δεν υπάρχουν λόγοι αναφοράς στο φόρουμ σας αυτή τη στιγμή.";
 
-$l['reason_title'] = "Title";
-$l['reason_title_desc'] = "Enter the title of the reason for reporting the content.";
-$l['requires_extra'] = "Require An Extra Comment?";
-$l['requires_extra_desc'] = "Require the user to enter an additional comment when this reason is selected?";
-$l['save_reason'] = "Save Reason";
+$l['reason_title'] = "Τίτλος";
+$l['reason_title_desc'] = "Εισαγάγετε τον τίτλο του λόγου για την αναφορά του περιεχομένου.";
+$l['requires_extra'] = "Απαιτεί Επιπλέον Σχόλιο;";
+$l['requires_extra_desc'] = "Απαιτείται από τον χρήστη να εισαγάγει ένα επιπλέον σχόλιο όταν επιλέγεται αυτός ο λόγος;";
+$l['save_reason'] = "Αποθήκευση Λόγου";
 
-$l['content_colon'] = "Content:";
+$l['content_colon'] = "Περιεχόμενο:";
 
-$l['all_content'] = "All content";
-$l['select_content'] = "Select content";
+$l['all_content'] = "Όλο το περιεχόμενο";
+$l['select_content'] = "Επιλογή περιεχομένου";
 
 // Content types
-$l['report_content_'] = "None";
-$l['report_content_all'] = "All";
-$l['report_content_post'] = "Post";
-$l['report_content_profile'] = "Profile";
-$l['report_content_reputation'] = "Reputation";
+$l['report_content_'] = "Κανένα";
+$l['report_content_all'] = "Όλα";
+$l['report_content_post'] = "Δημοσίευση";
+$l['report_content_profile'] = "Προφίλ";
+$l['report_content_reputation'] = "Φήμη";
 
 // Content reasons
-$l['report_reason_rules'] = "Breaks Forum Rules";
-$l['report_reason_bad'] = "Inappropriate Content";
-$l['report_reason_spam'] = "Spam Content";
-$l['report_reason_wrong'] = "Wrong Forum";
-$l['report_reason_other'] = "Other";
+$l['report_reason_rules'] = "Παραβίαση Κανόνων Φόρουμ";
+$l['report_reason_bad'] = "Ακατάλληλο Περιεχόμενο";
+$l['report_reason_spam'] = "Ανεπιθύμητο Περιεχόμενο";
+$l['report_reason_wrong'] = "Λάθος Φόρουμ";
+$l['report_reason_other'] = "Άλλο";
 
-$l['default_report_reason'] = "Default";
-$l['custom_report_reason'] = "Custom";
+$l['default_report_reason'] = "Προεπιλογή";
+$l['custom_report_reason'] = "Προσαρμοσμένο";
 
-$l['update_reasons_order'] = "Update Reasons Order";
+$l['update_reasons_order'] = "Ενημέρωση Σειράς Λόγων";
 
-$l['error_cannot_modify_reason'] = "You cannot modify this reason.";
-$l['error_cannot_delete_reason'] = "You cannot delete this reason.";
-$l['error_invalid_reason'] = "You have selected an invalid reason.";
-$l['error_missing_title'] = "You did not enter a title for this reason.";
-//$l['error_missing_applies_to'] = "You did not select what content this reason applies to.";
-$l['error_missing_extra'] = "You did not select if you want extra information for this reason.";
+$l['error_cannot_modify_reason'] = "Δεν μπορείτε να τροποποιήσετε αυτόν τον λόγο.";
+$l['error_cannot_delete_reason'] = "Δεν μπορείτε να διαγράψετε αυτόν τον λόγο.";
+$l['error_invalid_reason'] = "Έχετε επιλέξει έναν μη έγκυρο λόγο.";
+$l['error_missing_title'] = "Δεν εισαγάγατε τίτλο για αυτόν τον λόγο.";
+//$l['error_missing_applies_to'] = "Δεν επιλέξατε για ποιο περιεχόμενο ισχύει αυτός ο λόγος.";
+$l['error_missing_extra'] = "Δεν επιλέξατε αν θέλετε επιπλέον πληροφορίες για αυτόν τον λόγο.";
 
-$l['success_reasons_disporder_updated'] = "The report reason display orders have been updated successfully.";
-$l['success_reason_created'] = "The reason has been created successfully.";
-$l['success_reason_updated'] = "The reason has been updated successfully.";
-$l['success_reason_deleted'] = "The reason has been deleted successfully.";
+$l['success_reasons_disporder_updated'] = "Οι λόγοι αναφοράς έχουν ενημερωθεί με επιτυχία.";
+$l['success_reason_created'] = "Ο λόγος δημιουργήθηκε με επιτυχία.";
+$l['success_reason_updated'] = "Ο λόγος ενημερώθηκε με επιτυχία.";
+$l['success_reason_deleted'] = "Ο λόγος διαγράφηκε με επιτυχία.";
 
-$l['confirm_reason_deletion'] = "Are you sure you wish to delete this reason?";
+$l['confirm_reason_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον λόγο;";
 
