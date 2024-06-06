@@ -1,22 +1,21 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['cache'] = "Cache:";
-$l['cache_manager'] = "Cache Manager";
-$l['cache_manager_description'] = "Here you can manage caches which are used as a method of optimizing MyBB. Rebuilding a cache will take all the necessary data used to create the cache and re-synchronize it. Reloading a cache will reload it into the selected cache handler (disk, eaccelerator, memcache, etc). Reloading is useful when switching from the database or file system to xcache, eaccelerator, or another cache handler.";
-$l['rebuild_cache'] = "Rebuild Cache";
-$l['reload_cache'] = "Reload Cache";
-$l['rebuild_reload_all'] = "(Rebuild & Reload All)";
+$l['cache'] = "Κρυφός Χώρος:";
+$l['cache_manager'] = "Διαχειριστής Κρυφού Χώρου";
+$l['cache_manager_description'] = "Εδώ μπορείτε να διαχειριστείτε τους κρυφούς χώρους που χρησιμοποιούνται ως μέθοδος βελτιστοποίησης του MyBB. Η ανακατασκευή ενός κρυφού χώρου θα πάρει όλα τα απαραίτητα δεδομένα που χρησιμοποιούνται για τη δημιουργία του κρυφού χώρου και θα τα συγχρονίσει ξανά. Η επαναφόρτωση ενός κρυφού χώρου θα τον φορτώσει ξανά στον επιλεγμένο χειριστή κρυφού χώρου (δίσκος, eaccelerator, memcache, κλπ). Η επαναφόρτωση είναι χρήσιμη όταν γίνεται μετάβαση από τη βάση δεδομένων ή το σύστημα αρχείων στο xcache, eaccelerator ή άλλο χειριστή κρυφού χώρου.";
+$l['rebuild_cache'] = "Ανακατασκευή Κρυφού Χώρου";
+$l['reload_cache'] = "Επαναφόρτωση Κρυφού Χώρου";
+$l['rebuild_reload_all'] = "(Ανακατασκευή & Επαναφόρτωση Όλων)";
 
-$l['error_cannot_rebuild'] = "This cache cannot be rebuilt.";
-$l['error_empty_cache'] = "Cache is empty.";
-$l['error_incorrect_cache'] = "Incorrect cache specified.";
-$l['error_no_cache_specified'] = "You did not specify a cache to view.";
+$l['error_cannot_rebuild'] = "Αυτός ο κρυφός χώρος δεν μπορεί να ανακατασκευαστεί.";
+$l['error_empty_cache'] = "Ο κρυφός χώρος είναι άδειος.";
+$l['error_incorrect_cache'] = "Εσφαλμένος κρυφός χώρος που καθορίστηκε.";
+$l['error_no_cache_specified'] = "Δεν καθορίσατε κρυφό χώρο για προβολή.";
 
-$l['success_cache_rebuilt'] = "The cache has been rebuilt successfully.";
-$l['success_cache_reloaded'] = "The cache has been reloaded successfully.";
-
+$l['success_cache_rebuilt'] = "Ο κρυφός χώρος ανακατασκευάστηκε με επιτυχία.";
+$l['success_cache_reloaded'] = "Ο κρυφός χώρος φορτώθηκε ξανά με επιτυχία.";
