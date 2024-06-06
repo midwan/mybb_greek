@@ -1,46 +1,46 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['banning'] = "Banning";
-$l['banned_ips'] = "Banned IPs";
-$l['banned_ips_desc'] = "Here you can manage IP addresses which are banned from accessing your board.";
-$l['banned_accounts'] = "Banned Accounts";
-$l['disallowed_usernames'] = "Disallowed Usernames";
-$l['disallowed_usernames_desc'] = "Here you manage a list of usernames which cannot be registered or used by users. This feature is also particularly useful for reserving usernames.";
-$l['disallowed_email_addresses'] = "Disallowed Email Addresses";
-$l['disallowed_email_addresses_desc'] = "Here you manage a list of email addresses which cannot be registered or used by users.";
+$l['banning'] = "Αποκλεισμός";
+$l['banned_ips'] = "Αποκλεισμένες IP";
+$l['banned_ips_desc'] = "Εδώ μπορείτε να διαχειριστείτε τις διευθύνσεις IP που έχουν αποκλειστεί από την πρόσβαση στον ιστότοπό σας.";
+$l['banned_accounts'] = "Αποκλεισμένοι Λογαριασμοί";
+$l['disallowed_usernames'] = "Απαγορευμένα Ονόματα Χρηστών";
+$l['disallowed_usernames_desc'] = "Εδώ μπορείτε να διαχειριστείτε μια λίστα ονομάτων χρηστών που δεν μπορούν να εγγραφούν ή να χρησιμοποιηθούν από τους χρήστες. Αυτή η λειτουργία είναι επίσης ιδιαίτερα χρήσιμη για την κατοχύρωση ονομάτων χρηστών.";
+$l['disallowed_email_addresses'] = "Απαγορευμένες Διευθύνσεις Email";
+$l['disallowed_email_addresses_desc'] = "Εδώ μπορείτε να διαχειριστείτε μια λίστα διευθύνσεων email που δεν μπορούν να εγγραφούν ή να χρησιμοποιηθούν από τους χρήστες.";
 
-$l['banned_ip_addresses'] = "Banned IP Addresses";
-$l['username'] = "Username";
-$l['date_disallowed'] = "Date Disallowed";
-$l['last_attempted_use'] = "Last Attempted Use";
-$l['email_address'] = "Email Address";
-$l['ip_address'] = "IP Address";
-$l['ban_date'] = "Ban Date";
-$l['last_access'] = "Last Access";
-$l['no_bans'] = "There are no bans currently set at this time.";
-$l['add_disallowed_username'] = "Add a Disallowed Username";
-$l['username_desc'] = "Note: To indicate a wild card match, use *";
-$l['disallow_username'] = "Disallow Username";
-$l['add_disallowed_email_address'] = "Add a Disallowed Email Address";
-$l['email_address_desc'] = "Note: To indicate a wild card match, use *";
-$l['disallow_email_address'] = "Disallow Email Address";
-$l['ban_an_ip_address'] = "Ban an IP Address";
-$l['ip_address_desc'] = "Note: To ban a range of IP addresses use * (Ex: 127.0.0.*) or CIDR notation (Ex: 127.0.0.0/8)";
-$l['ban_ip_address'] = "Ban IP Address";
+$l['banned_ip_addresses'] = "Αποκλεισμένες Διευθύνσεις IP";
+$l['username'] = "Όνομα χρήστη";
+$l['date_disallowed'] = "Ημερομηνία Απαγόρευσης";
+$l['last_attempted_use'] = "Τελευταία Προσπάθεια Χρήσης";
+$l['email_address'] = "Διεύθυνση Email";
+$l['ip_address'] = "Διεύθυνση IP";
+$l['ban_date'] = "Ημερομηνία Απαγόρευσης";
+$l['last_access'] = "Τελευταία Πρόσβαση";
+$l['no_bans'] = "Δεν υπάρχουν απαγορεύσεις αυτή τη στιγμή.";
+$l['add_disallowed_username'] = "Προσθήκη Απαγορευμένου Ονόματος Χρήστη";
+$l['username_desc'] = "Σημείωση: Για να υποδείξετε αντιστοιχία με μπαλαντέρ, χρησιμοποιήστε *";
+$l['disallow_username'] = "Απαγόρευση Ονόματος Χρήστη";
+$l['add_disallowed_email_address'] = "Προσθήκη Απαγορευμένης Διεύθυνσης Email";
+$l['email_address_desc'] = "Σημείωση: Για να υποδείξετε αντιστοιχία με μπαλαντέρ, χρησιμοποιήστε *";
+$l['disallow_email_address'] = "Απαγόρευση Διεύθυνσης Email";
+$l['ban_an_ip_address'] = "Απαγόρευση Διεύθυνσης IP";
+$l['ip_address_desc'] = "Σημείωση: Για να απαγορεύσετε ένα εύρος διευθύνσεων IP χρησιμοποιήστε * (π.χ. 127.0.0.*) ή την σημειογραφία CIDR (π.χ. 127.0.0.0/8)";
+$l['ban_ip_address'] = "Απαγόρευση Διεύθυνσης IP";
 
-$l['error_missing_ban_input'] = "You did not enter a value to ban.";
-$l['error_invalid_filter'] = "The specified filter does not exist.";
-$l['error_filter_already_banned'] = "The filter you entered is already banned.";
+$l['error_missing_ban_input'] = "Δεν καταχωρήσατε μια τιμή για απαγόρευση.";
+$l['error_invalid_filter'] = "Το καθορισμένο φίλτρο δεν υπάρχει.";
+$l['error_filter_already_banned'] = "Το φίλτρο που καταχωρήσατε έχει ήδη απαγορευτεί.";
 
-$l['success_ip_banned'] = "The IP address has been banned successfully.";
-$l['success_username_disallowed'] = "The username has been disallowed successfully.";
-$l['success_email_disallowed'] = "The email address has been disallowed successfully.";
-$l['success_ban_deleted'] = "The specified ban has been deleted successfully.";
+$l['success_ip_banned'] = "Η διεύθυνση IP απαγορεύτηκε με επιτυχία.";
+$l['success_username_disallowed'] = "Το όνομα χρήστη απαγορεύτηκε με επιτυχία.";
+$l['success_email_disallowed'] = "Η διεύθυνση email απαγορεύτηκε με επιτυχία.";
+$l['success_ban_deleted'] = "Η καθορισμένη απαγόρευση διαγράφηκε με επιτυχία.";
 
-$l['confirm_ban_deletion'] = "Are you sure you wish to delete this ban?";
+$l['confirm_ban_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την απαγόρευση;";
 
