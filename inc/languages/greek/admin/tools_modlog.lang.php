@@ -1,51 +1,50 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
 
-$l['mod_logs'] = "Moderator Logs";
-$l['mod_logs_desc'] = "Here you can view, prune, and search the moderator logs. These logs contain the actions any user may take (deletion of their own posts/threads) and all other actions by moderators.";
-$l['prune_mod_logs'] = "Prune Moderator Logs";
-$l['prune_mod_logs_desc'] = "Here you can prune the moderator logs matching a specified criteria.";
+$l['mod_logs'] = "Αρχεία καταγραφής διαχειριστή";
+$l['mod_logs_desc'] = "Εδώ μπορείτε να προβάλλετε, να καθαρίσετε και να αναζητήσετε τα αρχεία καταγραφής του διαχειριστή. Αυτά τα αρχεία καταγραφής περιέχουν τις ενέργειες που μπορεί να κάνει οποιοσδήποτε χρήστης (διαγραφή των δικών του μηνυμάτων/θεμάτων) και όλες τις άλλες ενέργειες από τους διαχειριστές.";
+$l['prune_mod_logs'] = "Καθαρισμός αρχείων καταγραφής διαχειριστή";
+$l['prune_mod_logs_desc'] = "Εδώ μπορείτε να καθαρίσετε τα αρχεία καταγραφής του διαχειριστή που ταιριάζουν με συγκεκριμένα κριτήρια.";
 
-$l['no_modlogs'] = "There are no log entries with the selected criteria.";
+$l['no_modlogs'] = "Δεν υπάρχουν καταχωρήσεις καταγραφής με τα επιλεγμένα κριτήρια.";
 
-$l['username'] = "Username";
-$l['na_deleted'] = "N/A - Been Deleted";
-$l['date'] = "Date";
-$l['action'] = "Action";
-$l['information'] = "Information";
-$l['ipaddress'] = "IP Address";
+$l['username'] = "Όνομα χρήστη";
+$l['na_deleted'] = "Μη Διαθέσιμο - Έχει Διαγραφεί";
+$l['date'] = "Ημερομηνία";
+$l['action'] = "Ενέργεια";
+$l['information'] = "Πληροφορίες";
+$l['ipaddress'] = "Διεύθυνση IP";
 
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
-$l['post'] = "Post:";
-$l['user_info'] = "User:";
-$l['announcement'] = "Announcement:";
+$l['forum'] = "Φόρουμ:";
+$l['thread'] = "Θέμα:";
+$l['post'] = "Δημοσίευση:";
+$l['user_info'] = "Χρήστης:";
+$l['announcement'] = "Ανακοίνωση:";
 
-$l['filter_moderator_logs'] = "Filter Moderator Logs";
-$l['forum_moderator'] = "Forum Moderator:";
-$l['sort_by'] = "Sort By:";
-$l['results_per_page'] = "Results Per Page:";
-$l['all_moderators'] = "All Moderators";
-$l['older_than'] = "Older than ";
+$l['filter_moderator_logs'] = "Φιλτράρισμα αρχείων καταγραφής διαχειριστή";
+$l['forum_moderator'] = "Διαχειριστής φόρουμ:";
+$l['sort_by'] = "Ταξινόμηση κατά:";
+$l['results_per_page'] = "Αποτελέσματα ανά σελίδα:";
+$l['all_moderators'] = "Όλοι οι Διαχειριστές";
+$l['older_than'] = "Παλαιότερο από ";
 
-$l['forum_name'] = "Forum Name";
-$l['thread_subject'] = "Thread Subject";
+$l['forum_name'] = "Όνομα φόρουμ";
+$l['thread_subject'] = "Θέμα θέματος";
 
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
+$l['asc'] = "Αύξουσα";
+$l['desc'] = "Φθίνουσα";
 
-$l['in'] = "in";
-$l['order'] = "order";
-$l['days'] = "days";
+$l['in'] = "σε";
+$l['order'] = "σειρά";
+$l['days'] = "ημέρες";
 
-$l['prune_moderator_logs'] = "Prune Moderator Logs";
-$l['date_range'] = "Date range:";
+$l['prune_moderator_logs'] = "Καθαρισμός αρχείων καταγραφής διαχειριστή";
+$l['date_range'] = "Εύρος ημερομηνιών:";
 
-$l['success_pruned_mod_logs'] = "The moderator logs have been pruned successfully.";
-$l['note_logs_locked'] = "For security reasons, logs less than 24 hours old cannot be pruned.";
-
+$l['success_pruned_mod_logs'] = "Τα αρχεία καταγραφής του διαχειριστή καθαρίστηκαν με επιτυχία.";
+$l['note_logs_locked'] = "Για λόγους ασφαλείας, τα αρχεία καταγραφής που είναι λιγότερο από 24 ώρες δεν μπορούν να καθαριστούν.";
