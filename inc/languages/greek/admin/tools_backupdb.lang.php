@@ -1,58 +1,57 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
 
-$l['database_backups'] = "Database Backups";
-$l['database_backups_desc'] = "Here you find a listing of the database backups that are currently stored on your web server in the MyBB Backups directory.";
-$l['new_database_backup'] = "New Database Backup";
-$l['new_backup'] = "New Backup";
-$l['new_backup_desc'] = "Here you can backup a copy of your database.";
-$l['backups'] = "Backups";
-$l['existing_database_backups'] = "Existing Database Backups";
+$l['database_backups'] = "Αντίγραφα Ασφαλείας Βάσης Δεδομένων";
+$l['database_backups_desc'] = "Εδώ θα βρείτε μια λίστα με τα αντίγραφα ασφαλείας της βάσης δεδομένων που είναι αποθηκευμένα στον διακομιστή ιστού σας στον φάκελο Αντίγραφα Ασφαλείας MyBB.";
+$l['new_database_backup'] = "Νέο Αντίγραφο Ασφαλείας Βάσης Δεδομένων";
+$l['new_backup'] = "Νέο Αντίγραφο Ασφαλείας";
+$l['new_backup_desc'] = "Εδώ μπορείτε να δημιουργήσετε ένα αντίγραφο ασφαλείας της βάσης δεδομένων σας.";
+$l['backups'] = "Αντίγραφα Ασφαλείας";
+$l['existing_database_backups'] = "Υπάρχοντα Αντίγραφα Ασφαλείας Βάσης Δεδομένων";
 
-$l['backup_saved_to'] = "The backup was saved to:";
-$l['download'] = "Download";
-$l['table_selection'] = "Table Selection";
-$l['backup_options'] = "Backup Options";
-$l['table_select_desc'] = "You may select the database tables you wish to perform this action on here. Hold down CTRL to select multiple tables.";
-$l['select_all'] = "Select All";
-$l['deselect_all'] = "Deselect All";
-$l['select_forum_tables'] = "Select Forum Tables";
-$l['file_type'] = "File Type";
-$l['file_type_desc'] = "Select the file type you would like the database backup saved as.";
-$l['gzip_compressed'] = "GZIP Compressed";
-$l['plain_text'] = "Plain Text";
-$l['save_method'] = "Save Method";
-$l['save_method_desc'] = "Select the method you would like to use to save the backup.";
-$l['backup_directory'] = "Backup Directory";
-$l['backup_contents'] = "Backup Contents";
-$l['backup_contents_desc'] = "Select the information that you would like included in the backup.";
-$l['structure_and_data'] = "Structure and Data";
-$l['structure_only'] = "Structure Only";
-$l['data_only'] = "Data only";
-$l['analyze_and_optimize'] = "Analyze and Optimize Selected Tables";
-$l['analyze_and_optimize_desc'] = "Would you like the selected tables to be analyzed and optimized during the backup?";
-$l['perform_backup'] = "Perform Backup";
-$l['backup_filename'] = "Backup Filename";
-$l['file_size'] = "File Size";
-$l['creation_date'] = "Creation Date";
-$l['no_backups'] = "There are currently no backups made yet.";
+$l['backup_saved_to'] = "Το αντίγραφο ασφαλείας αποθηκεύτηκε στο:";
+$l['download'] = "Λήψη";
+$l['table_selection'] = "Επιλογή Πινάκων";
+$l['backup_options'] = "Επιλογές Αντιγράφου Ασφαλείας";
+$l['table_select_desc'] = "Εδώ μπορείτε να επιλέξετε τους πίνακες της βάσης δεδομένων που θέλετε να εκτελέσετε αυτήν την ενέργεια. Κρατήστε πατημένο το πλήκτρο CTRL για να επιλέξετε πολλούς πίνακες.";
+$l['select_all'] = "Επιλογή Όλων";
+$l['deselect_all'] = "Αποεπιλογή Όλων";
+$l['select_forum_tables'] = "Επιλογή Πινάκων Συζητήσεων";
+$l['file_type'] = "Τύπος Αρχείου";
+$l['file_type_desc'] = "Επιλέξτε τον τύπο αρχείου στον οποίο θέλετε να αποθηκεύσετε το αντίγραφο ασφαλείας της βάσης δεδομένων.";
+$l['gzip_compressed'] = "Συμπιεσμένο με GZIP";
+$l['plain_text'] = "Απλό Κείμενο";
+$l['save_method'] = "Μέθοδος Αποθήκευσης";
+$l['save_method_desc'] = "Επιλέξτε τη μέθοδο που θέλετε να χρησιμοποιήσετε για την αποθήκευση του αντιγράφου ασφαλείας.";
+$l['backup_directory'] = "Κατάλογος Αντιγράφων Ασφαλείας";
+$l['backup_contents'] = "Περιεχόμενα Αντιγράφου Ασφαλείας";
+$l['backup_contents_desc'] = "Επιλέξτε τις πληροφορίες που θέλετε να περιλαμβάνονται στο αντίγραφο ασφαλείας.";
+$l['structure_and_data'] = "Δομή και Δεδομένα";
+$l['structure_only'] = "Μόνο Δομή";
+$l['data_only'] = "Μόνο Δεδομένα";
+$l['analyze_and_optimize'] = "Ανάλυση και Βελτιστοποίηση Επιλεγμένων Πινάκων";
+$l['analyze_and_optimize_desc'] = "Θέλετε οι επιλεγμένοι πίνακες να αναλυθούν και να βελτιστοποιηθούν κατά τη διάρκεια του αντιγράφου ασφαλείας;";
+$l['perform_backup'] = "Εκτέλεση Αντιγράφου Ασφαλείας";
+$l['backup_filename'] = "Όνομα Αρχείου Αντιγράφου Ασφαλείας";
+$l['file_size'] = "Μέγεθος Αρχείου";
+$l['creation_date'] = "Ημερομηνία Δημιουργίας";
+$l['no_backups'] = "Δεν υπάρχουν ακόμα αντίγραφα ασφαλείας.";
 
-$l['error_file_not_specified'] = "You did not specify a database backup to download.";
-$l['error_invalid_backup'] = "The back up file you selected is either invalid or does not exist.";
-$l['error_backup_doesnt_exist'] = "The specified backup does not exist";
-$l['error_backup_not_deleted'] = "The backup has not been deleted.";
-$l['error_tables_not_selected'] = "You did not select any tables to backup.";
-$l['error_no_zlib'] = "The zlib library for PHP is not enabled - you cannot create GZIP compressed backups.";
+$l['error_file_not_specified'] = "Δεν καθορίσατε ένα αρχείο αντιγράφου ασφαλείας για λήψη.";
+$l['error_invalid_backup'] = "Το αρχείο αντιγράφου ασφαλείας που επιλέξατε είναι είτε άκυρο είτε δεν υπάρχει.";
+$l['error_backup_doesnt_exist'] = "Το συγκεκριμένο αντίγραφο ασφαλείας δεν υπάρχει";
+$l['error_backup_not_deleted'] = "Το αντίγραφο ασφαλείας δεν έχει διαγραφεί.";
+$l['error_tables_not_selected'] = "Δεν επιλέξατε κανέναν πίνακα για αντίγραφο ασφαλείας.";
+$l['error_no_zlib'] = "Η βιβλιοθήκη zlib για την PHP δεν είναι ενεργοποιημένη - δεν μπορείτε να δημιουργήσετε συμπιεσμένα αντίγραφα ασφαλείας με GZIP.";
 
-$l['alert_not_writable'] = "Your backups directory (within the Admin CP directory) is not writable. You cannot save backups on the server.";
+$l['alert_not_writable'] = "Ο κατάλογος αντιγράφων ασφαλείας (μέσα στον κατάλογο του Πίνακα Ελέγχου Διαχείρισης) δεν είναι εγγράψιμος. Δεν μπορείτε να αποθηκεύσετε αντίγραφα ασφαλείας στον διακομιστή.";
 
-$l['confirm_backup_deletion'] = "Are you sure you wish to delete this backup?";
+$l['confirm_backup_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το αντίγραφο ασφαλείας;";
 
-$l['success_backup_deleted'] = "The backup has been deleted successfully.";
-$l['success_backup_created'] = "The backup has been created successfully.";
-
+$l['success_backup_deleted'] = "Το αντίγραφο ασφαλείας διαγράφηκε με επιτυχία.";
+$l['success_backup_created'] = "Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία.";
