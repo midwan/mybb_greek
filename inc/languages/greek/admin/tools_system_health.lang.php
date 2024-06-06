@@ -1,90 +1,90 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['system_health'] = "System Health";
-$l['system_health_desc'] = "Here you can view information on your system's health.";
-$l['utf8_conversion'] = "UTF-8 Conversion";
-$l['utf8_conversion_desc'] = "You are currently converting a database table to the UTF-8 format. Be aware that this process may take up to several hours depending on the size of your forum and this table. When the process is complete, you will be returned to the UTF-8 Conversion main page.";
-$l['utf8_conversion_desc2'] = "This tool checks the database tables to make sure they are in the UTF-8 format and allows you to convert them if they are not.";
+$l['system_health'] = "Υγεία Συστήματος";
+$l['system_health_desc'] = "Εδώ μπορείτε να δείτε πληροφορίες για την υγεία του συστήματός σας.";
+$l['utf8_conversion'] = "Μετατροπή σε UTF-8";
+$l['utf8_conversion_desc'] = "Αυτή τη στιγμή μετατρέπετε μια πίνακα της βάσης δεδομένων σε μορφή UTF-8. Να γνωρίζετε ότι αυτή η διαδικασία μπορεί να διαρκέσει αρκετές ώρες ανάλογα με το μέγεθος του φόρουμ σας και αυτού του πίνακα. Όταν ολοκληρωθεί η διαδικασία, θα επιστρέψετε στην κύρια σελίδα μετατροπής σε UTF-8.";
+$l['utf8_conversion_desc2'] = "Αυτό το εργαλείο ελέγχει τους πίνακες της βάσης δεδομένων για να βεβαιωθεί ότι είναι σε μορφή UTF-8 και σας επιτρέπει να τους μετατρέψετε αν δεν είναι.";
 
-$l['convert_all'] = "Convert All";
-$l['converting_to_utf8'] = "MyBB is currently converting \"{1}\" table to UTF-8 language encoding from {2} encoding.";
-$l['convert_to_utf8'] = "You are about to convert the \"{1}\" table to UTF-8 language encoding from {2} encoding.";
-$l['convert_all_to_utf'] = "You are about to convert ALL tables to UTF-8 language encoding from {1} encoding.";
-$l['convert_all_to_utf8mb4'] = "You are about to convert ALL tables to 4-Byte UTF-8 Unicode language encoding from {1} encoding.";
-$l['converting_to_utf8mb4'] = "MyBB is currently converting \"{1}\" table to 4-Byte UTF-8 Unicode language encoding from {2} encoding.";
-$l['please_wait'] = "Please wait&hellip;";
-$l['converting_table'] = "Converting Table: {1}";
-$l['convert_table'] = "Convert Table";
-$l['convert_tables'] = "Convert All Tables";
-$l['convert_database_table'] = "Convert Database Table";
-$l['convert_database_tables'] = "Convert All Database Tables";
-$l['table'] = "Table";
-$l['status_utf8'] = "UTF-8 Status";
-$l['status_utf8mb4'] = "4-Byte UTF-8 Support<br />(requires MySQL 5.5.3 or above)";
-$l['not_available'] = "Not available";
-$l['all_tables'] = "All Tables";
-$l['convert_now'] = "Convert Now";
-$l['totals'] = "Totals";
-$l['attachments'] = "Attachments";
-$l['total_database_size'] = "Total Database Size";
-$l['attachment_space_used'] = "Attachment Space used";
-$l['total_cache_size'] = "Total Cache Size";
-$l['estimated_attachment_bandwidth_usage'] = "Estimated Attachment Bandwidth Usage";
-$l['max_upload_post_size'] = "Max Upload / POST Size";
-$l['average_attachment_size'] = "Average Attachment Size";
-$l['stats'] = "Stats";
-$l['task'] = "Task";
-$l['run_time'] = "Run Time";
-$l['next_3_tasks'] = "Next 3 Tasks";
-$l['no_tasks'] = "There are no tasks running at this time.";
-$l['backup_time'] = "Backup Time";
-$l['no_backups'] = "There are currently no backups made yet.";
-$l['existing_db_backups'] = "Existing Database Backups";
-$l['writable'] = "Writable";
-$l['not_writable'] = "Not Writable";
-$l['please_chmod_777'] = "Please CHMOD to 777.";
-$l['chmod_info'] = "Please change the CHMOD settings to the ones specified with the file below. For more information on CHMODing, see the";
-$l['file'] = "File";
-$l['location'] = "Location";
-$l['settings_file'] = "Settings File";
-$l['config_file'] = "Configuration File";
-$l['file_upload_dir'] = "File Uploads Directory";
-$l['avatar_upload_dir'] = "Avatar Uploads Directory";
-$l['language_files'] = "Language Files";
-$l['backup_dir'] = "Backups Directory";
-$l['cache_dir'] = "Cache Directory";
-$l['themes_dir'] = "Themes Directory";
-$l['chmod_files_and_dirs'] = "CHMOD Files and Directories";
+$l['convert_all'] = "Μετατροπή Όλων";
+$l['converting_to_utf8'] = "Το MyBB μετατρέπει αυτή τη στιγμή τον πίνακα \"{1}\" σε κωδικοποίηση γλώσσας UTF-8 από την κωδικοποίηση {2}.";
+$l['convert_to_utf8'] = "Πρόκειται να μετατρέψετε τον πίνακα \"{1}\" σε κωδικοποίηση γλώσσας UTF-8 από την κωδικοποίηση {2}.";
+$l['convert_all_to_utf'] = "Πρόκειται να μετατρέψετε ΟΛΟΥΣ τους πίνακες σε κωδικοποίηση γλώσσας UTF-8 από την κωδικοποίηση {1}.";
+$l['convert_all_to_utf8mb4'] = "Πρόκειται να μετατρέψετε ΟΛΟΥΣ τους πίνακες σε κωδικοποίηση γλώσσας UTF-8 Unicode 4-Byte από την κωδικοποίηση {1}.";
+$l['converting_to_utf8mb4'] = "Το MyBB μετατρέπει αυτή τη στιγμή τον πίνακα \"{1}\" σε κωδικοποίηση γλώσσας UTF-8 Unicode 4-Byte από την κωδικοποίηση {2}.";
+$l['please_wait'] = "Παρακαλώ περιμένετε&hellip;";
+$l['converting_table'] = "Μετατροπή Πίνακα: {1}";
+$l['convert_table'] = "Μετατροπή Πίνακα";
+$l['convert_tables'] = "Μετατροπή Όλων των Πινάκων";
+$l['convert_database_table'] = "Μετατροπή Πίνακα Βάσης Δεδομένων";
+$l['convert_database_tables'] = "Μετατροπή Όλων των Πινάκων της Βάσης Δεδομένων";
+$l['table'] = "Πίνακας";
+$l['status_utf8'] = "Κατάσταση UTF-8";
+$l['status_utf8mb4'] = "Υποστήριξη 4-Byte UTF-8<br />(απαιτείται MySQL 5.5.3 ή νεότερη έκδοση)";
+$l['not_available'] = "Μη διαθέσιμο";
+$l['all_tables'] = "Όλοι οι Πίνακες";
+$l['convert_now'] = "Μετατροπή Τώρα";
+$l['totals'] = "Σύνολα";
+$l['attachments'] = "Συνημμένα";
+$l['total_database_size'] = "Συνολικό Μέγεθος Βάσης Δεδομένων";
+$l['attachment_space_used'] = "Χώρος Συνημμένων που Χρησιμοποιείται";
+$l['total_cache_size'] = "Συνολικό Μέγεθος Προσωρινής Μνήμης";
+$l['estimated_attachment_bandwidth_usage'] = "Εκτιμώμενη Χρήση Εύρους Ζώνης για Συνημμένα";
+$l['max_upload_post_size'] = "Μέγιστο Μέγεθος Μεταφόρτωσης / POST";
+$l['average_attachment_size'] = "Μέσο Μέγεθος Συνημμένου";
+$l['stats'] = "Στατιστικά";
+$l['task'] = "Εργασία";
+$l['run_time'] = "Χρόνος Εκτέλεσης";
+$l['next_3_tasks'] = "Επόμενες 3 Εργασίες";
+$l['no_tasks'] = "Δεν υπάρχουν εργασίες που εκτελούνται αυτή τη στιγμή.";
+$l['backup_time'] = "Χρόνος Αντιγραφής Ασφαλείας";
+$l['no_backups'] = "Δεν έχουν γίνει ακόμα αντίγραφα ασφαλείας.";
+$l['existing_db_backups'] = "Υπάρχοντα Αντίγραφα Ασφαλείας της Βάσης Δεδομένων";
+$l['writable'] = "Εγγράψιμο";
+$l['not_writable'] = "Μη εγγράψιμο";
+$l['please_chmod_777'] = "Παρακαλώ αλλάξτε τις ρυθμίσεις CHMOD σε 777.";
+$l['chmod_info'] = "Παρακαλώ αλλάξτε τις ρυθμίσεις CHMOD στις παρακάτω τιμές για το αντίστοιχο αρχείο. Για περισσότερες πληροφορίες σχετικά με το CHMOD, δείτε το";
+$l['file'] = "Αρχείο";
+$l['location'] = "Τοποθεσία";
+$l['settings_file'] = "Αρχείο Ρυθμίσεων";
+$l['config_file'] = "Αρχείο Διαμόρφωσης";
+$l['file_upload_dir'] = "Κατάλογος Μεταφόρτωσης Αρχείων";
+$l['avatar_upload_dir'] = "Κατάλογος Μεταφόρτωσης Εικόνων Προφίλ";
+$l['language_files'] = "Αρχεία Γλωσσών";
+$l['backup_dir'] = "Κατάλογος Αντιγράφων Ασφαλείας";
+$l['cache_dir'] = "Κατάλογος Προσωρινής Μνήμης";
+$l['themes_dir'] = "Κατάλογος Θεμάτων";
+$l['chmod_files_and_dirs'] = "Ρυθμίσεις CHMOD για Αρχεία και Καταλόγους";
 
-$l['notice_process_long_time'] = "This process may take up to several hours depending on the size of your forum and this table. <strong>It is highly recommend to create a database backup as this process can't be undone.</strong>";
-$l['notice_mb4_warning'] = "4-Byte UTF-8 Support requires MySQL 5.5.3 or above. You will not be able to import your database on a MySQL server with another version.";
+$l['notice_process_long_time'] = "Αυτή η διαδικασία μπορεί να διαρκέσει αρκετές ώρες ανάλογα με το μέγεθος του φόρουμ σας και αυτού του πίνακα. <strong>Συνιστάται ανεπιφύλακτα να δημιουργήσετε ένα αντίγραφο ασφαλείας της βάσης δεδομένων σας, καθώς αυτή η διαδικασία δεν μπορεί να αναιρεθεί.</strong>";
+$l['notice_mb4_warning'] = "Η υποστήριξη 4-Byte UTF-8 απαιτεί MySQL 5.5.3 ή νεότερη έκδοση. Δεν θα μπορείτε να εισαγάγετε τη βάση δεδομένων σας σε έναν διακομιστή MySQL με διαφορετική έκδοση.";
 
-$l['check_templates'] = "Check Templates";
-$l['check_templates_desc'] = "Checks all installed templates for known security issues.";
-$l['check_templates_title'] = "Check Template Security";
-$l['check_templates_info'] = "This process will check your templates against security issues that could affect your forum and the server it runs on. This might take a while if you've installed many themes.
-<br /><br />To start the process, press the 'Proceed' button below.";
-$l['check_templates_info_desc'] = "The templates below matched known security issues. Please review them.";
-$l['full_edit'] = "Full Edit";
+$l['check_templates'] = "Έλεγχος Προτύπων";
+$l['check_templates_desc'] = "Ελέγχει όλα τα εγκατεστημένα πρότυπα για γνωστά θέματα ασφαλείας.";
+$l['check_templates_title'] = "Έλεγχος Ασφάλειας Προτύπου";
+$l['check_templates_info'] = "Αυτή η διαδικασία θα ελέγξει τα πρότυπά σας για θέματα ασφαλείας που μπορεί να επηρεάσουν το φόρουμ σας και τον διακομιστή στον οποίο λειτουργεί. Αυτό μπορεί να διαρκέσει λίγο αν έχετε εγκαταστήσει πολλά θέματα.
+<br /><br />Για να ξεκινήσετε τη διαδικασία, πατήστε το κουμπί 'Προχωρήστε' παρακάτω.";
+$l['check_templates_info_desc'] = "Τα πρότυπα που ακολουθούν ταιριάζουν με γνωστά θέματα ασφαλείας. Παρακαλούμε ελέγξτε τα.";
+$l['full_edit'] = "Πλήρης Επεξεργασία";
 
-$l['error_chmod'] = "of the required files and directories do not have proper CHMOD settings.";
-$l['error_invalid_table'] = "The specified table does not exist.";
-$l['error_db_encoding_not_set'] = "Your current setup of MyBB is not setup to use this tool yet. Please see the <a href=\"https://docs.mybb.com/1.8/administration/utf-8-setup/\">MyBB Docs</a> for more information on how to set it up.";
-$l['error_not_supported'] = "Your current Database Engine is not supported by the UTF-8 Conversion Tool.";
-$l['error_invalid_input'] = "There was a problem checking the templates. Please try again or contact the MyBB Group for support.";
-$l['error_master_templates_altered'] = "The Master Templates have been altered. Please contact the MyBB Group for support on how to alter these.";
-$l['error_utf8mb4_version'] = "Your MySQL version doesn't support 4-Byte UTF-8 encoding.";
+$l['error_chmod'] = "των απαιτούμενων αρχείων και καταλόγων δεν έχουν τις σωστές ρυθμίσεις CHMOD.";
+$l['error_invalid_table'] = "Ο καθορισμένος πίνακας δεν υπάρχει.";
+$l['error_db_encoding_not_set'] = "Η τρέχουσα εγκατάσταση του MyBB δεν έχει ρυθμιστεί ακόμα για να χρησιμοποιήσει αυτό το εργαλείο. Παρακαλούμε ανατρέξτε στα <a href=\"https://docs.mybb.com/1.8/administration/utf-8-setup/\">MyBB Docs</a> για περισσότερες πληροφορίες σχετικά με τον τρόπο ρύθμισής του.";
+$l['error_not_supported'] = "Η τρέχουσα βάση δεδομένων σας δεν υποστηρίζεται από το Εργαλείο Μετατροπής UTF-8.";
+$l['error_invalid_input'] = "Παρουσιάστηκε πρόβλημα κατά τον έλεγχο των προτύπων. Παρακαλούμε δοκιμάστε ξανά ή επικοινωνήστε με την Ομάδα MyBB για υποστήριξη.";
+$l['error_master_templates_altered'] = "Τα Κύρια Πρότυπα έχουν τροποποιηθεί. Παρακαλούμε επικοινωνήστε με την Ομάδα MyBB για υποστήριξη σχετικά με τον τρόπο τροποποίησής τους.";
+$l['error_utf8mb4_version'] = "Η έκδοση MySQL σας δεν υποστηρίζει την κωδικοποίηση 4-Byte UTF-8.";
 
 
-$l['warning_multiple_encodings'] = "It is recommend not to use different encodings in your database. This may cause unexpected behavior or MySQL errors.";
-$l['warning_utf8mb4_config'] = "For full 4-Byte UTF-8 support you need to change <i>\$config['database']['encoding'] = 'utf8';</i> to <i>\$config['database']['encoding'] = 'utf8mb4';</i> in your inc/config.php.";
+$l['warning_multiple_encodings'] = "Συνιστάται να μην χρησιμοποιείτε διαφορετικές κωδικοποιήσεις στη βάση δεδομένων σας. Αυτό μπορεί να προκαλέσει απρόσμενη συμπεριφορά ή σφάλματα MySQL.";
+$l['warning_utf8mb4_config'] = "Για πλήρη υποστήριξη 4-Byte UTF-8 πρέπει να αλλάξετε την τιμή <i>\$config['database']['encoding'] = 'utf8';</i> σε <i>\$config['database']['encoding'] = 'utf8mb4';</i> στο αρχείο inc/config.php.";
 
-$l['success_templates_checked'] = "Templates checked successfully - no security issues were found!";
-$l['success_all_tables_already_converted'] = "All tables have already been converted or are already in UTF-8 format.";
-$l['success_table_converted'] = "The selected table \"{1}\" has been converted to UTF-8 successfully.";
-$l['success_chmod'] = "All of the required files and directories have the proper CHMOD settings.";
+$l['success_templates_checked'] = "Τα πρότυπα ελέγχθηκαν με επιτυχία - δεν βρέθηκαν θέματα ασφαλείας!";
+$l['success_all_tables_already_converted'] = "Όλοι οι πίνακες έχουν ήδη μετατραπεί ή είναι ήδη σε μορφή UTF-8.";
+$l['success_table_converted'] = "Ο επιλεγμένος πίνακας \"{1}\" μετατράπηκε με επιτυχία σε UTF-8.";
+$l['success_chmod'] = "Όλα τα απαιτούμενα αρχεία και κατάλογοι έχουν τις σωστές ρυθμίσεις CHMOD.";
