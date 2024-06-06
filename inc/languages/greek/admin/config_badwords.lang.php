@@ -1,39 +1,39 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['bad_words'] = "Word Filters";
-$l['edit_bad_word'] = "Edit Filter";
-$l['edit_bad_word_desc'] = "Here you can edit the filter and its replacement.";
-$l['bad_word_filters'] = "Word Filters";
-$l['bad_word_filters_desc'] = "This feature allows you to manage a listing of words or phrases which are automatically replaced in posts on your forum. It is useful for replacing swear words and such.";
+$l['bad_words'] = "Φίλτρα Λέξεων";
+$l['edit_bad_word'] = "Επεξεργασία Φίλτρου";
+$l['edit_bad_word_desc'] = "Εδώ μπορείτε να επεξεργαστείτε το φίλτρο και την αντικατάστασή του.";
+$l['bad_word_filters'] = "Φίλτρα Λέξεων";
+$l['bad_word_filters_desc'] = "Αυτή η λειτουργία σας επιτρέπει να διαχειρίζεστε μια λίστα λέξεων ή φράσεων που αυτόματα αντικαθίστανται στις δημοσιεύσεις στο φόρουμ σας. Είναι χρήσιμο για την αντικατάσταση ύβρεων και παρόμοιων.";
 
-$l['bad_word'] = "Word";
-$l['bad_word_desc'] = "Enter the word which you wish to be filtered. The '*' symbol represents any number of characters and the '+' symbol represents any single character (other than space and new line).";
-$l['bad_word_max'] = "A filtered word can't be longer than 100 characters.";
-$l['replacement'] = "Replacement";
-$l['replacement_desc'] = "Enter the string which will replace the filtered word (If this is blank, asterisks will be shown).";
-$l['regex'] = "Regular Expression";
-$l['regex_desc'] = "Treat the \"Word\" field as a regular expression.";
-$l['replacement_word_max'] = "A replacement word can't be longer than 100 characters.";
-$l['error_replacement_word_invalid'] = "A replacement word cannot be equivalent to it's word filter.";
+$l['bad_word'] = "Λέξη";
+$l['bad_word_desc'] = "Εισαγάγετε τη λέξη που θέλετε να φιλτραριστεί. Το σύμβολο '*' αντιπροσωπεύει οποιονδήποτε αριθμό χαρακτήρων και το σύμβολο '+' αντιπροσωπεύει οποιονδήποτε μοναδικό χαρακτήρα (εκτός από το κενό και τη νέα γραμμή).";
+$l['bad_word_max'] = "Μια φιλτραρισμένη λέξη δεν μπορεί να είναι μεγαλύτερη από 100 χαρακτήρες.";
+$l['replacement'] = "Αντικατάσταση";
+$l['replacement_desc'] = "Εισαγάγετε το συμβολοσειρά που θα αντικαταστήσει τη φιλτραρισμένη λέξη (Αν είναι κενό, θα εμφανίζονται αστερίσκοι).";
+$l['regex'] = "Κανονική Έκφραση";
+$l['regex_desc'] = "Θεωρήστε το πεδίο \"Λέξη\" ως κανονική έκφραση.";
+$l['replacement_word_max'] = "Μια λέξη αντικατάστασης δεν μπορεί να είναι μεγαλύτερη από 100 χαρακτήρες.";
+$l['error_replacement_word_invalid'] = "Μια λέξη αντικατάστασης δεν μπορεί να είναι ισοδύναμη με το φίλτρο της.";
 
-$l['save_bad_word'] = "Save Filter";
-$l['no_bad_words'] = "There are no word filters currently set at this time.";
-$l['add_bad_word'] = "Add a Filter";
-$l['add_bad_word_desc'] = "Here you can add a word filter and its replacement.";
+$l['save_bad_word'] = "Αποθήκευση Φίλτρου";
+$l['no_bad_words'] = "Δεν υπάρχουν φίλτρα λέξεων αυτή τη στιγμή.";
+$l['add_bad_word'] = "Προσθήκη Φίλτρου";
+$l['add_bad_word_desc'] = "Εδώ μπορείτε να προσθέσετε ένα φίλτρο λέξης και την αντικατάστασή του.";
 
-$l['error_missing_bad_word'] = "You did not enter a word filter.";
-$l['error_invalid_regex'] = "The specified regular expression is invalid.";
-$l['error_invalid_bid'] = "The specified filter does not exist.";
-$l['error_bad_word_filtered'] = "The filter you entered already exists.";
+$l['error_missing_bad_word'] = "Δεν εισαγάγατε ένα φίλτρο λέξης.";
+$l['error_invalid_regex'] = "Η καθορισμένη κανονική έκφραση δεν είναι έγκυρη.";
+$l['error_invalid_bid'] = "Το καθορισμένο φίλτρο δεν υπάρχει.";
+$l['error_bad_word_filtered'] = "Το φίλτρο που εισαγάγατε υπάρχει ήδη.";
 
-$l['success_added_bad_word'] = "The filter has been added successfully.";
-$l['success_deleted_bad_word'] = "The filter has been deleted successfully.";
-$l['success_updated_bad_word'] = "The filter has been updated successfully.";
+$l['success_added_bad_word'] = "Το φίλτρο προστέθηκε με επιτυχία.";
+$l['success_deleted_bad_word'] = "Το φίλτρο διαγράφηκε με επιτυχία.";
+$l['success_updated_bad_word'] = "Το φίλτρο ενημερώθηκε με επιτυχία.";
 
-$l['confirm_bad_word_deletion'] = "Are you sure you wish to delete this filter?";
+$l['confirm_bad_word_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το φίλτρο;";
 
