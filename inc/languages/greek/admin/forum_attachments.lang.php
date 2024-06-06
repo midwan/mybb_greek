@@ -1,112 +1,112 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-// Tabs
-$l['attachments'] = "Attachments";
-$l['stats'] = "Statistics";
-$l['find_attachments'] = "Find Attachments";
-$l['find_attachments_desc'] = "Using the attachments search system you can search for specific files users have attached to your forums. Begin by entering some search terms below. All fields are optional and won't be included in the criteria unless they contain a value.";
-$l['find_orphans'] = "Find Orphaned Attachments";
-$l['find_orphans_desc'] = "Orphaned attachments are attachments which are for some reason missing in the database or the file system. This utility will assist you in locating and removing them.";
-$l['attachment_stats'] = "Attachment Statistics";
-$l['attachment_stats_desc'] = "Below are some general statistics for the attachments currently on your forum.";
+// Καρτέλες
+$l['attachments'] = "Συνημμένα";
+$l['stats'] = "Στατιστικά";
+$l['find_attachments'] = "Εύρεση Συνημμένων";
+$l['find_attachments_desc'] = "Χρησιμοποιώντας το σύστημα αναζήτησης συνημμένων μπορείτε να αναζητήσετε συγκεκριμένα αρχεία που οι χρήστες έχουν επισυνάψει στο φόρουμ σας. Ξεκινήστε εισάγοντας μερικούς όρους αναζήτησης παρακάτω. Όλα τα πεδία είναι προαιρετικά και δεν θα συμπεριληφθούν στα κριτήρια εκτός αν περιέχουν μια τιμή.";
+$l['find_orphans'] = "Εύρεση Εγκαταλελειμμένων Συνημμένων";
+$l['find_orphans_desc'] = "Τα εγκαταλελειμμένα συνημμένα είναι συνημμένα που για κάποιο λόγο λείπουν από τη βάση δεδομένων ή το σύστημα αρχείων. Αυτό το εργαλείο θα σας βοηθήσει να τα εντοπίσετε και να τα διαγράψετε.";
+$l['attachment_stats'] = "Στατιστικά Συνημμένων";
+$l['attachment_stats_desc'] = "Παρακάτω παρουσιάζονται μερικά γενικά στατιστικά για τα συνημμένα που υπάρχουν αυτή τη στιγμή στο φόρουμ σας.";
 
-// Errors
-$l['error_nothing_selected'] = "Please select one or more attachments to delete.";
-$l['error_no_attachments'] = "There aren't any attachments on your forum yet. Once an attachment is posted you'll be able to access this section.";
-$l['error_not_all_removed'] = "Only some orphaned attachments were successfully deleted, others could not be removed from the uploads directory.";
-$l['error_count'] = 'Unable to remove {1} attachment(s).';
-$l['error_invalid_username'] = "The username you entered is invalid.";
-$l['error_invalid_forums'] = "One or more forums you selected are invalid.";
-$l['error_no_results'] = "No attachments were found with the specified search criteria.";
-$l['error_not_found'] = "Attachment file could not be found in the uploads directory.";
-$l['error_not_attached'] = "Attachment was uploaded over 24 hours ago but not attached to a post.";
-$l['error_does_not_exist'] = "Thread or post for this attachment no longer exists.";
+// Σφάλματα
+$l['error_nothing_selected'] = "Παρακαλώ επιλέξτε ένα ή περισσότερα συνημμένα για διαγραφή.";
+$l['error_no_attachments'] = "Δεν υπάρχουν ακόμα συνημμένα στο φόρουμ σας. Μόλις αναρτηθεί ένα συνημμένο θα μπορείτε να αποκτήσετε πρόσβαση σε αυτήν την ενότητα.";
+$l['error_not_all_removed'] = "Μόνο μερικά εγκαταλελειμμένα συνημμένα διαγράφηκαν με επιτυχία, άλλα δεν μπορούσαν να αφαιρεθούν από τον φάκελο αποστολής.";
+$l['error_count'] = 'Δεν ήταν δυνατή η αφαίρεση {1} συνημμένου(ων).';
+$l['error_invalid_username'] = "Το όνομα χρήστη που εισαγάγατε δεν είναι έγκυρο.";
+$l['error_invalid_forums'] = "Ένα ή περισσότερα φόρουμ που επιλέξατε δεν είναι έγκυρα.";
+$l['error_no_results'] = "Δεν βρέθηκαν συνημμένα με τα καθορισμένα κριτήρια αναζήτησης.";
+$l['error_not_found'] = "Το αρχείο του συνημμένου δεν μπορεί να βρεθεί στον φάκελο αποστολής.";
+$l['error_not_attached'] = "Το συνημμένο ανέβηκε πριν από 24 ώρες αλλά δεν επισυνάφθηκε σε μια ανάρτηση.";
+$l['error_does_not_exist'] = "Το νήμα ή η ανάρτηση για αυτό το συνημμένο δεν υπάρχει πλέον.";
 
-// Success
-$l['success_deleted'] = "The selected attachments have been deleted successfully.";
-$l['success_orphan_deleted'] = "The selected orphaned attachment(s) have been deleted successfully.";
-$l['success_count'] = '{1} attachment(s) removed successfully.';
-$l['success_no_orphans'] = "There are no orphaned attachments on your forum.";
+// Επιτυχία
+$l['success_deleted'] = "Τα επιλεγμένα συνημμένα διαγράφηκαν με επιτυχία.";
+$l['success_orphan_deleted'] = "Τα επιλεγμένα εγκαταλελειμμένα συνημμένα διαγράφηκαν με επιτυχία.";
+$l['success_count'] = 'Τα {1} συνημμένα αφαιρέθηκαν με επιτυχία.';
+$l['success_no_orphans'] = "Δεν υπάρχουν εγκαταλελειμμένα συνημμένα στο φόρουμ σας.";
 
-// Confirm
-$l['confirm_delete'] = "Are you sure you wish to delete the selected attachments?";
+// Επιβεβαίωση
+$l['confirm_delete'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε τα επιλεγμένα συνημμένα;";
 
-// == Pages
-// = Stats
-$l['general_stats'] = "General Statistics";
-$l['stats_attachment_stats'] = "Attachments - Attachment Statistics";
-$l['num_uploaded'] = "<strong>No. Uploaded Attachments</strong>";
-$l['space_used'] = "<strong>Attachment Space Used</strong>";
-$l['bandwidth_used'] = "<strong>Estimated Bandwidth Usage</strong>";
-$l['average_size'] = "<strong>Average Attachment Size</strong>";
-$l['size'] = "Size";
-$l['posted_by'] = "Posted By";
-$l['thread'] = "Thread";
-$l['downloads'] = "Downloads";
-$l['date_uploaded'] = "Date Uploaded";
-$l['popular_attachments'] = "Top 5 Most Popular Attachments";
-$l['largest_attachments'] = "Top 5 Largest Attachments";
-$l['users_diskspace'] = "Top 5 Users Using the Most Disk Space";
-$l['username'] = "Username";
-$l['total_size'] = "Total Size";
+// == Σελίδες
+// = Στατιστικά
+$l['general_stats'] = "Γενικά Στατιστικά";
+$l['stats_attachment_stats'] = "Συνημμένα - Στατιστικά Συνημμένων";
+$l['num_uploaded'] = "<strong>Αριθμός Ανεβασμένων Συνημμένων</strong>";
+$l['space_used'] = "<strong>Χώρος Συνημμένων που Χρησιμοποιείται</strong>";
+$l['bandwidth_used'] = "<strong>Εκτιμώμενη Χρήση Εύρους Ζώνης</strong>";
+$l['average_size'] = "<strong>Μέσος Όρος Μεγέθους Συνημμένου</strong>";
+$l['size'] = "Μέγεθος";
+$l['posted_by'] = "Αναρτήθηκε Από";
+$l['thread'] = "Θέμα";
+$l['downloads'] = "Λήψεις";
+$l['date_uploaded'] = "Ημερομηνία Ανεβάσματος";
+$l['popular_attachments'] = "Οι 5 Πιο Δημοφιλής Επισυνάψεις";
+$l['largest_attachments'] = "Οι 5 Μεγαλύτερες Επισυνάψεις";
+$l['users_diskspace'] = "Οι 5 Χρήστες με τον Μεγαλύτερο Χώρο Δίσκου";
+$l['username'] = "Όνομα Χρήστη";
+$l['total_size'] = "Συνολικό Μέγεθος";
 
 // = Orphans
-$l['orphan_results'] = "Orphaned Attachments Search - Results";
-$l['orphan_attachments_search'] = "Orphaned Attachments Search";
-$l['reason_orphaned'] = "Reason Orphaned";
-$l['reason_not_in_table'] = "Not in attachments table";
-$l['reason_file_missing'] = "Attached file missing";
-$l['reason_thread_deleted'] = "Thread been deleted";
-$l['reason_post_never_made'] = "Post never made";
-$l['unknown'] = "Unknown";
-$l['results'] = "Results";
-$l['step1'] = "Step 1";
-$l['step2'] = "Step 2";
-$l['step1of2'] = "Step 1 of 2 - File System Scan";
-$l['step2of2'] = "Step 2 of 2 - Database Scan";
-$l['step1of2_line1'] = "Please wait, the file system is currently being scanned for orphaned attachments.";
-$l['step2of2_line1'] = "Please wait, the database is currently being scanned for orphaned attachments.";
-$l['step_line2'] = "You'll automatically be redirected to the next step once this process is complete.";
-$l['scanning'] = 'Scanning&hellip;';
+$l['orphan_results'] = "Αποτελέσματα Ανεπιθύμητων Συνημμένων";
+$l['orphan_attachments_search'] = "Αναζήτηση Ανεπιθύμητων Συνημμένων";
+$l['reason_orphaned'] = "Αιτία Ανεπιθύμητου";
+$l['reason_not_in_table'] = "Δεν υπάρχει στον πίνακα συνημμένων";
+$l['reason_file_missing'] = "Λείπει το συνημμένο αρχείο";
+$l['reason_thread_deleted'] = "Το νήμα διαγράφηκε";
+$l['reason_post_never_made'] = "Δεν έγινε ποτέ ανάρτηση";
+$l['unknown'] = "Άγνωστο";
+$l['results'] = "Αποτελέσματα";
+$l['step1'] = "Βήμα 1";
+$l['step2'] = "Βήμα 2";
+$l['step1of2'] = "Βήμα 1 από 2 - Σάρωση Συστήματος Αρχείων";
+$l['step2of2'] = "Βήμα 2 από 2 - Σάρωση Βάσης Δεδομένων";
+$l['step1of2_line1'] = "Παρακαλώ περιμένετε, γίνεται αυτή τη στιγμή σάρωση του συστήματος αρχείων για ανεπιθύμητα συνημμένα.";
+$l['step2of2_line1'] = "Παρακαλώ περιμένετε, γίνεται αυτή τη στιγμή σάρωση της βάσης δεδομένων για ανεπιθύμητα συνημμένα.";
+$l['step_line2'] = "Θα ανακατευθυνθείτε αυτόματα στο επόμενο βήμα μόλις ολοκληρωθεί αυτή η διαδικασία.";
+$l['scanning'] = 'Σάρωση&hellip;';
 
 // = Attachments / Index
-$l['index_find_attachments'] = "Attachments - Find Attachments";
-$l['find_where'] = "Find attachments where&hellip;";
-$l['name_contains'] = "File name contains";
-$l['name_contains_desc'] = "Search for attachments that include the given query in the file name. For example, enter .zip to find attachments using the .zip file extension.";
-$l['type_contains'] = "File type contains";
-$l['forum_is'] = "Forum is";
-$l['username_is'] = "Posters' username is";
-$l['poster_is'] = "Poster is";
-$l['poster_is_either'] = "User or Guest";
-$l['poster_is_user'] = "Users Only";
-$l['poster_is_guest'] = "Guests Only";
-$l['more_than'] = "More than";
-$l['greater_than'] = "Greater than";
-$l['is_exactly'] = "Is exactly";
-$l['less_than'] = "Less than";
-$l['date_posted_is'] = "Date posted is";
-$l['days_ago'] = "days ago";
-$l['file_size_is'] = "File size is";
+$l['index_find_attachments'] = "Συνημμένα - Εύρεση Συνημμένων";
+$l['find_where'] = "Εύρεση συνημμένων όπου&hellip;";
+$l['name_contains'] = "Το όνομα του αρχείου περιέχει";
+$l['name_contains_desc'] = "Αναζήτηση συνημμένων που περιέχουν τον δοθέντα όρο στο όνομα του αρχείου. Για παράδειγμα, εισαγάγετε .zip για να βρείτε συνημμένα που χρησιμοποιούν την επέκταση αρχείου .zip.";
+$l['type_contains'] = "Ο τύπος του αρχείου περιέχει";
+$l['forum_is'] = "Το φόρουμ είναι";
+$l['username_is'] = "Το όνομα χρήστη των αναρτήσεων είναι";
+$l['poster_is'] = "Ο αναρτητής είναι";
+$l['poster_is_either'] = "Χρήστης ή Επισκέπτης";
+$l['poster_is_user'] = "Μόνο Χρήστες";
+$l['poster_is_guest'] = "Μόνο Επισκέπτες";
+$l['more_than'] = "Περισσότερο από";
+$l['greater_than'] = "Μεγαλύτερο από";
+$l['is_exactly'] = "Είναι ακριβώς";
+$l['less_than'] = "Λιγότερο από";
+$l['date_posted_is'] = "Η ημερομηνία ανάρτησης είναι";
+$l['days_ago'] = "ημέρες πριν";
+$l['file_size_is'] = "Το μέγεθος του αρχείου είναι";
 $l['kb'] = "KB";
-$l['download_count_is'] = "Download count is";
-$l['display_options'] = "Display Options";
-$l['filename'] = "File Name";
-$l['filesize'] = "File Size";
-$l['download_count'] = "Download Count";
-$l['post_username'] = "Post Username";
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
-$l['sort_results_by'] = "Sort results by";
-$l['results_per_page'] = "Results per page";
-$l['in'] = "in";
+$l['download_count_is'] = "Ο αριθμός λήψεων είναι";
+$l['display_options'] = "Επιλογές Εμφάνισης";
+$l['filename'] = "Όνομα Αρχείου";
+$l['filesize'] = "Μέγεθος Αρχείου";
+$l['download_count'] = "Αριθμός Λήψεων";
+$l['post_username'] = "Όνομα Χρήστη Ανάρτησης";
+$l['asc'] = "Αύξουσα";
+$l['desc'] = "Φθίνουσα";
+$l['sort_results_by'] = "Ταξινόμηση αποτελεσμάτων κατά";
+$l['results_per_page'] = "Αποτελέσματα ανά σελίδα";
+$l['in'] = "σε";
 
 // Buttons
-$l['button_delete_orphans'] = "Delete Checked Orphans";
-$l['button_delete_attachments'] = "Delete Checked Attachments";
-$l['button_find_attachments'] = "Find Attachments";
+$l['button_delete_orphans'] = "Διαγραφή Επιλεγμένων Ανεπιθύμητων";
+$l['button_delete_attachments'] = "Διαγραφή Επιλεγμένων Συνημμένων";
+$l['button_find_attachments'] = "Εύρεση Συνημμένων";
