@@ -1,80 +1,79 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['warning_system'] = "Warning System";
-$l['warning_types'] = "Warning Types";
-$l['warning_types_desc'] = "Here you can manage the list of different warning types staff are allowed to issue to users.";
-$l['add_warning_type'] = "Add New Warning Type";
-$l['add_warning_type_desc'] = "Here you can create a new predefined warning type. Warning types are selectable when warning users and you can define the number of points to add for this type as well as the time period before warnings of this type expire.";
-$l['edit_warning_type'] = "Edit Warning Type";
-$l['edit_warning_type_desc'] = "Here you can edit this warning type. Warning types are selectable when warning users and you can define the number of points to add for this type as well as the time period before warnings of this type expire.";
-$l['warning_levels'] = "Warning Levels";
-$l['warning_levels_desc'] = "Warning Levels define what happens to a user when they reach a particular warning level (percentage of maximum warning points). You can ban users or suspend their privileges.";
-$l['add_warning_level'] = "Add New Warning Level";
-$l['add_warning_level_desc'] = "Here you can create a new warning level. Warning levels are actions to be taken against users when they reach a specific percentage of the maximum warning level.";
-$l['edit_warning_level'] = "Edit Warning Level";
-$l['edit_warning_level_desc'] = "Warning levels are actions to be taken against users when they reach a specific percentage of the maximum warning level.";
+$l['warning_system'] = "Σύστημα Προειδοποιήσεων";
+$l['warning_types'] = "Τύποι Προειδοποιήσεων";
+$l['warning_types_desc'] = "Εδώ μπορείτε να διαχειριστείτε τη λίστα των διαφορετικών τύπων προειδοποιήσεων που το προσωπικό μπορεί να εκδώσει σε χρήστες.";
+$l['add_warning_type'] = "Προσθήκη Νέου Τύπου Προειδοποίησης";
+$l['add_warning_type_desc'] = "Εδώ μπορείτε να δημιουργήσετε έναν νέο προκαθορισμένο τύπο προειδοποίησης. Οι τύποι προειδοποιήσεων είναι επιλέξιμοι κατά την προειδοποίηση των χρηστών και μπορείτε να ορίσετε τον αριθμό των πόντων που προστίθενται για αυτόν τον τύπο, καθώς και τη χρονική περίοδο πριν λήξουν οι προειδοποιήσεις αυτού του τύπου.";
+$l['edit_warning_type'] = "Επεξεργασία Τύπου Προειδοποίησης";
+$l['edit_warning_type_desc'] = "Εδώ μπορείτε να επεξεργαστείτε αυτόν τον τύπο προειδοποίησης. Οι τύποι προειδοποιήσεων είναι επιλέξιμοι κατά την προειδοποίηση των χρηστών και μπορείτε να ορίσετε τον αριθμό των πόντων που προστίθενται για αυτόν τον τύπο, καθώς και τη χρονική περίοδο πριν λήξουν οι προειδοποιήσεις αυτού του τύπου.";
+$l['warning_levels'] = "Επίπεδα Προειδοποιήσεων";
+$l['warning_levels_desc'] = "Τα επίπεδα προειδοποιήσεων καθορίζουν τι συμβαίνει σε έναν χρήστη όταν φτάνει σε ένα συγκεκριμένο επίπεδο προειδοποίησης (ποσοστό των μέγιστων πόντων προειδοποίησης). Μπορείτε να απαγορεύσετε την πρόσβαση των χρηστών ή να αναστείλετε τα προνόμιά τους.";
+$l['add_warning_level'] = "Προσθήκη Νέου Επιπέδου Προειδοποίησης";
+$l['add_warning_level_desc'] = "Εδώ μπορείτε να δημιουργήσετε ένα νέο επίπεδο προειδοποίησης. Τα επίπεδα προειδοποιήσεων είναι ενέργειες που πρέπει να γίνουν κατά την επίτευξη του χρήστη ενός συγκεκριμένου ποσοστού του μέγιστου επιπέδου προειδοποίησης.";
+$l['edit_warning_level'] = "Επεξεργασία Επιπέδου Προειδοποίησης";
+$l['edit_warning_level_desc'] = "Τα επίπεδα προειδοποιήσεων είναι ενέργειες που πρέπει να γίνουν κατά την επίτευξη του χρήστη ενός συγκεκριμένου ποσοστού του μέγιστου επιπέδου προειδοποίησης.";
 
-$l['percentage'] = "Percentage";
-$l['action_to_take'] = "Action to Take";
-$l['move_banned_group'] = "Move to banned group ({3}) for {1} {2}";
-$l['move_banned_group_permanent'] = "Move to banned group ({1}) Permanently";
-$l['suspend_posting'] = "Suspend posting privileges for {1} {2}";
-$l['suspend_posting_permanent'] = "Suspend posting privileges Permanently";
-$l['moderate_new_posts'] = "Moderate new posts for {1} {2}";
-$l['moderate_new_posts_permanent'] = "Moderate new posts Permanently";
-$l['no_warning_levels'] = "There are no warning levels on your forum at this time.";
+$l['percentage'] = "Ποσοστό";
+$l['action_to_take'] = "Ενέργεια προς Εκτέλεση";
+$l['move_banned_group'] = "Μετακίνηση στην αποκλεισμένη ομάδα ({3}) για {1} {2}";
+$l['move_banned_group_permanent'] = "Μετακίνηση στην αποκλεισμένη ομάδα ({1}) Μόνιμα";
+$l['suspend_posting'] = "Αναστολή των δικαιωμάτων αποστολής για {1} {2}";
+$l['suspend_posting_permanent'] = "Αναστολή των δικαιωμάτων αποστολής Μόνιμα";
+$l['moderate_new_posts'] = "Επιτήρηση νέων δημοσιεύσεων για {1} {2}";
+$l['moderate_new_posts_permanent'] = "Επιτήρηση νέων δημοσιεύσεων Μόνιμα";
+$l['no_warning_levels'] = "Δεν υπάρχουν επίπεδα προειδοποιήσεων στο φόρουμ σας αυτή τη στιγμή.";
 
-$l['warning_type'] = "Warning Type";
-$l['points'] = "Points";
-$l['expires_after'] = "Expires After";
-$l['no_warning_types'] = "There are no warning types on your forum at this time.";
+$l['warning_type'] = "Τύπος Προειδοποίησης";
+$l['points'] = "Πόντοι";
+$l['expires_after'] = "Λήγει Μετά από";
+$l['no_warning_types'] = "Δεν υπάρχουν τύποι προειδοποιήσεων στο φόρουμ σας αυτή τη στιγμή.";
 
-$l['warning_points_percentage'] = "Percentage of Maximum Warning Points";
-$l['warning_points_percentage_desc'] = "Please enter a numeric value between 1 and 100.";
-$l['action_to_be_taken'] = "Action to be Taken";
-$l['action_to_be_taken_desc'] = "Select the action you wish to be taken when users reach the above level.";
-$l['ban_user'] = "Ban User";
-$l['banned_group'] = "Banned group:";
-$l['ban_length'] = "Ban length:";
-$l['suspend_posting_privileges'] = "Suspend Posting Privileges";
-$l['suspension_length'] = "Suspension length:";
-$l['moderate_posts'] = "Moderate Posts";
-$l['moderation_length'] = "Moderation length:";
-$l['save_warning_level'] = "Save Warning Level";
+$l['warning_points_percentage'] = "Ποσοστό των Μέγιστων Πόντων Προειδοποίησης";
+$l['warning_points_percentage_desc'] = "Παρακαλώ εισάγετε έναν αριθμητικό τιμή από 1 έως 100.";
+$l['action_to_be_taken'] = "Ενέργεια που θα γίνει";
+$l['action_to_be_taken_desc'] = "Επιλέξτε την ενέργεια που θέλετε να γίνει όταν οι χρήστες φτάσουν στο παραπάνω επίπεδο.";
+$l['ban_user'] = "Αποκλεισμός Χρήστη";
+$l['banned_group'] = "Ομάδα αποκλεισμένων:";
+$l['ban_length'] = "Διάρκεια αποκλεισμού:";
+$l['suspend_posting_privileges'] = "Αναστολή Δικαιωμάτων Αποστολής";
+$l['suspension_length'] = "Διάρκεια αναστολής:";
+$l['moderate_posts'] = "Επιτήρηση Δημοσιεύσεων";
+$l['moderation_length'] = "Διάρκεια επιτήρησης:";
+$l['save_warning_level'] = "Αποθήκευση Επιπέδου Προειδοποίησης";
 
-$l['title'] = "Title";
-$l['points_to_add'] = "Points to Add";
-$l['points_to_add_desc'] = "The number of points to add to a users warning level.";
-$l['warning_expiry'] = "Warning Expiry";
-$l['warning_expiry_desc'] = "How long after this warning is given do you want it to expire?";
-$l['save_warning_type'] = "Save Warning Type";
+$l['title'] = "Τίτλος";
+$l['points_to_add'] = "Πόντοι για Προσθήκη";
+$l['points_to_add_desc'] = "Ο αριθμός των πόντων που προστίθενται στο επίπεδο προειδοποίησης των χρηστών.";
+$l['warning_expiry'] = "Λήξη Προειδοποίησης";
+$l['warning_expiry_desc'] = "Πόσο καιρό μετά την έκδοση αυτής της προειδοποίησης θέλετε να λήξει;";
+$l['save_warning_type'] = "Αποθήκευση Τύπου Προειδοποίησης";
 
-$l['expiration_hours'] = "Hour(s)";
-$l['expiration_days'] = "Day(s)";
-$l['expiration_weeks'] = "Week(s)";
-$l['expiration_months'] = "Month(s)";
-$l['expiration_never'] = "Never";
-$l['expiration_permanent'] = "Permanent";
+$l['expiration_hours'] = "Ώρα(ες)";
+$l['expiration_days'] = "Ημέρα(ες)";
+$l['expiration_weeks'] = "Εβδομάδα(ες)";
+$l['expiration_months'] = "Μήνας(ες)";
+$l['expiration_never'] = "Ποτέ";
+$l['expiration_permanent'] = "Μόνιμο";
 
-$l['error_invalid_warning_level'] = "The specified warning level does not exist.";
-$l['error_invalid_warning_percentage'] = "You did not enter a valid percentage value for this warning level. Your percentage value must be between 1 and 100.";
-$l['error_invalid_warning_type'] = "The specified warning type does not exist.";
-$l['error_missing_action_type'] = "Please select one of the actions to be taken to assign with this new warning level.";
-$l['error_missing_type_title'] = "You did not enter a title for this warning type";
-$l['error_missing_type_points'] = "You did not enter a valid number of points to add when giving warnings of this type. You must enter a number greater than 0 but not greater than {1}";
+$l['error_invalid_warning_level'] = "Το καθορισμένο επίπεδο προειδοποίησης δεν υπάρχει.";
+$l['error_invalid_warning_percentage'] = "Δεν εισαγάγατε έγκυρη τιμή ποσοστού για αυτό το επίπεδο προειδοποίησης. Η τιμή ποσοστού σας πρέπει να είναι από 1 έως 100.";
+$l['error_invalid_warning_type'] = "Ο καθορισμένος τύπος προειδοποίησης δεν υπάρχει.";
+$l['error_missing_action_type'] = "Παρακαλώ επιλέξτε μία από τις ενέργειες που θα γίνουν για να αντιστοιχιστεί με αυτό το νέο επίπεδο προειδοποίησης.";
+$l['error_missing_type_title'] = "Δεν εισαγάγατε τίτλο για αυτόν τον τύπο προειδοποίησης";
+$l['error_missing_type_points'] = "Δεν εισαγάγατε έγκυρο αριθμό πόντων για προσθήκη κατά την έκδοση προειδοποιήσεων αυτού του τύπου. Πρέπει να εισαγάγετε έναν αριθμό μεγαλύτερο από 0 αλλά όχι μεγαλύτερο από {1}";
 
-$l['success_warning_level_created'] = "The warning level has been created successfully.";
-$l['success_warning_level_updated'] = "The warning level has been updated successfully.";
-$l['success_warning_level_deleted'] = "The selected warning level has been deleted successfully.";
-$l['success_warning_type_created'] = "The warning type has been created successfully.";
-$l['success_warning_type_updated'] = "The warning type has been updated successfully.";
-$l['success_warning_type_deleted'] = "The selected warning type has been deleted successfully.";
+$l['success_warning_level_created'] = "Το επίπεδο προειδοποίησης δημιουργήθηκε με επιτυχία.";
+$l['success_warning_level_updated'] = "Το επίπεδο προειδοποίησης ενημερώθηκε με επιτυχία.";
+$l['success_warning_level_deleted'] = "Το επιλεγμένο επίπεδο προειδοποίησης διαγράφηκε με επιτυχία.";
+$l['success_warning_type_created'] = "Ο τύπος προειδοποίησης δημιουργήθηκε με επιτυχία.";
+$l['success_warning_type_updated'] = "Ο τύπος προειδοποίησης ενημερώθηκε με επιτυχία.";
+$l['success_warning_type_deleted'] = "Ο επιλεγμένος τύπος προειδοποίησης διαγράφηκε με επιτυχία.";
 
-$l['confirm_warning_level_deletion'] = "Are you sure you wish to delete this warning level?";
-$l['confirm_warning_type_deletion'] = "Are you sure you wish to delete this warning type?";
-
+$l['confirm_warning_level_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το επίπεδο προειδοποίησης;";
+$l['confirm_warning_type_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον τύπο προειδοποίησης;";
