@@ -1,69 +1,69 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['calendars'] = "Calendars";
-$l['manage_calendars'] = "Manage Calendars";
-$l['manage_calendars_desc'] = "This section allows you to manage the calendars on your board. If you change the display order for one or more calendars make sure you submit the form at the bottom of the page.";
-$l['add_calendar'] = "Add New Calendar";
-$l['add_calendar_desc'] = "Here you can create a new calendar.";
-$l['edit_calendar'] = "Edit Calendar";
-$l['edit_calendar_desc'] = "Here you can edit the settings for this calendar.";
+$l['calendars'] = "Ημερολόγια";
+$l['manage_calendars'] = "Διαχείριση Ημερολογίων";
+$l['manage_calendars_desc'] = "Σε αυτήν την ενότητα μπορείτε να διαχειριστείτε τα ημερολόγια στο φόρουμ σας. Εάν αλλάξετε τη σειρά εμφάνισης για ένα ή περισσότερα ημερολόγια, βεβαιωθείτε ότι υποβάλλετε τη φόρμα στο κάτω μέρος της σελίδας.";
+$l['add_calendar'] = "Προσθήκη Νέου Ημερολογίου";
+$l['add_calendar_desc'] = "Εδώ μπορείτε να δημιουργήσετε ένα νέο ημερολόγιο.";
+$l['edit_calendar'] = "Επεξεργασία Ημερολογίου";
+$l['edit_calendar_desc'] = "Εδώ μπορείτε να επεξεργαστείτε τις ρυθμίσεις για αυτό το ημερολόγιο.";
 
-$l['calendar'] = "Calendar";
-$l['order'] = "Order";
-$l['no_calendars'] = "There are no calendars on your forum at this time.";
-$l['save_calendar_orders'] = "Save Calendar Display Order";
+$l['calendar'] = "Ημερολόγιο";
+$l['order'] = "Σειρά";
+$l['no_calendars'] = "Δεν υπάρχουν ημερολόγια στο φόρουμ σας αυτήν τη στιγμή.";
+$l['save_calendar_orders'] = "Αποθήκευση Σειράς Εμφάνισης Ημερολογίων";
 
-$l['name'] = "Name";
-$l['display_order'] = "Display Order";
-$l['display_order_desc'] = "The order the calendars are shown in the calendar selection. The calendar with display order 1 will be shown on the calendar page by default.";
-$l['week_start'] = "Start of Week";
-$l['week_start_desc'] = "Here you can set the day weeks should start on for this calendar.";
-$l['sunday'] = "Sunday";
-$l['monday'] = "Monday";
-$l['tuesday'] = "Tuesday";
-$l['wednesday'] = "Wednesday";
-$l['thursday'] = "Thursday";
-$l['friday'] = "Friday";
-$l['saturday'] = "Saturday";
-$l['event_limit'] = "Event Limit";
-$l['event_limit_desc'] = "The number of events to be shown before a single link to all events on the particular day is shown instead.";
-$l['show_birthdays'] = "Show Birthdays?";
-$l['show_birthdays_desc'] = "Do you wish to show birthdays of registered users in this calendar?";
-$l['moderate_events'] = "Moderate New Events?";
-$l['moderate_events_desc'] = "If this option is set to 'Yes,' all events will be moderated apart from those created by members with 'Bypass moderation queue' set for their calendar permissions.";
-$l['allow_html'] = "Allow HTML in Events?";
-$l['allow_mycode'] = "Allow MyCode in Events?";
-$l['allow_img'] = "Allow [IMG] Code in Events?";
-$l['allow_video'] = "Allow [VIDEO] Code in Events?";
-$l['allow_smilies'] = "Allow Smilies in Events?";
-$l['save_calendar'] = "Save Calendar";
+$l['name'] = "Όνομα";
+$l['display_order'] = "Σειρά Εμφάνισης";
+$l['display_order_desc'] = "Η σειρά με την οποία εμφανίζονται τα ημερολόγια στην επιλογή ημερολογίου. Το ημερολόγιο με σειρά εμφάνισης 1 θα εμφανίζεται από προεπιλογή στη σελίδα του ημερολογίου.";
+$l['week_start'] = "Έναρξη Εβδομάδας";
+$l['week_start_desc'] = "Εδώ μπορείτε να ορίσετε την ημέρα που θα ξεκινά η εβδομάδα για αυτό το ημερολόγιο.";
+$l['sunday'] = "Κυριακή";
+$l['monday'] = "Δευτέρα";
+$l['tuesday'] = "Τρίτη";
+$l['wednesday'] = "Τετάρτη";
+$l['thursday'] = "Πέμπτη";
+$l['friday'] = "Παρασκευή";
+$l['saturday'] = "Σάββατο";
+$l['event_limit'] = "Όριο Εκδηλώσεων";
+$l['event_limit_desc'] = "Ο αριθμός των εκδηλώσεων που θα εμφανίζονται πριν εμφανιστεί ένας μόνος σύνδεσμος για όλες τις εκδηλώσεις της συγκεκριμένης ημέρας.";
+$l['show_birthdays'] = "Εμφάνιση Γενεθλίων;";
+$l['show_birthdays_desc'] = "Θέλετε να εμφανίζονται τα γενέθλια των εγγεγραμμένων χρηστών σε αυτό το ημερολόγιο;";
+$l['moderate_events'] = "Μετριάστε Νέες Εκδηλώσεις;";
+$l['moderate_events_desc'] = "Εάν αυτή η επιλογή είναι ορισμένη σε 'Ναι', όλες οι εκδηλώσεις θα υπόκεινται σε μετριασμό εκτός από αυτές που δημιουργούνται από μέλη με τα δικαιώματα ημερολογίου 'Παράκαμψη ουράς μετριασμού'.";
+$l['allow_html'] = "Να επιτρέπεται το HTML στις Εκδηλώσεις;";
+$l['allow_mycode'] = "Να επιτρέπεται το MyCode στις Εκδηλώσεις;";
+$l['allow_img'] = "Να επιτρέπεται ο κώδικας [IMG] στις Εκδηλώσεις;";
+$l['allow_video'] = "Να επιτρέπεται ο κώδικας [VIDEO] στις Εκδηλώσεις;";
+$l['allow_smilies'] = "Να επιτρέπονται τα Smilies στις Εκδηλώσεις;";
+$l['save_calendar'] = "Αποθήκευση Ημερολογίου";
 
-$l['permissions'] = "Permissions";
-$l['edit_permissions'] = "Edit Calendar Permissions";
-$l['calendar_permissions_for'] = "Calendar Permissions for";
-$l['permissions_group'] = "Group";
-$l['permissions_view'] = "View";
-$l['permissions_post_events'] = "Post Events";
-$l['permissions_bypass_moderation'] = "Bypass Moderation";
-$l['permissions_moderator'] = "Moderator Permissions";
-$l['permissions_all'] = "All?";
-$l['permissions_use_group_default'] = "Use Group Default";
-$l['save_permissions'] = "Save Permissions";
+$l['permissions'] = "Δικαιώματα";
+$l['edit_permissions'] = "Επεξεργασία Δικαιωμάτων Ημερολογίου";
+$l['calendar_permissions_for'] = "Δικαιώματα Ημερολογίου για";
+$l['permissions_group'] = "Ομάδα";
+$l['permissions_view'] = "Προβολή";
+$l['permissions_post_events'] = "Δημοσίευση Εκδηλώσεων";
+$l['permissions_bypass_moderation'] = "Παράκαμψη Μετριασμού";
+$l['permissions_moderator'] = "Δικαιώματα Συντονιστή";
+$l['permissions_all'] = "Όλα;";
+$l['permissions_use_group_default'] = "Χρήση Προεπιλογής Ομάδας";
+$l['save_permissions'] = "Αποθήκευση Δικαιωμάτων";
 
-$l['error_invalid_calendar'] = "The specified calendar does not exist.";
-$l['error_missing_name'] = "You did not enter a name for this calendar";
-$l['error_missing_order'] = "You did not enter a display order for this calendar";
+$l['error_invalid_calendar'] = "Το καθορισμένο ημερολόγιο δεν υπάρχει.";
+$l['error_missing_name'] = "Δεν καταχωρήσατε όνομα για αυτό το ημερολόγιο";
+$l['error_missing_order'] = "Δεν καταχωρήσατε σειρά εμφάνισης για αυτό το ημερολόγιο";
 
-$l['success_calendar_created'] = "The calendar has been created successfully.";
-$l['success_calendar_updated'] = "The calendar has been updated successfully.";
-$l['success_calendar_permissions_updated'] = "The calendar permissions have been updated successfully.";
-$l['success_calendar_deleted'] = "The selected calendar has been deleted successfully.";
-$l['success_calendar_orders_updated'] = "The calendar display orders have been updated successfully.";
+$l['success_calendar_created'] = "Το ημερολόγιο δημιουργήθηκε με επιτυχία.";
+$l['success_calendar_updated'] = "Το ημερολόγιο ενημερώθηκε με επιτυχία.";
+$l['success_calendar_permissions_updated'] = "Τα δικαιώματα του ημερολογίου ενημερώθηκαν με επιτυχία.";
+$l['success_calendar_deleted'] = "Το επιλεγμένο ημερολόγιο διαγράφηκε με επιτυχία.";
+$l['success_calendar_orders_updated'] = "Οι σειρές εμφάνισης των ημερολογίων ενημερώθηκαν με επιτυχία.";
 
-$l['confirm_calendar_deletion'] = "Are you sure you wish to delete this calendar?";
+$l['confirm_calendar_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το ημερολόγιο;";
 
