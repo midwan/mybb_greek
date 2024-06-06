@@ -1,34 +1,34 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  */
 
 
-$l['spam_logs'] = 'Spam Logs';
-$l['spam_logs_desc'] = 'This section allows you to view a history of users blocked by the spam filters.';
-$l['prune_spam_logs'] = 'Prune Spam Logs';
-$l['prune_spam_logs_desc'] = 'Here you can prune the spam logs matching a specified criteria.';
-$l['spam_username'] = 'Username';
-$l['spam_email'] = 'Email Address';
-$l['spam_ip'] = 'IP Address';
-$l['spam_date'] = 'Date';
-$l['spam_confidence'] = 'Confidence';
-$l['no_spam_logs'] = 'No users have been blocked by the spam filters yet.';
-$l['success_pruned_spam_logs'] = 'The spam logs have been pruned successfully.';
-$l['note_logs_locked'] = 'For security reasons, logs less than 24 hours old cannot be pruned.';
-$l['all_usernames'] = 'All usernames';
-$l['all_emails'] = ' All Email Addresses';
-$l['date_range'] = "Date range:";
-$l['older_than'] = "Older than ";
-$l['days'] = "days";
-$l['filter_spam_logs'] = 'Filter Spam Logs';
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
-$l['search_ip_on_sfs'] = "Search this IP on Stop Forum Spam";
-$l['search'] = "Search";
+$l['spam_logs'] = 'Αρχεία Ανεπιθύμητων Μηνυμάτων';
+$l['spam_logs_desc'] = 'Αυτή η ενότητα σας επιτρέπει να προβάλετε το ιστορικό των χρηστών που έχουν αποκλειστεί από τα φίλτρα ανεπιθύμητων μηνυμάτων.';
+$l['prune_spam_logs'] = 'Καθαρισμός Αρχείων Ανεπιθύμητων Μηνυμάτων';
+$l['prune_spam_logs_desc'] = 'Εδώ μπορείτε να καθαρίσετε τα αρχεία ανεπιθύμητων μηνυμάτων που ταιριάζουν σε συγκεκριμένα κριτήρια.';
+$l['spam_username'] = 'Όνομα χρήστη';
+$l['spam_email'] = 'Διεύθυνση Email';
+$l['spam_ip'] = 'Διεύθυνση IP';
+$l['spam_date'] = 'Ημερομηνία';
+$l['spam_confidence'] = 'Βεβαιότητα';
+$l['no_spam_logs'] = 'Δεν έχουν αποκλειστεί ακόμα χρήστες από τα φίλτρα ανεπιθύμητων μηνυμάτων.';
+$l['success_pruned_spam_logs'] = 'Τα αρχεία ανεπιθύμητων μηνυμάτων καθαρίστηκαν με επιτυχία.';
+$l['note_logs_locked'] = 'Για λόγους ασφαλείας, τα αρχεία που είναι λιγότερο από 24 ώρες δεν μπορούν να καθαριστούν.';
+$l['all_usernames'] = 'Όλα τα ονόματα χρηστών';
+$l['all_emails'] = 'Όλες οι διευθύνσεις Email';
+$l['date_range'] = "Εύρος ημερομηνιών:";
+$l['older_than'] = "Παλαιότερο από ";
+$l['days'] = "ημέρες";
+$l['filter_spam_logs'] = 'Φιλτράρισμα Αρχείων Ανεπιθύμητων Μηνυμάτων';
+$l['asc'] = "Αύξουσα";
+$l['desc'] = "Φθίνουσα";
+$l['search_ip_on_sfs'] = "Αναζήτηση αυτής της IP στο Stop Forum Spam";
+$l['search'] = "Αναζήτηση";
 
-$l['in'] = "in";
-$l['order'] = "order";
-$l['sort_by'] = "Sort By";
-$l['results_per_page'] = "Results Per Page";
+$l['in'] = "σε";
+$l['order'] = "σειρά";
+$l['sort_by'] = "Ταξινόμηση κατά";
+$l['results_per_page'] = "Αποτελέσματα ανά σελίδα";
