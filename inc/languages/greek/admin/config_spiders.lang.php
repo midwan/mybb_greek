@@ -1,42 +1,42 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['spiders_bots'] = "Spiders / Bots";
-$l['spiders_bots_desc'] = "This section allows you to manage the search engine spiders &amp; bots automatically detected by your forum. You're also able to see when a particular bot last visited.";
-$l['add_new_bot'] = "Add New Bot";
-$l['add_new_bot_desc'] = "Here you can add a new bot that you would like to be detected by your forum.";
+$l['spiders_bots'] = "Αράχνες / Ρομπότ";
+$l['spiders_bots_desc'] = "Αυτή η ενότητα σας επιτρέπει να διαχειρίζεστε τις αυτόματα ανιχνευμένες από το φόρουμ σας μηχανές αναζήτησης και ρομπότ. Μπορείτε επίσης να δείτε πότε επισκέφθηκε τελευταία μια συγκεκριμένη αράχνη.";
+$l['add_new_bot'] = "Προσθήκη Νέου Ρομπότ";
+$l['add_new_bot_desc'] = "Εδώ μπορείτε να προσθέσετε ένα νέο ρομπότ που θα θέλατε να ανιχνεύεται από το φόρουμ σας.";
 
-$l['edit_bot'] = "Edit Bot";
-$l['edit_bot_desc'] = "Here you can edit an existing bot.";
+$l['edit_bot'] = "Επεξεργασία Ρομπότ";
+$l['edit_bot_desc'] = "Εδώ μπορείτε να επεξεργαστείτε ένα υπάρχον ρομπότ.";
 
-$l['bot'] = "Bot";
-$l['last_visit'] = "Last Visit";
-$l['no_bots'] = "There are no search engine spiders or web crawlers being tracked by this forum.";
+$l['bot'] = "Ρομπότ";
+$l['last_visit'] = "Τελευταία Επίσκεψη";
+$l['no_bots'] = "Δεν υπάρχουν μηχανές αναζήτησης ή web crawlers που παρακολουθούνται από αυτό το φόρουμ.";
 
-$l['name'] = "Name";
-$l['name_desc'] = "Enter the name of this bot which you want to identify it by";
-$l['user_agent'] = "User Agent String";
-$l['user_agent_desc'] = "Enter the string which will be matched against the bots user agent (partial matches are accepted)";
-$l['language_str'] = "Language";
-$l['language_desc'] = "Select the language pack the bot will use when viewing the board.";
-$l['theme'] = "Theme";
-$l['theme_desc'] = "Select the theme the bot will use when viewing the board.";
-$l['user_group'] = "User Group";
-$l['user_group_desc'] = "Select the user group permissions will be applied from for this board (Note: It is not recommended you change this from the default Guests group)";
-$l['save_bot'] = "Save Bot";
-$l['use_board_default'] = "Use Board Default";
+$l['name'] = "Όνομα";
+$l['name_desc'] = "Εισαγάγετε το όνομα αυτού του ρομπότ με το οποίο θέλετε να το αναγνωρίζετε";
+$l['user_agent'] = "Συμβολοσειρά User Agent";
+$l['user_agent_desc'] = "Εισαγάγετε τη συμβολοσειρά που θα ταιριάζει με τον user agent των ρομπότ (αποδεκτές είναι και μερικές αντιστοιχίες)";
+$l['language_str'] = "Γλώσσα";
+$l['language_desc'] = "Επιλέξτε το πακέτο γλώσσας που θα χρησιμοποιεί το ρομπότ κατά την προβολή του φόρουμ.";
+$l['theme'] = "Θέμα";
+$l['theme_desc'] = "Επιλέξτε το θέμα που θα χρησιμοποιεί το ρομπότ κατά την προβολή του φόρουμ.";
+$l['user_group'] = "Ομάδα Χρηστών";
+$l['user_group_desc'] = "Επιλέξτε την ομάδα χρηστών από την οποία θα εφαρμοστούν οι άδειες για αυτό το φόρουμ (Σημείωση: Δεν συνιστάται να αλλάξετε αυτό από την προεπιλεγμένη ομάδα Επισκέπτες)";
+$l['save_bot'] = "Αποθήκευση Ρομπότ";
+$l['use_board_default'] = "Χρήση Προεπιλογής Φόρουμ";
 
-$l['error_invalid_bot'] = "The specified bot does not exist.";
-$l['error_missing_name'] = "You did not enter a name for this bot";
-$l['error_missing_agent'] = "You did not enter a user agent string for this bot";
+$l['error_invalid_bot'] = "Το καθορισμένο ρομπότ δεν υπάρχει.";
+$l['error_missing_name'] = "Δεν καταχωρήσατε όνομα για αυτό το ρομπότ";
+$l['error_missing_agent'] = "Δεν καταχωρήσατε συμβολοσειρά user agent για αυτό το ρομπότ";
 
-$l['success_bot_created'] = "The bot has been created successfully.";
-$l['success_bot_updated'] = "The bot has been updated successfully.";
-$l['success_bot_deleted'] = "The selected bot has been deleted successfully.";
+$l['success_bot_created'] = "Το ρομπότ δημιουργήθηκε με επιτυχία.";
+$l['success_bot_updated'] = "Το ρομπότ ενημερώθηκε με επιτυχία.";
+$l['success_bot_deleted'] = "Το επιλεγμένο ρομπότ διαγράφηκε με επιτυχία.";
 
-$l['confirm_bot_deletion'] = "Are you sure you wish to delete this bot?";
+$l['confirm_bot_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το ρομπότ;";
 
