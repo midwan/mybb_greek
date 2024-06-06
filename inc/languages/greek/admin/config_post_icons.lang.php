@@ -1,46 +1,46 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['post_icons'] = "Post Icons";
-$l['add_post_icon'] = "Add New Post Icon";
-$l['add_post_icon_desc'] = "Here you can add a single new post icon.";
-$l['add_multiple_post_icons'] = "Add Multiple Post Icons";
-$l['add_multiple_post_icons_desc'] = "Here you can add multiple new post icons.";
-$l['edit_post_icon'] = "Edit Post Icon";
-$l['edit_post_icon_desc'] = "Here you can edit a post icon.";
-$l['manage_post_icons'] = "Manage Post Icons";
-$l['manage_post_icons_desc'] = "This section allows you to edit, delete, and manage your post icons.";
+$l['post_icons'] = "Εικονίδια Δημοσιεύσεων";
+$l['add_post_icon'] = "Προσθήκη Νέου Εικονιδίου Δημοσίευσης";
+$l['add_post_icon_desc'] = "Εδώ μπορείτε να προσθέσετε ένα μόνο νέο εικονίδιο δημοσίευσης.";
+$l['add_multiple_post_icons'] = "Προσθήκη Πολλαπλών Εικονιδίων Δημοσίευσης";
+$l['add_multiple_post_icons_desc'] = "Εδώ μπορείτε να προσθέσετε πολλαπλά νέα εικονίδια δημοσίευσης.";
+$l['edit_post_icon'] = "Επεξεργασία Εικονιδίου Δημοσίευσης";
+$l['edit_post_icon_desc'] = "Εδώ μπορείτε να επεξεργαστείτε ένα εικονίδιο δημοσίευσης.";
+$l['manage_post_icons'] = "Διαχείριση Εικονιδίων Δημοσίευσης";
+$l['manage_post_icons_desc'] = "Αυτή η ενότητα σας επιτρέπει να επεξεργαστείτε, να διαγράψετε και να διαχειριστείτε τα εικονίδια δημοσίευσης σας.";
 
-$l['name_desc'] = "This is the name for the post icon.";
-$l['image_path'] = "Image Path";
-$l['image_path_desc'] = "This is the path to the post icon image. If you want to use different post icon images for different themes, please use <strong>{theme}</strong> to represent the image directory of each theme.";
-$l['save_post_icon'] = "Save Post Icon";
-$l['reset'] = "Reset";
+$l['name_desc'] = "Αυτό είναι το όνομα για το εικονίδιο δημοσίευσης.";
+$l['image_path'] = "Διαδρομή Εικόνας";
+$l['image_path_desc'] = "Αυτή είναι η διαδρομή προς την εικόνα του εικονιδίου δημοσίευσης. Εάν θέλετε να χρησιμοποιήσετε διαφορετικές εικόνες εικονιδίων δημοσίευσης για διάφορα θέματα, χρησιμοποιήστε το <strong>{theme}</strong> για να αναπαραστήσετε τον κατάλογο εικόνων κάθε θέματος.";
+$l['save_post_icon'] = "Αποθήκευση Εικονιδίου Δημοσίευσης";
+$l['reset'] = "Επαναφορά";
 
-$l['path_to_images'] = "Path to Images";
-$l['path_to_images_desc'] = "This is the path to the folder that the images are in.";
-$l['show_post_icons'] = "Show Post Icons";
-$l['image'] = "Image";
-$l['add'] = "Add?";
-$l['save_post_icons'] = "Save Post Icons";
+$l['path_to_images'] = "Διαδρομή προς τις Εικόνες";
+$l['path_to_images_desc'] = "Αυτή είναι η διαδρομή προς τον φάκελο στον οποίο βρίσκονται οι εικόνες.";
+$l['show_post_icons'] = "Εμφάνιση Εικονιδίων Δημοσίευσης";
+$l['image'] = "Εικόνα";
+$l['add'] = "Προσθήκη;";
+$l['save_post_icons'] = "Αποθήκευση Εικονιδίων Δημοσίευσης";
 
-$l['no_post_icons'] = "There are no post icons on your forum at this time.";
+$l['no_post_icons'] = "Δεν υπάρχουν εικονίδια δημοσίευσης στο φόρουμ σας αυτή τη στιγμή.";
 
-$l['error_missing_name'] = "You did not enter a name for this post icon";
-$l['error_missing_path'] = "You did not enter a path to this post icon";
-$l['error_missing_path_multiple'] = "You did not enter a path";
-$l['error_invalid_path'] = "You did not enter a valid path";
-$l['error_no_images'] = "There are no post icons in the specified directory, or all post icons in the directory have already been added.";
-$l['error_none_included'] = "You did not select any post icons to include.";
-$l['error_invalid_post_icon'] = "The specified post icon does not exist.";
+$l['error_missing_name'] = "Δεν εισαγάγατε όνομα για αυτό το εικονίδιο δημοσίευσης";
+$l['error_missing_path'] = "Δεν εισαγάγατε διαδρομή για αυτό το εικονίδιο δημοσίευσης";
+$l['error_missing_path_multiple'] = "Δεν εισαγάγατε διαδρομή";
+$l['error_invalid_path'] = "Δεν εισαγάγατε έγκυρη διαδρομή";
+$l['error_no_images'] = "Δεν υπάρχουν εικονίδια δημοσίευσης στον καθορισμένο φάκελο ή όλα τα εικονίδια δημοσίευσης στον φάκελο έχουν ήδη προστεθεί.";
+$l['error_none_included'] = "Δεν επιλέξατε κανένα εικονίδιο δημοσίευσης για συμπερίληψη.";
+$l['error_invalid_post_icon'] = "Το καθορισμένο εικονίδιο δημοσίευσης δεν υπάρχει.";
 
-$l['success_post_icon_added'] = "The post icon has been added successfully.";
-$l['success_post_icons_added'] = "The selected post icons have been added successfully.";
-$l['success_post_icon_updated'] = "The post icon has been updated successfully.";
-$l['success_post_icon_deleted'] = "The selected post icon has been deleted successfully.";
+$l['success_post_icon_added'] = "Το εικονίδιο δημοσίευσης προστέθηκε με επιτυχία.";
+$l['success_post_icons_added'] = "Τα επιλεγμένα εικονίδια δημοσίευσης προστέθηκαν με επιτυχία.";
+$l['success_post_icon_updated'] = "Το εικονίδιο δημοσίευσης ενημερώθηκε με επιτυχία.";
+$l['success_post_icon_deleted'] = "Το επιλεγμένο εικονίδιο δημοσίευσης διαγράφηκε με επιτυχία.";
 
-$l['confirm_post_icon_deletion'] = "Are you sure you wish to delete this post icon?";
+$l['confirm_post_icon_deletion'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το εικονίδιο δημοσίευσης;";
