@@ -1,37 +1,37 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Greek Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['user_titles'] = "User Titles";
-$l['user_titles_desc'] = "This section allows management of user titles. User titles are assigned to users based on the number of posts they make and also allow a custom 'Star' image to be shown based on the number of posts the user has.";
-$l['add_new_user_title'] = "Add New User Title";
-$l['add_new_user_title_desc'] = "This section allows you to add a new user title. <i>Note: This is <strong>not</strong> the <u><a href=\"index.php?module=user-group_promotions\">promotion system.</a></u></i>";
+$l['user_titles'] = "Τίτλοι Χρηστών";
+$l['user_titles_desc'] = "Αυτή η ενότητα επιτρέπει τη διαχείριση των τίτλων χρηστών. Οι τίτλοι χρηστών ανατίθενται στους χρήστες με βάση τον αριθμό των δημοσιεύσεών τους και επιτρέπουν την εμφάνιση μιας προσαρμοσμένης εικόνας 'Αστέρι' βάσει του αριθμού των δημοσιεύσεων που έχει ο χρήστης.";
+$l['add_new_user_title'] = "Προσθήκη Νέου Τίτλου Χρήστη";
+$l['add_new_user_title_desc'] = "Αυτή η ενότητα σας επιτρέπει να προσθέσετε έναν νέο τίτλο χρήστη. <i>Σημείωση: Αυτό <strong>δεν</strong> είναι το <u><a href=\"index.php?module=user-group_promotions\">σύστημα προώθησης.</a></u></i>";
 
-$l['error_missing_title'] = "You did not enter a title for this user title";
-$l['error_missing_posts'] = "You did not enter the minimum number of posts for this user title";
-$l['error_cannot_have_same_posts'] = "This user title cannot have the same minimum number of posts as another title";
-$l['error_invalid_user_title'] = "You have specified an invalid user title";
+$l['error_missing_title'] = "Δεν καταχωρήσατε τίτλο για αυτόν τον τίτλο χρήστη";
+$l['error_missing_posts'] = "Δεν καταχωρήσατε τον ελάχιστο αριθμό δημοσιεύσεων για αυτόν τον τίτλο χρήστη";
+$l['error_cannot_have_same_posts'] = "Αυτός ο τίτλος χρήστη δεν μπορεί να έχει τον ίδιο ελάχιστο αριθμό δημοσιεύσεων με άλλον τίτλο";
+$l['error_invalid_user_title'] = "Έχετε καθορίσει έναν μη έγκυρο τίτλο χρήστη";
 
-$l['success_user_title_created'] = "The new user title has been created successfully.";
-$l['success_user_title_updated'] = "The user title has been updated successfully.";
-$l['success_user_title_deleted'] = "The specified user title has been deleted successfully.";
+$l['success_user_title_created'] = "Ο νέος τίτλος χρήστη δημιουργήθηκε με επιτυχία.";
+$l['success_user_title_updated'] = "Ο τίτλος χρήστη ενημερώθηκε με επιτυχία.";
+$l['success_user_title_deleted'] = "Ο συγκεκριμένος τίτλος χρήστη διαγράφηκε με επιτυχία.";
 
-$l['title_to_assign'] = "Title to Assign";
-$l['title_to_assign_desc'] = "This title will be shown for users underneath their name if they do not have a custom title set.";
-$l['minimum_posts'] = "Minimum Posts";
-$l['minimum_posts_desc'] = "The minimum number of posts for a user to have before they're assigned this user title.";
-$l['number_of_stars'] = "Number of Stars";
-$l['number_of_stars_desc'] = "Enter the number of stars to be shown under this user title. Set to 0 to show no stars.";
-$l['star_image'] = "Star Image";
-$l['star_image_desc'] = "If this user title should show stars, enter the path to the star image here. If empty, the user group star image will be shown. Use {theme} to specify the image directory for the viewers current theme.";
-$l['save_user_title'] = "Save User Title";
-$l['edit_user_title'] = "Edit User Title";
-$l['edit_user_title_desc'] = "This section allows you to edit a user title.";
-$l['user_title_deletion_confirmation'] = "Are you sure you want to delete this user title?";
-$l['manage_user_titles'] = "Manage User Titles";
-$l['user_title'] = "User Title";
-$l['no_user_titles'] = "You do not have any user titles defined at the moment";
+$l['title_to_assign'] = "Τίτλος για Ανάθεση";
+$l['title_to_assign_desc'] = "Αυτός ο τίτλος θα εμφανίζεται για τους χρήστες κάτω από το όνομά τους αν δεν έχουν ορίσει έναν προσαρμοσμένο τίτλο.";
+$l['minimum_posts'] = "Ελάχιστες Δημοσιεύσεις";
+$l['minimum_posts_desc'] = "Ο ελάχιστος αριθμός δημοσιεύσεων που πρέπει να έχει ένας χρήστης πριν του ανατεθεί αυτός ο τίτλος χρήστη.";
+$l['number_of_stars'] = "Αριθμός Αστεριών";
+$l['number_of_stars_desc'] = "Καταχωρίστε τον αριθμό των αστεριών που θα εμφανίζονται κάτω από αυτόν τον τίτλο χρήστη. Ορίστε το σε 0 για να μην εμφανίζονται αστέρια.";
+$l['star_image'] = "Εικόνα Αστέριου";
+$l['star_image_desc'] = "Εάν αυτός ο τίτλος χρήστη πρέπει να εμφανίζει αστέρια, καταχωρίστε τη διαδρομή προς την εικόνα του αστεριού εδώ. Εάν είναι κενό, θα εμφανίζεται η εικόνα αστέριου της ομάδας χρηστών. Χρησιμοποιήστε {theme} για να καθορίσετε τον κατάλογο της εικόνας για το τρέχον θέμα των θεατών.";
+$l['save_user_title'] = "Αποθήκευση Τίτλου Χρήστη";
+$l['edit_user_title'] = "Επεξεργασία Τίτλου Χρήστη";
+$l['edit_user_title_desc'] = "Αυτή η ενότητα σας επιτρέπει να επεξεργαστείτε έναν τίτλο χρήστη.";
+$l['user_title_deletion_confirmation'] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον τίτλο χρήστη;";
+$l['manage_user_titles'] = "Διαχείριση Τίτλων Χρηστών";
+$l['user_title'] = "Τίτλος Χρήστη";
+$l['no_user_titles'] = "Δεν έχετε καθορίσει κανέναν τίτλο χρήστη αυτήν τη στιγμή";
 
